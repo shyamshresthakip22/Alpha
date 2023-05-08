@@ -41,8 +41,10 @@
     padding: 10px 25px; 
     border: none;
     position: absolute;
-    bottom: -310px;
-    right: 120px;
+    /* bottom: -310px;
+    right: 120px; */
+    right: 200px;
+    margin: 5px;
     border-radius: 5px;
 }
 .deletebts:hover{
