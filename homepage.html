@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,6 +16,8 @@
     <link rel="stylesheet" href="assets/css/overall.css">
     <link rel="stylesheet" href="assets/css/pagination.css">
     <link rel="stylesheet" href="assets/css/messages.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" />
     <title>Homepage</title>
 </head>
 
@@ -82,7 +83,9 @@
                             <div class="impBtns pointExchange">
                                 Point Exchange
                             </div>
-
+                            <div class="impBtns Mypage">
+                                My Page
+                            </div>
                             <div class="impBtns fontRed">
                                 Logout
                             </div>
@@ -672,7 +675,172 @@
     </div>
 
     <!-- ************* -->
-
+    <div class="my-backdropSelectLeague infoDrop">
+        <div class="NoticeWrapper2">
+            <div class="noticeBodyNew">
+                <div class="leaguePopupCancel">
+                    <i class="bi bi-x-lg "></i>
+                </div>
+                <div class="input-group rounded mt-4">
+                    <input type="search" class="form-control bg-dark border-0" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+                    <span class="input-group-text border-0 bg-dark" id="search-addon">
+                      <i class="fas fa-search"></i>
+                    </span>
+                </div>
+                <div class="row mt-2">
+                    <div class="col-2">
+                        <a class="pt-2" style="font-size: 12px;font-weight: 900; color: gray;text-decoration: none;cursor: pointer;">x Uncheck all</a>
+                    </div>
+                    <div class="col-7">
+                    </div>
+                    <div class="col-3 text-end">
+                        <button class="btn btn-primary border-0" style="background: transparent; padding: 0%; font-size: 12px; font-weight: 700;color: gray;" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample multiCollapseExample1">x Unfold all</button>
+                        <!-- <a class="pt-2" style="font-size: 12px;font-weight: 900; color: gray; text-decoration: none; cursor: pointer;" >x Unfold all</a> -->
+                    </div>
+                </div>
+                <div class="selectLeague">
+                    <p class="mt-2 d-flex justify-content-between">
+                        <button style="background: transparent; padding: 0%; font-size: 14px; font-weight: 400;" class="btn btn-primary border-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+                            <span class="flag-icon flag-icon-ws"></span> England
+                        </button>
+                        <button style="background: transparent; padding: 0%; font-size: 14px; font-weight: 400;" class="btn btn-primary border-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+                            &darr;
+                        </button>
+                    </p>
+                    <div >
+                        <div class="collapse collapse-vertical multi-collapse" id="collapseWidthExample">
+                            <div class="row">
+                                <div class="col-4">
+                                    &nbsp;<input type="checkbox"> League One
+                                </div>
+                                <div class="col-4">
+                                    &nbsp;<input type="checkbox"> National League
+                                </div>
+                                <div class="col-4">
+                                    &nbsp;<input type="checkbox"> Championship
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p class="mt-2 d-flex justify-content-between">
+                <button style="background: transparent; padding: 0%; font-size: 14px; font-weight: 400;" class="btn btn-primary border-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample1" aria-expanded="false" aria-controls="collapseWidthExample1">
+                    <span class="flag-icon flag-icon-ws"></span> Spain
+                </button>
+                <button style="background: transparent; padding: 0%; font-size: 14px; font-weight: 400;" class="btn btn-primary border-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample1" aria-expanded="false" aria-controls="collapseWidthExample1">
+                    &darr;
+                </button>
+                </p>
+                <div>
+                    <div class="collapse collapse-vertical multi-collapse" id="collapseWidthExample1">
+                        <div class="row">
+                            <div class="col-4">
+                                &nbsp;<input type="checkbox"> League One
+                            </div>
+                            <div class="col-4">
+                                &nbsp;<input type="checkbox"> National League
+                            </div>
+                            <div class="col-4">
+                                &nbsp;<input type="checkbox"> Championship
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ****************** -->
+    <div class="my-backdropMyPage infoDrop">
+        <div class="NoticeWrapper2">
+            <div class="noticeBodyNew">
+                <div class="CancelMyPage">
+                    <i class="bi bi-x-lg "></i>
+                </div>
+                <div class="noticeHeader">
+                    <div class="historyUpHeader fontBlue">
+                        My Page
+                    </div>
+                </div>
+                <hr class="fontBlue" />
+                <div class="noticeHeader">
+                    <div class="row">
+                         <div class="col-4">
+                            <div class="historyUpHeader fontBlue" style="font-size:12px ;">
+                                Member Info
+                            </div>
+                         </div>
+                         <div class="col-4">
+                            <div class="historyUpHeader fontBlue" style="font-size:12px ;">
+                                Change Password
+                            </div>
+                         </div>
+                         <div class="col-4">
+                            <div class="historyUpHeader fontBlue" style="font-size:12px ;">
+                                Betting Limit
+                            </div>
+                         </div>
+                    </div>
+                </div>
+                <div class="row MemberInfo">
+                    <div class="col-12">
+                        <div class="depositeItem depositeBill ">
+                            <div class="menuItem">
+                                <div class="dispIcon specDisp ">User ID</div>
+                                <div class="dispIcon ">cox218</div>
+                            </div>
+                            <div class="menuItem">
+                                <div class="dispIcon specDisp">Nickname</div>
+                                <div class="dispIcon inputSports">뚝배기</div>
+                            </div>
+                            <div class="menuItem">
+                                <div class="dispIcon specDisp ">Level</div>
+                                <div class="dispIcon ">Bronze</div>
+                            </div>
+                            <div class="menuItem">
+                                <div class="dispIcon specDisp">Phone Number</div>
+                                <div class="dispIcon inputSports">010-****-2444</div>
+                            </div>
+                            <div class="menuItem">
+                                <div class="dispIcon specDisp ">Bank Name</div>
+                                <div class="dispIcon ">국민은행</div>
+                            </div>
+                            <div class="menuItem">
+                                <div class="dispIcon specDisp">Account Holder</div>
+                                <div class="dispIcon inputSports">이현성</div>
+                            </div>
+                            <div class="menuItem">
+                                <div class="dispIcon specDisp ">Account Number</div>
+                                <div class="dispIcon ">7599******8621</div>
+                            </div>
+                            <div class="menuItem">
+                                <div class="dispIcon specDisp">IP</div>
+                                <div class="dispIcon inputSports">61.97.248.41</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row changePassword d-none">
+                    <div class="col-12">
+                        <div class="depositeItem depositeBill ">
+                            <div class="menuItem">
+                                <div class="dispIcon specDisp ">User ID</div>
+                                <div class="dispIcon ">cox218</div>
+                            </div>
+                            <div class="menuItem">
+                                <div class="dispIcon specDisp">Nickname</div>
+                                <div class="dispIcon inputSports">뚝배기</div>
+                            </div>
+                            <div class="menuItem">
+                                <div class="dispIcon specDisp ">Level</div>
+                                <div class="dispIcon ">Bronze</div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Start Mybetspage -->
     <div class="my-backdrop7 historyDrop">
 
@@ -895,11 +1063,15 @@
                 </div>
             </div>
             <div class="sortWrapper">
-                <div class="sortButtons">
-                    <div class="btn1" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
-                            class="bi bi-bookmark"></i>Select league</div>
-                    <div class="btn2 active"><i class="bi bi-sort-down"></i>Sort time</div>
-                    <div class="btn3"><i class="bi bi-sort-up"></i>Sort league</div>
+                <div class="sortButtons d-flex justify-content-between">
+                    <div class="d-flex">
+                        <div class="btn1 modal-header" ><i class="bi bi-bookmark "></i>Select league</div>
+                        <div class="btn2 active"><i class="bi bi-sort-down"></i>Sort time</div>
+                        <div class="btn3"><i class="bi bi-sort-up"></i>Sort league</div>
+                    </div>
+                    <div >
+                        <i class="fa fa-retweet mt-3 me-3" aria-hidden="true"  id="refresh-btn" style="cursor: pointer;"></i>
+                    </div>
                 </div>
                 <div class="displayTable">
                     <div class="selectWrapper">
@@ -995,96 +1167,9 @@
             </div>
         </div>
     </div>
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content" style="background-color: #1f262f;">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Select League</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"
-                            style="background-color: #1f262f; outline: none; color: white !important;">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
-                    <hr>
-                    <div class="accordion accordion-flush" id="accordionFlushExample">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="flush-headingOne">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#flush-collapseOne" aria-expanded="false"
-                                    aria-controls="flush-collapseOne">
-                                    <img src="assets/images/england.png" style="width: 20px; height: 14px;">England
-                                </button>
-                            </h2>
-                            <div id="flush-collapseOne" class="accordion-collapse collapse"
-                                aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body" style="color: black;">
-                                    <div class="row align-items-start">
-                                        <div class="col " style="color: black;">
-                                            <input class="form-check-input" type="checkbox" value=""
-                                                id="flexCheckDefault">
-                                            <label class="form-check-label" for="flexCheckDefault"
-                                                style="color: black;">
-                                                Value 1
-                                            </label>
-                                        </div>
-                                        <div class="col" style="color: black;">
-                                            <input class="form-check-input" type="checkbox" value=""
-                                                id="flexCheckDefault">
-                                            <label class="form-check-label" for="flexCheckDefault"
-                                                style="color: black;">
-                                                Value 1
-                                            </label>
-                                        </div>
-                                        <div class="col" style="color: black;">
-                                            <input class="form-check-input" type="checkbox" value=""
-                                                id="flexCheckDefault">
-                                            <label class="form-check-label" for="flexCheckDefault"
-                                                style="color: black;">
-                                                Value 1
-                                            </label>
-                                        </div>
-                                    </div>
-                                    <div class="row align-items-start">
-                                        <div class="col " style="color: black;">
-                                            <input class="form-check-input" type="checkbox" value=""
-                                                id="flexCheckDefault">
-                                            <label class="form-check-label" for="flexCheckDefault"
-                                                style="color: black;">
-                                                Value 1
-                                            </label>
-                                        </div>
-                                        <div class="col" style="color: black;">
-                                            <input class="form-check-input" type="checkbox" value=""
-                                                id="flexCheckDefault">
-                                            <label class="form-check-label" for="flexCheckDefault"
-                                                style="color: black;">
-                                                Value 1
-                                            </label>
-                                        </div>
-                                        <div class="col" style="color: black;">
-                                            <input class="form-check-input" type="checkbox" value=""
-                                                id="flexCheckDefault">
-                                            <label class="form-check-label" for="flexCheckDefault"
-                                                style="color: black;">
-                                                Value 1
-                                            </label>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                  <button type="button" class="btn btn-primary">Save changes</button>
-                </div> -->
-            </div>
-        </div>
-    </div>
+    <!-- ************* -->
+    
+    <!-- ************* -->
     <!-- <div class="column5">
             <div class="selectTeam">
                 <div class="slipWrapper">
