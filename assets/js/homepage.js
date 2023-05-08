@@ -37,6 +37,9 @@ const ExchangeApplication = document.querySelector('.my-backdropExchangeApplicat
 const OpenRulesPopup = document.querySelector('.my-backdropRules')
 const OpenSelectLeaguePopup=document.querySelector('.my-backdropSelectLeague')
 const OpenSelectLeaguePopupBtn=document.querySelector('.modal-header')
+const refreshBtn = document.getElementById('refresh-btn');
+const myPage = document.querySelector('.my-backdropMyPage')
+const MyPage = document.querySelector('.Mypage')
 
 
 
@@ -519,7 +522,11 @@ function initApp() {
     console.log(soccerData)
     soccerData.forEach((value, key) => {
 
+        //For Refresh Page
 
+        refreshBtn.addEventListener('click', function() {
+            location.reload();
+          });
         //For leagues
         let newDiv = document.createElement('div');
         newDiv.classList.add('leagueTable');
@@ -1098,6 +1105,23 @@ document.addEventListener('DOMContentLoaded', function() {
 
         })
 
+    //*********** */
+    MyPage.addEventListener('click', () => {
+        sliderBackDrop.style.display = 'none'
+        sliderMenu.classList.remove('sliderMenuActive')
+        myPage.style.display = 'flex'
+        changeCancels = document.querySelector('.CancelMyPage')
+        changeCancels.addEventListener('click', () => {
+            myPage.style.display = 'none'
+        })
+        
+        let ExhangeApplicationBtn = document.querySelector('.ExchangeApplicationBtn')
+    ExhangeApplicationBtn.addEventListener('click', function() {
+        ExchangeApplication.style.display = 'flex'
+        })
+
+       
+    })
     //*********** */
     myBetsBtn.addEventListener('click', () => {
         betsDrop.style.display = 'flex'
