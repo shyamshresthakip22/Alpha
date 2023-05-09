@@ -8,7 +8,82 @@ body {
     font-family: 'Noto Sans', sans-serif;
     background-color: rgb(23, 28, 34);
 }
+.pagination{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 5px;
+    /* border: 1px solid white; */
+}
 
+.pageRight {
+    display: flex;
+    margin-right: 20px;
+}
+
+.pageController {
+    display: flex;
+}
+
+.chevronLogo {
+    font-size: 10px;
+    margin-left: 5px;
+}
+
+.pageNo {
+    padding: 10px;
+    background-color: rgb(44 54 64);
+    margin-right: 10px;
+}
+
+.pLeft {
+    padding: 10px;
+    background-color: rgb(44 54 64);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.limitDrop {
+    background-color: rgb(44 54 64);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    padding: 10px;
+}
+
+.deactive {
+    background-color: #222a33;
+}
+.pageLimiter{
+    margin-left: 20px;
+}
+
+@media (max-width: 852px) {
+    /* Add additional styles as needed */
+    .impBtns {
+        width: 100%!important
+    }
+    .menuWrapper {
+        font-size: 10px;
+    }
+    .headerItem {
+        font-size: 8px;
+    }
+    .footerItem {
+        font-size: 8px;
+    }
+}
+
+.deletepopup{
+      width: 600px;
+      height: 200px;
+      background-color: red;
+      /* z-index: 10; */
+}
 .navBarToggler {
     display: inline-block;
     width: 1.5em;
@@ -1871,4 +1946,51 @@ button, input{
     color: white;
     opacity: 1;
     font-weight: 400; 
+}
+
+@media screen and (max-width : 460px) {
+    .navbar-brand{
+        position: absolute;
+        text-align: center;
+        left: 120px;
+        top: 13px;
+    }
+}
+
+@media screen and (max-width : 430px) {
+    .navbar-brand{
+        position: absolute;
+        text-align: center;
+        left: 80px;
+        top: 13px;
+    }
+}
+
+
+
+@media screen and (max-width : 430px) {
+    .navbar-brand{
+        position: absolute;
+        text-align: center;
+        left: 65px;
+        top: 13px;
+    }
+}
+
+@media screen and (max-width : 870px) {
+    .navbar-brand{
+        position: absolute;
+        text-align: center;
+        left: 60px;
+        top: 13px;
+    }
+}
+
+@media screen and (max-width : 990px) {
+    .navbar-brand{
+        position: absolute;
+        text-align: center;
+        left: 60px;
+        top: 13px;
+    }
 }

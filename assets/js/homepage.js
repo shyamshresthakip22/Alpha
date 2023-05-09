@@ -40,6 +40,14 @@ const OpenSelectLeaguePopupBtn=document.querySelector('.modal-header')
 const refreshBtn = document.getElementById('refresh-btn');
 const myPage = document.querySelector('.my-backdropMyPage')
 const MyPage = document.querySelector('.Mypage')
+const deletepopup = document.querySelector(".changepopup")
+const inputfieldcontainer = document.querySelector(".inputfieldcontainer")
+
+
+
+  deletepopup.addEventListener("click",function(){
+      
+  })
 
 
 
