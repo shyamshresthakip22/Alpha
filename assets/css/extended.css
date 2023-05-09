@@ -219,6 +219,6 @@
         font-size: 8px;
     }
     .representLogo {
-        display: none;
+        display: block;
     }
 }
