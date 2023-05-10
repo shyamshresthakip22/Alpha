@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     color: #ffffff;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 body {
@@ -675,8 +675,9 @@ height: 200px; */
 
 .slipCancel,
 .slipCancel2 {
-    position: relative;
-    left: 0;
+    /* position: relative; */
+    /* left: 0; */
+    right: 0;
     background-color: #16bdf9;
     padding: 10px;
     /* display: none; */
@@ -818,7 +819,7 @@ height: 200px; */
     /* width: 350px; */
     /* height: 100vh; */
     overflow: auto;
-    /* right: 0; */
+    right: 0;
     display: flex;
     justify-content: center;
 }
@@ -2146,7 +2147,7 @@ height: 200px; */
     position: fixed;
     border-radius: 10px;
     bottom: 15px;
-    right: 15px;
+    right: 70px;
     cursor: pointer;
     display: none;
 }
