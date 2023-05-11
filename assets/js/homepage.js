@@ -40,17 +40,41 @@ const OpenSelectLeaguePopupBtn=document.querySelector('.modal-header')
 const refreshBtn = document.getElementById('refresh-btn');
 const myPage = document.querySelector('.my-backdropMyPage')
 const MyPage = document.querySelector('.Mypage')
-const deletepopup = document.querySelector(".changepopup")
+
+
+const openpopup = document.querySelector(".changepopup")
 const inputfieldcontainer = document.querySelector(".inputfieldcontainer")
+const custompopupcontainer = document.querySelector(".custompopupcontainer")
+const closepopup = document.querySelector(".closepopup")
+const submitReportBtn  = document.querySelector(".submitReportBtn")
+const changepopup1 = document.querySelector(".changepopup1")
 
-
-
-  deletepopup.addEventListener("click",function(){
-      
+custompopupcontainer.style.display = "none";
+ openpopup.addEventListener("click",function(){
+     if(custompopupcontainer.style.display == "none"){
+        custompopupcontainer.style.display = "block";
+        inputfieldcontainer.style.display = "none";
+    }  
+    
+     
+  })
+  closepopup.addEventListener("click",function(){
+       if( custompopupcontainer.style.display == "block"){
+        custompopupcontainer.style.display = "none";
+       }
+       
+  })
+  submitReportBtn.addEventListener("click",function(){
+    inputfieldcontainer.style.display = "block";
   })
 
-
-
+  custompopupcontainer.style.display = "none";
+  changepopup1.addEventListener("click",function(){
+    if(custompopupcontainer.style.display == "none"){
+        custompopupcontainer.style.display = "block";
+        inputfieldcontainer.style.display = "none";
+    } 
+  })
 
 
 
