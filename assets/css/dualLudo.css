@@ -814,7 +814,7 @@ height: 200px; */
 }
 
 .betSlip {
-    position: fixed;
+    /* position: fixed; */
     background-color: rgb(31, 38, 47);
     /* width: 350px; */
     /* height: 100vh; */

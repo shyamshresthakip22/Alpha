@@ -1086,7 +1086,7 @@ border-right: 1px solid #1e242c; */
 }
 
 .sliderMenuActive {
-    width: 30%;
+    width: 40% ;
 }
 
 .menuWrapper {
@@ -1758,6 +1758,9 @@ height: 200px; */
     .betSlip {
         /* right: 100% */
     }
+    .sliderMenuActive{
+        width: 40%;
+    }
 
     /* .column2 {
         flex-basis: 1300px;
@@ -1803,7 +1806,7 @@ height: 200px; */
     }
 
     /* Styles for large screens (up to 992px) */
-    @media (max-width: 852px) {
+    @media (max-width: 1090px) {
 
         /* Add additional styles as needed */
         .selectOptions {
@@ -1839,7 +1842,7 @@ height: 200px; */
         }
 
         .sliderMenuActive {
-            width: 40%;
+            width: 35%;
         }
 
         .impBtns {
@@ -1942,6 +1945,12 @@ button, input{
     justify-content: center;
     align-items: center;
 } */
+
+@media (max-width: 480px) {
+    .sliderMenuActive{
+        width: 50%;
+    }
+}
 .form-control::placeholder { 
     color: white;
     opacity: 1;

@@ -5,26 +5,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/promo.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;300;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link rel="stylesheet" href="assets/css/custom.css">
-    <link rel="stylesheet" href="assets/css/extendedv2.css">
+    <link rel="stylesheet" href="assets/css/event.css">
     <link rel="stylesheet" href="assets/css/overall.css">
-    <link rel="stylesheet" href="assets/css/pagination.css">
+    <link rel="stylesheet" href="assets/css/extended.css">
     <link rel="stylesheet" href="assets/css/messages.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <title>Promo</title>
+    <link rel="stylesheet" href="assets/css/pagination.css">
+    <link rel="stylesheet" href="assets/css/promo.css">
+    <title>Notice Event</title>
 </head>
 
 <body>
@@ -79,18 +72,13 @@
                             <div class="impBtns changeBtn ">
                                 Changing Information
                             </div>
-                            <div class="impBtns myBetsBtn ">
+                            <div class="impBtns ">
                                 <a href="myBets.html" style="color: white; text-decoration: none;">My Bets</a>
                             </div>
                             <div class="impBtns customerBtn">
                                 Customer Center
                             </div>
-                            <div class="impBtns pointExchange">
-                                Point Exchange
-                            </div>
-                            <div class="impBtns Mypage">
-                                My Page
-                            </div>
+
                             <div class="impBtns fontRed">
                                 Logout
                             </div>
@@ -165,7 +153,7 @@
                             <ul class="dropdown-menu customDrop">
                                 <li><a class=" dropdown-item customDropper py-2 " href="board.html">Notice Board</a>
                                 </li>
-                                <li><a class=" dropdown-item customDropper py-2 " href="event.html">Event Board</a></li>
+                                <li><a class=" dropdown-item customDropper py-2 " href="event.html">Even Board</a></li>
                                 <!-- <li><a class="dropdown-item customDropper py-2" href="#">Another action</a></li>
                             <li><a class="dropdown-item customDropper py-2" href="#">Something else here</a></li> -->
                             </ul>
@@ -178,80 +166,714 @@
             </div>
         </div>
     </nav>
-    <div>
-        <button type="button" class="btn btn-secondary"> <a href="event.html">
-                << Back to list</a> </button>
-
-    </div>
-    <br>
-    <div class="row casino-event">
-        <p>
-            <span style="opacity: 0.6;;">[Proceeding]</span>
-            casino event
-        </p>
-    </div>
-
-    <div class="row">
-        <div class="col content-wrap">
-            <p style="text-align:center;"><img src="assets/images/promo.png" alt="">
-            </p><br>
-
-            <p style="text-align:center;">
-              <span style="color: #16bdf9;">  1. First casino use event after registration</span><br>
-
-                If you bet at least (30.000 won ) or more 10 times, you will receive 30.000 points that can be withdrawn
-                immediately .
-            </p><br>
-            <p style="text-align:center;">
-                <span style="color: #16bdf9;"> 2. Casino Rolling Event</span><br>
-  
-                5% to 10% of the last charge amount will be paid back<br>
-
-                Rolling requirement 1000% bet amount unit<br>
-                
-                100.000-1.999.999 5% payback<br>
-                
-                2.000.000-4.999.999 7% payback<br>
-                
-                5.000.000-9.999.999 10% payback<br>
-                
-              </p><br>
-
-              <p style="text-align:center;">
-                <span style="color: #16bdf9;">3. Casino acquaintance recommendation event</span><br>
-  
-                After recommending an acquaintance, when the acquaintance attends 3 or more times and uses a casino with a total charge of 2 million won or more<br>
-
-                Points that can be withdrawn immediately to those who recommended and acquaintances<br>
-                
-                100.000 Won paid each <br>
-                
-                & Only live casino participation is possible ( no participation in Sky Park )<br>
-                
-                & If you are eligible for the first casino use event after signing up, attach your betting details and contact the customer center<br>
-                
-                & If you are not a real acquaintance , all points may be recalled and sanctioned in case of abuse<br>
-                
-                & In the case of rolling events, even if it is 999%, you cannot participate if it is less than 1000%<br>
-                
-                In the case of a rolling event, the last charge amount is applied<br>
-                
-                Casino Rolling Event can only be participated once per day<br>
-                
-              </p><br>
-
+    <div class="bodyWrapper">
+        <div class="sliderMenuBackDrop">
 
         </div>
-    </div>
+        <div class="my-backdrop0">
+            <div class="NoticeWrapper">
+                <div class="noticeBody" id="msgBody">
+                    <div class="noticeCancel" id="msgCancel">
+                        <i class="bi bi-x-lg "></i>
 
+                    </div>
+                    <div class="noticeHeader">
+                        <div class="noticeUpHeader fontBlue">
+                            Message
+                        </div>
+                        <div class="noticeDownHeader">
+                            <div class="noticeBtn">Mark all messages as read</div>
+                            <div class="noticeBtn">Delete selected messages</div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+        <div class="my-backdrop depositeDrop">
+
+            <div class="NoticeWrapper">
+                <div class="noticeBodyNew">
+                    <div class="depositeCancel">
+                        <i class="bi bi-x-lg "></i>
+
+                    </div>
+                    <div class="noticeHeader">
+                        <div class="depositeUpHeader fontBlue">
+                            <div class="depositeUpHeader1 depositeActive ">Deposite</div>
+                            <div class="depositeUpHeader2">Withdrawl</div>
+                        </div>
+
+                    </div>
+                    <div class="depositeItem depositeBill">
+                        <div class="menuItem">
+                            <div class="dispIcon specDisp">Type</div>
+                            <div class="dispIcon">
+                                <select name="options" id="" class="selectOptions">
+                                    <option value="">Cash</option>
+                                    <option value="">Bitcoin</option>
+                                    <option value="">Wireless</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="menuItem">
+                            <div class="dispIcon specDisp">Home of Depositor</div>
+                            <div class="dispIcon">Helios Predator</div>
+                        </div>
+                        <div class="menuItem">
+                            <div class="dispIcon specDisp">Amount</div>
+                            <div class="dispIcon inputSports"><input type="text" name="amount" id=""
+                                    placeholder="Please type in the deposite amount" class="inputLeague"></div>
+                        </div>
+                        <div class="menuItem">
+                            <div class="dispIcon specDisp">Apply for Bonus</div>
+                            <div class="dispIcon"> <select name="options" id="" class="selectOptions">
+                                    <option value="">Cash</option>
+                                    <option value="">Bitcoin</option>
+                                    <option value="">Wireless</option>
+                                </select></div>
+                        </div>
+                        <div class="depositeBtn2">
+                            <div class="noticeBtn">Deposite Bill</div>
+                        </div>
+                        <div class="depositeHistory">
+                            <div class="historyHeader">Deposite History</div>
+                            <div class="headerItem">
+                                <div class="hd1">Select</div>
+                                <div class="hd2">Date</div>
+                                <div class="hd3">Type</div>
+                                <div class="hd4">Amount</div>
+                                <div class="hd5">Status</div>
+                            </div>
+                            <div class="footerItem">
+                                <div class="hd1"><input type="checkbox" name="" id=""></div>
+                                <div class="hd2">2023-03-18 19:32:56</div>
+                                <div class="hd3">CASH</div>
+                                <div class="hd4">30,000</div>
+                                <div class="hd5 fontBlue">Approved</div>
+                            </div>
+                            <div class="footerItem">
+                                <div class="hd1"><input type="checkbox" name="" id=""></div>
+                                <div class="hd2">2023-03-12 9:32:56</div>
+                                <div class="hd3">CASH</div>
+                                <div class="hd4">30,000</div>
+                                <div class="hd5 fontRed">Rejected</div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="my-backdrop2 depositeDrop">
+            <div class="NoticeWrapper2">
+                <div class="noticeBodyNew">
+                    <div class="depositeCancel">
+                        <i class="bi bi-x-lg "></i>
+
+                    </div>
+                    <div class="noticeHeader">
+                        <div class="depositeUpHeader fontBlue">
+                            <div class="depositeUpHeader1 depositeActive ">Deposite</div>
+                            <div class="depositeUpHeader2">Withdrawl</div>
+                        </div>
+
+                    </div>
+                    <div class="depositeItem depositeBill">
+                        <div class="menuItem">
+                            <div class="dispIcon specDisp">Type</div>
+                            <div class="dispIcon">
+                                <select name="options" id="" class="selectOptions2">
+                                    <option value="">Cash</option>
+                                    <option value="">Bitcoin</option>
+                                    <option value="">Wireless</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="menuItem">
+                            <div class="dispIcon specDisp">Home of Depositor</div>
+                            <div class="dispIcon">Helios Predator</div>
+                        </div>
+                        <div class="menuItem">
+                            <div class="dispIcon specDisp">Amount</div>
+                            <div class="dispIcon inputSports"><input type="text" name="amount" id=""
+                                    placeholder="Please type in the deposite amount" class="inputLeague"></div>
+                        </div>
+                        <div class="menuItem">
+                            <div class="dispIcon specDisp">Apply for Bonus</div>
+                            <div class="dispIcon"> <select name="options" id="" class="selectOptions2">
+                                    <option value="">Cash</option>
+                                    <option value="">Bitcoin</option>
+                                    <option value="">Wireless</option>
+                                </select></div>
+                        </div>
+                        <div class="depositeBtn2">
+                            <div class="noticeBtn">Deposite Bill</div>
+                        </div>
+                        <div class="depositeHistory">
+                            <div class="historyHeader">Deposite History</div>
+                            <div class="headerItem">
+                                <div class="hd1">Select</div>
+                                <div class="hd2">Date</div>
+                                <div class="hd3">Type</div>
+                                <div class="hd4">Amount</div>
+                                <div class="hd5">Status</div>
+                            </div>
+                            <div class="footerItem">
+                                <div class="hd1"><input type="checkbox" name="" id=""></div>
+                                <div class="hd2">2023-03-18 19:32:56</div>
+                                <div class="hd3">CASH</div>
+                                <div class="hd4">30,000</div>
+                                <div class="hd5 fontBlue">Approved</div>
+                            </div>
+                            <div class="footerItem">
+                                <div class="hd1"><input type="checkbox" name="" id=""></div>
+                                <div class="hd2">2023-03-12 9:32:56</div>
+                                <div class="hd3">CASH</div>
+                                <div class="hd4">30,000</div>
+                                <div class="hd5 fontRed">Rejected</div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="my-backdrop3 historyDrop">
+            <div class="NoticeWrapper2">
+                <div class="noticeBodyNew">
+                    <div class="historyCancel">
+                        <i class="bi bi-x-lg "></i>
+
+                    </div>
+                    <div class="noticeHeader">
+                        <div class="historyUpHeader fontBlue">
+                            <!-- <div class="historyUpHeader1 depositeActive ">1x2</div>
+                            <div class="historyUpHeader2  ">Handicap</div>
+                            <div class="historyUpHeader3  ">Under/Over</div>
+                            <div class="historyUpHeader4">Live</div> -->
+                            Match History
+                        </div>
+
+                    </div>
+                    <div class="depositeItem depositeBill">
+
+                        <div class="depositeHistory">
+                            <!-- <div class="historyHeader">Deposite History</div> -->
+                            <div class="headerItem">
+                                <div class="hd1">Time</div>
+                                <div class="hd2">Type</div>
+                                <div class="hd3">Home/Under</div>
+                                <div class="hd4">Draw</div>
+                                <div class="hd5">Away/Over</div>
+                                <div class="hd5">Score</div>
+                                <div class="hd5">Result</div>
+                            </div>
+                            <div class="footerItem">
+                                <div class="hd1s">2023-03-18
+                                    <div>
+
+                                        19:32:56</div>
+                                </div>
+                                <div class="hd2">Soccer</div>
+                                <div class="hd3">FC Barcelona</div>
+                                <div class="hd4">-0.5</div>
+                                <div class="hd4">-1.8</div>
+                                <div class="hd4">Real Madrid</div>
+                                <div class="hd4">2:1</div>
+                                <!-- <div class="hd5 fontBlue">Home</div> -->
+                            </div>
+                            <div class="footerItem">
+                                <div class="hd1s">2023-03-18
+                                    <div>
+
+                                        19:32:56</div>
+                                </div>
+                                <div class="hd2">Soccer</div>
+                                <div class="hd3">FC Barcelona</div>
+                                <div class="hd4">-0.5</div>
+                                <div class="hd4">-1.8</div>
+                                <div class="hd4">Real Madrid</div>
+                                <div class="hd4">2:1</div>
+                                <!-- <div class="hd5 fontBlue">Home</div> -->
+                            </div>
+
+                        </div>
+
+                        <div class="pagination">
+                            <div class="pageLeft">
+                                <div class="pageLimiter">
+                                    <select name="oddsType" class="selectOptions2" id="mini1">
+                                        <option value="10">10</option>
+                                        <option value="20">20</option>
+                                        <option value="30">30</option>
+                                    </select>
+                                </div>
+
+                            </div>
+                            <div class="pageRight">
+                                <div class="pageNo" id="miniPN1">1</i>
+                                </div>
+                                <div class="pageController">
+                                    <div class="pLeft " id="lbtn1"><i class="bi bi-chevron-left chevronLogo "></i></div>
+                                    <div class="pLeft" id="rbtn1"><i class="bi bi-chevron-right chevronLogo"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="my-backdrop4 infoDrop">
+            <div class="NoticeWrapper2">
+                <div class="noticeBodyNew">
+                    <div class="infoCancel">
+                        <i class="bi bi-x-lg "></i>
+
+                    </div>
+                    <div class="noticeHeader">
+                        <div class="historyUpHeader fontBlue">
+
+                            Changing Information
+                        </div>
+                        <div class="depositeItem depositeBill">
+
+                            <div class="menuItem">
+                                <div class="dispIcon specDisp">ID</div>
+                                <div class="dispIcon">Helios Predator</div>
+                            </div>
+                            <div class="menuItem">
+                                <div class="dispIcon specDisp">Old password</div>
+                                <div class="dispIcon inputSports"><input type="password" name="password1" id="22"
+                                        placeholder="password" class="inputLeague"></div>
+                            </div>
+                            <div class="menuItem">
+                                <div class="dispIcon specDisp">New password</div>
+                                <div class="dispIcon inputSports"><input type="password" name="password2" id="33"
+                                        placeholder="password" class="inputLeague"></div>
+                            </div>
+                            <div class="menuItem">
+                                <div class="dispIcon specDisp">Confirm password</div>
+                                <div class="dispIcon inputSports"><input type="password" name="password3" id="44"
+                                        placeholder="password" class="inputLeague"></div>
+                            </div>
+
+
+
+                        </div>
+                        <div class="depositeBtn2">
+                            <div class="noticeBtn">Submit</div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+        <div class="my-backdrop5 historyDrop">
+            <div class="NoticeWrapper2">
+                <div class="noticeBodyNew">
+                    <div class="customerCancel1">
+                        <i class="bi bi-x-lg "></i>
+
+                    </div>
+                    <div class="noticeHeader">
+                        <div class="historyUpHeader fontBlue">
+
+                            Customer Center
+                        </div>
+
+                    </div>
+                    <div class="depositeItem depositeBill">
+
+                        <div class="depositeHistory">
+                            <!-- <div class="historyHeader">Deposite History</div> -->
+                            <div class="headerItem">
+                                <div class="hd1">Status</div>
+                                <div class="hd2">Subject</div>
+                                <div class="hd3">Writer</div>
+                                <div class="hd3">Date</div>
+
+                            </div>
+                            <div class="footerItem" id="footer5">
+
+                                <div class="hd3">Wait</div>
+                                <div class="hd2">Application for changing username</div>
+                                <div class="hd4">Helios</div>
+                                <div class="hd1s">2023-03-18
+                                    <div>
+
+                                        19:32:56</div>
+                                </div>
+
+                            </div>
+                            <div class="footerItem" id="footer5">
+
+                                <div class="hd3">Wait</div>
+                                <div class="hd2">Application for changing username</div>
+                                <div class="hd4">Helios</div>
+                                <div class="hd1s">2023-03-18
+                                    <div>
+
+                                        19:32:56</div>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                        <div class="pagination">
+                            <div class="pageLeft">
+                                <div class="pageLimiter">
+                                    <select name="oddsType" class="selectOptions2" id="mini1">
+                                        <option value="10">10</option>
+                                        <option value="20">20</option>
+                                        <option value="30">30</option>
+                                    </select>
+                                </div>
+
+                            </div>
+                            <div class="pageRight">
+                                <div class="pageNo" id="miniPN1">1</i>
+                                </div>
+                                <div class="pageController">
+                                    <div class="pLeft " id="lbtn1"><i class="bi bi-chevron-left chevronLogo "></i></div>
+                                    <div class="pLeft" id="rbtn1"><i class="bi bi-chevron-right chevronLogo"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="depositeBtn2">
+                            <div class="submitReportBtn"
+                                style="width: 50px; height: 40px; display: flex; justify-content: center; align-items: center; margin-top: 10px;">
+                                Write</div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="my-backdrop6 historyDrop">
+            <div class="NoticeWrapper2">
+                <div class="noticeBodyNew">
+                    <div class="customerCancel2">
+                        <i class="bi bi-x-lg "></i>
+
+                    </div>
+                    <div class="noticeHeader">
+                        <div class="historyUpHeader fontBlue">
+
+                            <!-- Customer Center -->
+                        </div>
+
+                    </div>
+                    <div class="depositeItem depositeBill" style="margin-top: 30px;">
+                        <div class="dispIcon inputSports3">
+                            <input type="text" name="" id="" placeholder="Title"
+                                style="padding-left: 10px; padding-top: 5px;">
+                        </div>
+                        <br>
+                        <div class="dispIcon inputSports3">
+                            <input type="text" name="" id="" placeholder="Description"
+                                style="padding-left: 10px; padding-top: 5px;">
+                        </div>
+
+                        <div class="submitIssueBtn">
+                            <div class="submitReportBtn">Submit</div>
+                        </div>
+
+
+                    </div>
+
+                    <!-- <div class="writerbox" style="display: flex; margin-left: 250px;">
+                        <div
+                            style="background-color: #303A46; width: 50px; height: 30px; display: flex; justify-content: center; align-items: center;">
+                            Writer</div>
+                        <p style="margin-left: 20px; margin-top: 5px; font-weight: bold;">netest1</p>
+                    </div>
+                    <div class="datebox" style="display: flex; margin-left: 400px; margin-top: -40px;">
+                        <div
+                            style="background-color: #303A46; width: 50px; height: 30px; display: flex; justify-content: center; align-items: center;">
+                            Date</div>
+                        <p style="margin-left: 20px; margin-top: 5px; font-weight: bold;">2023-03-23</p>
+                    </div> -->
+
+                    <!-- <div class="depositeItem depositeBill">
+
+
+
+                        <div class="menuItem">
+                            <div class="dispIcon2 specDisp2">Subject</div>
+                            <div class="dispIcon inputSports3"><input type="text" name="password1" id="2222"
+                                    placeholder="Title" class="inputLeague"></div>
+                        </div>
+                        <br>
+                        <div class="menuItem">
+                            <div class="dispIcon2 specDisp2">Description</div>
+                            <div class="dispIcon inputSports3"><input type="textfield" name="password1" id="2222"
+                                    placeholder="Write an issue" class="inputLeague"></div>
+                        </div>
+                        <div class="menuItem">
+
+                        </div> -->
+
+
+
+
+
+
+                    <!-- <div class="submitIssueBtn">
+                            <div class="submitReportBtn">Submit</div>
+                        </div> -->
+                    <!-- <div class="mainbtngroup" style="display: flex; justify-content: center; margin-top: -20px;">
+                            <button
+                                style="color: black; padding: 5px 40px; background-color:#EAC100; border: none; border-radius: 3px;">List</button>
+                            <button
+                                style="color: black;   padding: 5px 40px; background-color: #303A46; color: white; border: none; border-radius: 3px;">Delete</button>
+
+                        </div> -->
+
+                    <!-- </div>  -->
+
+                    <!-- sdadasddsad -->
+
+                </div>
+
+            </div>
+        </div>
+        <div class="my-backdrop7 historyDrop">
+            <div class="NoticeWrapper2">
+                <div class="noticeBodyNew">
+                    <div class="historyCancel" id="cancel7">
+                        <i class="bi bi-x-lg "></i>
+
+                    </div>
+                    <div class="noticeHeader">
+                        <div class="historyUpHeader fontBlue">
+                            <!-- <div class="historyUpHeader1 depositeActive ">1x2</div>
+                            <div class="historyUpHeader2  ">Handicap</div>
+                            <div class="historyUpHeader3  ">Under/Over</div>
+                            <div class="historyUpHeader4">Live</div> -->
+                            Match History
+                        </div>
+
+                    </div>
+                    <div class="depositeItem depositeBill">
+
+                        <div class="depositeHistory">
+                            <!-- <div class="historyHeader">Deposite History</div> -->
+                            <div class="headerItem">
+                                <div class="hd2">Time</div>
+                                <div class="hd2">Bet Type</div>
+                                <div class="hd2">League</div>
+                                <div class="hd2">Home</div>
+                                <div class="hd2">Draw/Handicap</div>
+                                <div class="hd2">Away</div>
+                                <div class="hd2">Score</div>
+                                <div class="hd2">Result</div>
+                            </div>
+                            <div class="footerItem">
+                                <div class="hd1s hd2">2023-03-18
+                                    <div>
+
+                                        19:32:56</div>
+                                </div>
+                                <div class="hd2">Win</div>
+                                <div class="hd2">Premire League</div>
+                                <div class="hd2">Arsenal</div>
+                                <div class="hd2">-0.5</div>
+                                <div class="hd2">United</div>
+
+                                <div class="hd2">2:1</div>
+                                <div class="hd2 fontBlue">Lost</div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="pagination">
+                        <div class="pageLeft">
+                            <div class="pageLimiter">
+                                <select name="oddsType" class="selectOptions" id="mini1">
+                                    <option value="10">10</option>
+                                    <option value="20">20</option>
+                                    <option value="30">30</option>
+                                </select>
+                            </div>
+
+                        </div>
+                        <div class="pageRight">
+                            <div class="pageNo" id="miniPN1">1</i>
+                            </div>
+                            <div class="pageController">
+                                <div class="pLeft " id="lbtn1"><i class="bi bi-chevron-left chevronLogo "></i></div>
+                                <div class="pLeft" id="rbtn1"><i class="bi bi-chevron-right chevronLogo"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="betInfo">
+                        <div class="betBtns">
+                            <div class="extraBtns">
+                                <div class="noticeBtn">Cancel Btn</div>
+                            </div>
+                            <div class="extraBtns">
+                                <div class="noticeBtn">Add Board</div>
+                            </div>
+                            <div class="extraBtns">
+                                <div class="noticeBtn">Add CS</div>
+                            </div>
+                        </div>
+                        <div class="additionalInfo">
+                            <div class="info1">Bet Time:
+
+                                <div class="answer1">
+                                    2023-03-18
+                                </div>
+                            </div>
+                            <div class="info1">Amount :
+                                <div class="answer1">
+                                    1,000
+                                </div>
+                            </div>
+                            <div class="info1">Ratio:
+                                <div class="answer1">
+                                    15.36
+                                </div>
+                            </div>
+                            <div class="info1">Win Prediction Amount :
+                                <div class="answer1">
+                                    15,360
+                                </div>
+                            </div>
+                            <div class="info1">Win Ratio:
+                                <div class="answer1">
+                                    0
+                                </div>
+                            </div>
+                            <div class="info1">Win Amount :
+                                <div class="answer1">
+                                    0
+                                </div>
+                            </div>
+                            <div class="info1">Status:
+                                <div class="answer1">
+                                    PROCEED
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+        <div class="column2" style="display: none !important;">
+            <div class="BoardnoticeWrapper">
+                <div class="boardBody">
+
+
+                </div>
+                <br>
+                <button class="btn btn-primary"
+                    style="background-color: #222a33; color: white; border: none; width: 100%;">See More</button>
+            </div>
+        </div>
+        <div class="column4">
+            <div class="noticeViewWrapper" style="display: none !important;">
+
+            </div>
+        </div>
+
+
+    </div>
+    <div> <button type="button" class="btn btn-secondary"> <a href="event.html">
+        << Back to list</a> </button>
+
+</div>
+<br>
+<div class="row casino-event">
+<p>
+    <span style="opacity: 0.6;;">[Proceeding]</span>
+    casino event
+</p>
+</div>
+
+<div class="row">
+<div class="col content-wrap">
+    <p style="text-align:center;"><img src="assets/images/promo.png" alt="">
+    </p><br>
+
+    <p style="text-align:center;">
+      <span style="color: #16bdf9;">  1. First casino use event after registration</span><br>
+
+        If you bet at least (30.000 won ) or more 10 times, you will receive 30.000 points that can be withdrawn
+        immediately .
+    </p>
+    <p style="text-align:center;">
+        <span style="color: #16bdf9;"> 2. Casino Rolling Event</span><br>
+
+        5% to 10% of the last charge amount will be paid back<br>
+
+        Rolling requirement 1000% bet amount unit<br>
+        
+        100.000-1.999.999 5% payback<br>
+        
+        2.000.000-4.999.999 7% payback<br>
+        
+        5.000.000-9.999.999 10% payback<br>
+        
+      </p>
+
+      <p style="text-align:center;">
+        <span style="color: #16bdf9;">3. Casino acquaintance recommendation event</span><br>
+
+        After recommending an acquaintance, when the acquaintance attends 3 or more times and uses a casino with a total charge of 2 million won or more<br>
+
+        Points that can be withdrawn immediately to those who recommended and acquaintances<br>
+        
+        100.000 Won paid each <br>
+        
+        & Only live casino participation is possible ( no participation in Sky Park )<br>
+        
+        & If you are eligible for the first casino use event after signing up, attach your betting details and contact the customer center<br>
+        
+        & If you are not a real acquaintance , all points may be recalled and sanctioned in case of abuse<br>
+        
+        & In the case of rolling events, even if it is 999%, you cannot participate if it is less than 1000%<br>
+        
+        In the case of a rolling event, the last charge amount is applied<br>
+        
+        Casino Rolling Event can only be participated once per day<br>
+        
+      </p>
+
+
+</div>
+</div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         crossorigin="anonymous"></script>
 
-    <script src="assets/js/homepage.js"></script>
-    <script src="assets/js/cartDrag.js"></script>
-    <script src="assets/js/messages.js"></script>
+    <script src="assets/js/event.js"></script>
     <script src="assets/js/extended.js"></script>
+    <script src="assets/js/messages.js"></script>
 </body>
 
 </html>
