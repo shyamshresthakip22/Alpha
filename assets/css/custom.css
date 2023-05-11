@@ -2003,3 +2003,12 @@ button, input{
         top: 13px;
     }
 }
+.changePassword{
+    display: none;
+}
+.MemberInfo{
+    display: block;
+}
+.bettingLimit{
+    display: none;
+}
