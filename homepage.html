@@ -768,23 +768,23 @@
                 <div class="noticeHeader">
                     <div class="row">
                          <div class="col-4">
-                            <div class="historyUpHeader fontBlue" style="font-size:12px ; cursor: pointer;">
+                            <div class="historyUpHeader fontBlue" style="font-size:12px ; cursor: pointer;" id="member-info">
                                 Member Info
                             </div>
                          </div>
                          <div class="col-4">
-                            <div class="historyUpHeader fontBlue" style="font-size:12px ;cursor: pointer;">
+                            <div class="historyUpHeader fontBlue" style="font-size:12px ;cursor: pointer;" id="changePassword">
                                 Change Password
                             </div>
                          </div>
                          <div class="col-4">
-                            <div class="historyUpHeader fontBlue" style="font-size:12px ;cursor: pointer;">
+                            <div class="historyUpHeader fontBlue" style="font-size:12px ;cursor: pointer;" id="bettingLimit">
                                 Betting Limit
                             </div>
                          </div>
                     </div>
                 </div>
-                <div class="row MemberInfo">
+                <div class="row MemberInfo" id="memberInfoPage">
                     <div class="col-12">
                         <div class="depositeItem depositeBill ">
                             <div class="menuItem">
@@ -822,22 +822,63 @@
                         </div>
                     </div>
                 </div>
-                <div class="row changePassword d-none">
+                <div class="row changePassword" id="changePasswordPage">
                     <div class="col-12">
                         <div class="depositeItem depositeBill ">
                             <div class="menuItem">
-                                <div class="dispIcon specDisp ">User ID</div>
-                                <div class="dispIcon ">cox218</div>
+                                <div class="dispIcon specDisp ">Current Password</div>
+                                <div class="dispIcon inputSports"><input type="password" name="password1" id="22"
+                                    placeholder="Please enter your current password"
+                                    class="inputLeague text-center"></div>
                             </div>
                             <div class="menuItem">
-                                <div class="dispIcon specDisp">Nickname</div>
-                                <div class="dispIcon inputSports">뚝배기</div>
+                                <div class="dispIcon specDisp">New Password</div>
+                                <div class="dispIcon inputSports"><input type="password" name="password1" id="22"
+                                    placeholder="Please enter your new password"
+                                    class="inputLeague text-center"></div>
                             </div>
                             <div class="menuItem">
-                                <div class="dispIcon specDisp ">Level</div>
-                                <div class="dispIcon ">Bronze</div>
+                                <div class="dispIcon specDisp ">New Password Confirmation</div>
+                                <div class="dispIcon inputSports"><input type="password" name="password1" id="22"
+                                    placeholder="Please re-enter your new password"
+                                    class="inputLeague text-center"></div>
                             </div>
                             
+                        </div>
+                    </div>
+                </div>
+                <div class="row bettingLimit" id="bettingLimitPage">
+                    <div class="col-12">
+                        <div class="depositeItem depositeBill ">
+                            <div class="menuItem">
+                                <div class="dispIcon specDisp ">Single Minimum Betting</div>
+                                <div class="dispIcon ">10,000</div>
+                            </div>
+                            <div class="menuItem">
+                                <div class="dispIcon specDisp">Single Maximum Betting</div>
+                                <div class="dispIcon inputSports">3,000,000
+                                </div>
+                            </div>
+                            <div class="menuItem">
+                                <div class="dispIcon specDisp ">Single Maximum Prize</div>
+                                <div class="dispIcon ">10,000,000</div>
+                            </div>
+                            <div class="menuItem">
+                                <div class="dispIcon specDisp">Multi Minimum Betting</div>
+                                <div class="dispIcon inputSports">10,000</div>
+                            </div>
+                            <div class="menuItem">
+                                <div class="dispIcon specDisp ">Multi Maximum Betting</div>
+                                <div class="dispIcon ">3,000,000</div>
+                            </div>
+                            <div class="menuItem">
+                                <div class="dispIcon specDisp">Multi Maximum Prize</div>
+                                <div class="dispIcon inputSports">10,000,000</div>
+                            </div>
+                            <div class="menuItem">
+                                <div class="dispIcon specDisp ">Losing Point</div>
+                                <div class="dispIcon ">1%</div>
+                            </div>
                         </div>
                     </div>
                 </div>
