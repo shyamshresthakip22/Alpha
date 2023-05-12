@@ -41,58 +41,22 @@ const refreshBtn = document.getElementById('refresh-btn');
 const myPage = document.querySelector('.my-backdropMyPage')
 const MyPage = document.querySelector('.Mypage')
 const deletepopup = document.querySelector(".changepopup")
-const Inputfieldcontainer = document.querySelector(".inputfieldcontainer")
-const getMemberInfoBtn=document.getElementById('member-info')
-const getMemberInfoPage=document.getElementById('memberInfoPage')
-const getChangePasswordBtn=document.getElementById('changePassword')
-const getChangePasswordPage=document.getElementById('changePasswordPage')
-const getBettingLimitBtn=document.getElementById('bettingLimit')
-const getBettingLimitPage=document.getElementById('bettingLimitPage')
-const deletepopup = document.querySelector(".changepopup")
-const Inputfieldcontainer = document.querySelector(".inputfieldcontainer")
-const getMemberInfoBtn=document.getElementById('member-info')
-const getMemberInfoPage=document.getElementById('memberInfoPage')
-const getChangePasswordBtn=document.getElementById('changePassword')
-const getChangePasswordPage=document.getElementById('changePasswordPage')
-const getBettingLimitBtn=document.getElementById('bettingLimit')
-const getBettingLimitPage=document.getElementById('bettingLimitPage')
-
-
-
-const openpopup = document.querySelector(".changepopup")
 const inputfieldcontainer = document.querySelector(".inputfieldcontainer")
-const custompopupcontainer = document.querySelector(".custompopupcontainer")
-const closepopup = document.querySelector(".closepopup")
-const submitReportBtn  = document.querySelector(".submitReportBtn")
-const changepopup1 = document.querySelector(".changepopup1")
+const getMemberInfoBtn=document.getElementById('member-info')
+const getMemberInfoPage=document.getElementById('memberInfoPage')
+const getChangePasswordBtn=document.getElementById('changePassword')
+const getChangePasswordPage=document.getElementById('changePasswordPage')
+const getBettingLimitBtn=document.getElementById('bettingLimit')
+const getBettingLimitPage=document.getElementById('bettingLimitPage')
 
 
-// custompopupcontainer.style.display = "none";
-//  openpopup.addEventListener("click",function(){
-//      if(custompopupcontainer.style.display == "none"){
-//         custompopupcontainer.style.display = "block";
-//         inputfieldcontainer.style.display = "none";
-//     }  
-    
-     
-//   })
-//   closepopup.addEventListener("click",function(){
-//        if( custompopupcontainer.style.display == "block"){
-//         custompopupcontainer.style.display = "none";
-//        }
-       
-//   })
-//   submitReportBtn.addEventListener("click",function(){
-//     inputfieldcontainer.style.display = "block";
-//   })
 
-//   custompopupcontainer.style.display = "none";
-//   changepopup1.addEventListener("click",function(){
-//     if(custompopupcontainer.style.display == "none"){
-//         custompopupcontainer.style.display = "block";
-//         inputfieldcontainer.style.display = "none";
-//     } 
-//   })
+  deletepopup.addEventListener("click",function(){
+      
+  })
+
+
+
 
 
 
