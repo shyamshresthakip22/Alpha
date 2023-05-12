@@ -1996,6 +1996,14 @@ button, input{
     font-weight: 400; 
 }
 
+@media screen and (max-width : 375px) {
+    .navbar-brand{
+          position: absolute;
+          right: 50px;
+    }
+}
+
+
 @media screen and (max-width : 460px) {
     .navbar-brand{
         position: absolute;
@@ -2004,6 +2012,13 @@ button, input{
         top: 13px;
     }
 }
+@media screen and (max-width : 414px) {
+    .navbar-brand{
+        position: absolute;
+        right: 60px;
+    }
+}
+
 
 @media screen and (max-width : 430px) {
     .navbar-brand{
@@ -2015,15 +2030,6 @@ button, input{
 }
 
 
-
-@media screen and (max-width : 430px) {
-    .navbar-brand{
-        position: absolute;
-        text-align: center;
-        left: 65px;
-        top: 13px;
-    }
-}
 
 @media screen and (max-width : 870px) {
     .navbar-brand{
@@ -2041,13 +2047,4 @@ button, input{
         left: 60px;
         top: 13px;
     }
-}
-.changePassword{
-    display: none;
-}
-.MemberInfo{
-    display: block;
-}
-.bettingLimit{
-    display: none;
 }
