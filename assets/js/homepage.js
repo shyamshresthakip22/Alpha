@@ -48,17 +48,6 @@ const getChangePasswordBtn=document.getElementById('changePassword')
 const getChangePasswordPage=document.getElementById('changePasswordPage')
 const getBettingLimitBtn=document.getElementById('bettingLimit')
 const getBettingLimitPage=document.getElementById('bettingLimitPage')
-const deletepopup = document.querySelector(".changepopup")
-const Inputfieldcontainer = document.querySelector(".inputfieldcontainer")
-const getMemberInfoBtn=document.getElementById('member-info')
-const getMemberInfoPage=document.getElementById('memberInfoPage')
-const getChangePasswordBtn=document.getElementById('changePassword')
-const getChangePasswordPage=document.getElementById('changePasswordPage')
-const getBettingLimitBtn=document.getElementById('bettingLimit')
-const getBettingLimitPage=document.getElementById('bettingLimitPage')
-
-
-
 const openpopup = document.querySelector(".changepopup")
 const inputfieldcontainer = document.querySelector(".inputfieldcontainer")
 const custompopupcontainer = document.querySelector(".custompopupcontainer")
