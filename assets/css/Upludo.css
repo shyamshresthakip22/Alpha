@@ -2314,3 +2314,141 @@ height: 200px; */
     /* Styles for extra large screens (up to 1200px) */
     /* Styles for screens larger than 1200px */
 }
+
+
+.custompopupcontainer{
+    width: 580px;
+    height: 280px;
+    background-color: #1F262F;
+    /* background-color: yellow; */
+    position: absolute;
+    top: 180px;
+    z-index: 11;
+}
+   .closepopup{
+        padding: 10px 20px;
+        background-color: #16BDF9;
+        color: white;
+        position: absolute;
+        top: -30px;
+        font-size: 15px;
+   }
+   .box1{
+        width: 270px;
+        height: 50px;
+        /* border: 1px solid black; */
+        position: absolute;
+        right: 0;
+        top: 20px;
+        display: flex;
+        justify-content: space-between;
+   }
+   .innerpopup1{
+        width: 170px;
+        height: 50px;
+        /* border: 1px solid red; */
+        display: flex;
+        padding: 10px;
+   }
+   .box2{
+        width: 300px;
+        height: 50px;
+        /* border: 1px solid black; */
+        position: absolute;
+        bottom: 0;
+        left: 140px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+   }
+   .subjectbox{
+        width: 100px;
+        height: auto;
+        /* border: 1px solid black; */
+        position: absolute;
+        top: 90px;
+        left: 20px;
+   }
+   .subjectbox p{
+         border-bottom: 1px solid;
+         border-bottom-color: #394552;
+   }
+
+   .matchhistorybtns{
+    width: 500px;
+    height: 50px;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.matchhistorybtns button{
+    background-color: #394552;
+    color: white;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 2px;
+}
+.hd3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Navbar logo media quree */
+
+@media screen and (max-width : 375px) {
+    .navbar-brand{
+          position: absolute;
+          right: 50px;
+    }
+}
+
+
+@media screen and (max-width : 460px) {
+    .navbar-brand{
+        position: absolute;
+        text-align: center;
+        left: 120px;
+        top: 13px;
+    }
+}
+@media screen and (max-width : 414px) {
+    .navbar-brand{
+        position: absolute;
+        right: 60px;
+    }
+}
+
+
+@media screen and (max-width : 430px) {
+    .navbar-brand{
+        position: absolute;
+        text-align: center;
+        left: 80px;
+        top: 13px;
+    }
+}
+
+@media screen and (max-width : 870px) {
+    .navbar-brand{
+        position: absolute;
+        text-align: center;
+        left: 60px;
+        top: 13px;
+    }
+}
+
+@media screen and (max-width : 990px) {
+    .navbar-brand{
+        position: absolute;
+        text-align: center;
+        left: 60px;
+        top: 13px;
+    }
+}
+
+
+
