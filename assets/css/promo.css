@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: #ffffff;
+
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    background-color: rgb(23, 28, 34);
+    overflow-x: hidden;
+
+}
+
+.btn {
+    margin: 10px;
+    background-color: #1f262f !important;
+    border: none !important;
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.casino-event {
+    background-color: #1f262f !important;
+    height: 20px;
+}
+
+.casino-event p {
+    vertical-align: middle;
+    font-weight: 300;
+    font-size: .75rem;
+}
+
+.content-wrap {
+    padding: 20px !important;
+}
+
+.content-wrap p {
+    width: auto;
+    height: auto;
+    line-height: 45px;
+    padding: 30px;
+    font-weight: 300;
+}
+
+@media (max-width: 768px) {
+    .content-wrap p img {
+        max-width: 600px;
+        height: auto;
+    }
+
+    .content-wrap p {
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 35px;
+        padding: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .content-wrap p img {
+        max-width: 300px;
+        height: auto;
+    }
+
+    .content-wrap p {
+        font-size: 10px;
+        font-weight: 300;
+        line-height: 20px;
+        padding: 30px;
+    }
+}

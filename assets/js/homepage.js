@@ -44,10 +44,6 @@ const MyPage = document.querySelector('.Mypage')
 
 const openpopup = document.querySelector(".changepopup")
 const inputfieldcontainer = document.querySelector(".inputfieldcontainer")
-const custompopupcontainer = document.querySelector(".custompopupcontainer")
-const closepopup = document.querySelector(".closepopup")
-const submitReportBtn  = document.querySelector(".submitReportBtn")
-const changepopup1 = document.querySelector(".changepopup1")
 
 custompopupcontainer.style.display = "none";
  openpopup.addEventListener("click",function(){
@@ -552,6 +548,21 @@ let selectedAmount = 0;
 
 function initApp() {
     console.log(soccerData)
+    getMemberInfoBtn.addEventListener('click', function(){
+        getMemberInfoPage.style.display='block'
+        getChangePasswordPage.style.display='none'
+        getBettingLimitPage.style.display='none'
+    })
+    getChangePasswordBtn.addEventListener('click', function(){
+        getChangePasswordPage.style.display='block'
+        getMemberInfoPage.style.display='none'
+        getBettingLimitPage.style.display='none'
+    })
+    getBettingLimitBtn.addEventListener('click',function(){
+        getChangePasswordPage.style.display='none'
+        getMemberInfoPage.style.display='none'
+        getBettingLimitPage.style.display='block'
+    })
     soccerData.forEach((value, key) => {
 
         //For Refresh Page
@@ -559,6 +570,8 @@ function initApp() {
         refreshBtn.addEventListener('click', function() {
             location.reload();
           });
+
+        
         //For leagues
         let newDiv = document.createElement('div');
         newDiv.classList.add('leagueTable');

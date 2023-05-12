@@ -1086,7 +1086,7 @@ border-right: 1px solid #1e242c; */
 }
 
 .sliderMenuActive {
-    width: 30%;
+    width: 40% ;
 }
 
 .menuWrapper {
@@ -1758,6 +1758,9 @@ height: 200px; */
     .betSlip {
         /* right: 100% */
     }
+    .sliderMenuActive{
+        width: 40%;
+    }
 
     /* .column2 {
         flex-basis: 1300px;
@@ -1803,7 +1806,7 @@ height: 200px; */
     }
 
     /* Styles for large screens (up to 992px) */
-    @media (max-width: 852px) {
+    @media (max-width: 1090px) {
 
         /* Add additional styles as needed */
         .selectOptions {
@@ -1839,7 +1842,7 @@ height: 200px; */
         }
 
         .sliderMenuActive {
-            width: 60%;
+            width: 35%;
         }
 
         .impBtns {
@@ -1942,6 +1945,12 @@ button, input{
     justify-content: center;
     align-items: center;
 } */
+
+@media (max-width: 480px) {
+    .sliderMenuActive{
+        width: 50%;
+    }
+}
 .form-control::placeholder { 
     color: white;
     opacity: 1;
@@ -2000,85 +2009,3 @@ button, input{
         top: 13px;
     }
 }
-
-.custompopupcontainer{
-     width: 580px;
-     height: 280px;
-     background-color: #1F262F;
-     /* background-color: yellow; */
-     position: absolute;
-     top: 180px;
-     z-index: 11;
-}
-    .closepopup{
-         padding: 10px 20px;
-         background-color: #16BDF9;
-         color: white;
-         position: absolute;
-         top: -30px;
-         font-size: 15px;
-    }
-    .box1{
-         width: 270px;
-         height: 50px;
-         /* border: 1px solid black; */
-         position: absolute;
-         right: 0;
-         top: 20px;
-         display: flex;
-         justify-content: space-between;
-    }
-    .innerpopup1{
-         width: 170px;
-         height: 50px;
-         /* border: 1px solid red; */
-         display: flex;
-         padding: 10px;
-    }
-    .box2{
-         width: 300px;
-         height: 50px;
-         /* border: 1px solid black; */
-         position: absolute;
-         bottom: 0;
-         left: 140px;
-         display: flex;
-         justify-content: center;
-         align-items: center;
-         justify-content: space-evenly;
-    }
-    .subjectbox{
-         width: 100px;
-         height: auto;
-         /* border: 1px solid black; */
-         position: absolute;
-         top: 90px;
-         left: 20px;
-    }
-    .subjectbox p{
-          border-bottom: 1px solid;
-          border-bottom-color: #394552;
-    }
-
-    .matchhistorybtns{
-         width: 500px;
-         height: 50px;
-         /* border: 1px solid white; */
-         display: flex;
-         justify-content: center;
-         align-items: center;
-         justify-content: space-evenly;
-    }
-    .matchhistorybtns button{
-         background-color: #394552;
-         color: white;
-         padding: 5px 20px;
-         border: none;
-         border-radius: 2px;
-    }
-    .hd3{
-         display: flex;
-         justify-content: center;
-         align-items: center;
-    }
-
