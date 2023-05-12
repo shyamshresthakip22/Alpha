@@ -445,6 +445,7 @@ height: 200px; */
 .lowerItem {
     display: flex;
     justify-content: space-between;
+
 }
 
 .betSlip {
@@ -878,6 +879,7 @@ padding: 5px;
     width: 100%;
     margin-left: 5px;
     cursor: pointer;
+  
 }
 
 .handiOdds {
@@ -906,12 +908,12 @@ padding: 5px;
 .handiOdds:hover {
     /* border: 1px solid blue; */
     background-color: #16bdf9;
-    ;
+    
 }
 
 .extraOdd:hover {
     background-color: #16bdf9;
-    ;
+    
 }
 
 .extraOdd {
@@ -1630,7 +1632,7 @@ height: 200px; */
         flex-basis: 0px;
     }
     .column4 {
-        max-width: 40%;
+        max-width: 60%;
     }
     .column2 {
         max-width: 60%;
@@ -1716,9 +1718,18 @@ height: 200px; */
         }
         .boardBody {
             display: flex;
+          
         }
+
         .column4 {
             max-width: 100%;
+        }
+    }
+    @media (max-width:768px) {
+        .boardBody {
+            display: flex;
+            flex-direction: column;
+          
         }
     }
     /* Styles for large screens (up to 992px) */
