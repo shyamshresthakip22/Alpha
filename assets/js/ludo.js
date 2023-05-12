@@ -305,6 +305,7 @@ function generateHistoryTable1(number) {
 }
 
 
+
 function generateHistoryTable2(number) {
 
 
