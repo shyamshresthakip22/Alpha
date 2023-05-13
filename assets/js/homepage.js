@@ -65,8 +65,8 @@ custompopupcontainer.style.display = "none";
         custompopupcontainer.style.display = "block";
         inputfieldcontainer.style.display = "none";
     }  
-    
-     
+
+
   })
   closepopup.addEventListener("click",function(){
        if( custompopupcontainer.style.display == "block"){
@@ -74,10 +74,12 @@ custompopupcontainer.style.display = "none";
        }
        
   })
+
   submitReportBtn.addEventListener("click",function(){
     inputfieldcontainer.style.display = "block";
   })
 
+  
   custompopupcontainer.style.display = "none";
   changepopup1.addEventListener("click",function(){
     if(custompopupcontainer.style.display == "none"){
