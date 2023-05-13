@@ -24,10 +24,13 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNav" aria-controls="offcanvasNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navBarToggler"><i class="bi bi-list"></i></span>
               </button>
+              
             <a class="navbar-brand" href="#"><img src="assets/images/logo (1).png" class="d-inline-block align-text-top" width="200" height="23" style="margin-left:7%;"></a>
+           
             <div class="nav-item mx-2 ms-auto me-2 half-top order-lg-last " style="list-style-type: none">
                 <a class="nav-link customUl loginBtn" href="#"><i class="bi bi-person" style="font-size:1.2rem;"></i></a>
             </div>
+        
             <div class="sliderMenu">
                 <div class="menuWrapper">
                     <div class="menuHeader">
@@ -136,7 +139,7 @@
                             </a>
                             <ul class="dropdown-menu customDrop">
                                 <li><a class=" dropdown-item customDropper py-2 " href="board.html">Notice Board</a></li>
-                                <li><a class=" dropdown-item customDropper py-2 " href="event.html">Event Board</a></li>
+                                <li><a class=" dropdown-item customDropper py-2 " href="event.html">Even Board</a></li>
                                 <!-- <li><a class="dropdown-item customDropper py-2" href="#">Another action</a></li>
                             <li><a class="dropdown-item customDropper py-2" href="#">Something else here</a></li> -->
                             </ul>
@@ -149,7 +152,8 @@
             </div>
         </div>
     </nav>
-    <div class="bodyWrapper">
+    <div> 
+        <div class="bodyWrapper" >
         <div class="sliderMenuBackDrop">
 
         </div>
@@ -342,20 +346,13 @@
 
                     </div>
                     <div class="depositeItem depositeBill">
-                        <div class="matchhistorybtns">
-                            <button>1X2</button>
-                            <button>Handicap</button>
-                            <button>Under/Over</button>
-                            <button>Special</button>
-                            <button>Live</button>
-                       </div>
 
                         <div class="depositeHistory">
                             <!-- <div class="historyHeader">Deposite History</div> -->
                             <div class="headerItem">
                                 <div class="hd1">Time</div>
-                                <div class="hd2" style="margin-left: 20px;">Type</div>
-                                <div class="hd3" style="margin-left: 20px;">Home/Under</div>
+                                <div class="hd2">Type</div>
+                                <div class="hd3">Home/Under</div>
                                 <div class="hd4">Draw</div>
                                 <div class="hd5">Away/Over</div>
                                 <div class="hd5">Score</div>
@@ -368,7 +365,7 @@
                                         19:32:56</div>
                                 </div>
                                 <div class="hd2">Soccer</div>
-                                <div class="hd3" style="background-color: #1A99C7;">FC Barcelona</div>
+                                <div class="hd3">FC Barcelona</div>
                                 <div class="hd4">-0.5</div>
                                 <div class="hd4">-1.8</div>
                                 <div class="hd4">Real Madrid</div>
@@ -490,7 +487,7 @@
                             <div class="footerItem" id="footer5">
 
                                 <div class="hd3">Wait</div>
-                                <div class="hd2  changepopup">Application for changing username</div>
+                                <div class="hd2">Application for changing username</div>
                                 <div class="hd4">Helios</div>
                                 <div class="hd1s">2023-03-18
                                     <div>
@@ -502,7 +499,7 @@
                             <div class="footerItem" id="footer5">
 
                                 <div class="hd3">Wait</div>
-                                <div class="hd2 changepopup1">Application for changing username</div>
+                                <div class="hd2">Application for changing username</div>
                                 <div class="hd4">Helios</div>
                                 <div class="hd1s">2023-03-18
                                     <div>
@@ -514,30 +511,6 @@
 
 
                         </div>
-
-                        <div class="custompopupcontainer">
-                            <div class="closepopup">X</div>
-                              <div class="box1">
-                                  <div class="innerpopup1">
-                                      <button style="background-color: #394552; border: none; padding: 10px 5px; display: flex; justify-content: center; align-items: center;">Writer</button>
-                                       <p style="margin-top: 5px; margin: 5px;">Netest1</p>
-                                  </div>
-                                  <div class="innerpopup1">
-                                      <button style="background-color: #394552; border: none; padding: 10px 5px; display: flex; justify-content: center; align-items: center;">Date</button>
-                                       <p style="margin-top: 5px; margin: 5px;">2023-05-05</p>
-                                  </div>
-                              </div>
-                                  <div class="subjectbox">
-                                       <p>Subject1</p>
-                                       <p>Subject2</p>
-
-                                  </div>
-                                   <div class="box2">
-                                      <button style="padding: 10px 50px; background-color: #1A99C7; border: none;">List</button>
-                                      <button style="padding: 10px 40px; border: none; background-color: #394552;">Delete</button>
-                                   </div>
-                         </div>
-
                         <div class="pagination">
                             <div class="pageLeft">
                                 <div class="pageLimiter">
@@ -570,7 +543,6 @@
 
             </div>
         </div>
-        <div class="inputfieldcontainer">
         <div class="my-backdrop6 historyDrop">
             <div class="NoticeWrapper2">
                 <div class="noticeBodyNew">
@@ -656,7 +628,6 @@
                 </div>
 
             </div>
-        </div>
         </div>
         <div class="my-backdrop7 historyDrop">
             <div class="NoticeWrapper2">
@@ -785,14 +756,37 @@
 
             </div>
         </div>
-
+       
         <div class="column2">
             <div class="BoardnoticeWrapper">
                 <div class="boardBody">
 
 
                 </div>
+                <div class="pagination"  >
+                    <div class="pageLeft">
+                        <div class="pageLimiter">
+                            <select name="oddsType" class="selectOptions2" id="mini1">
+                                <option value="10">10</option>
+                                <option value="20">20</option>
+                                <option value="30">30</option>
+                            
+                            </select>
+                            
+                        </div>
+                    </div>
+                    <div class="pageRight">
+                        <div class="pageNo" id="miniPN1"><span style="font-size: 12px; font-weight: 500;">1<i
+                                    class="bi bi-chevron-down" style="font-size: 10px; padding: 5px;"></i></span>
+                        </div>
+                        <div class="pageController">
+                            <div class="pLeft " id="lbtn1"><i class="bi bi-chevron-left chevronLogo "></i></div>
+                            <div class="pLeft" id="rbtn1"><i class="bi bi-chevron-right chevronLogo"></i></div>
+                        </div>
+                    </div>
+                </div>
             </div>
+           
         </div>
         <div class="column4">
             <div class="noticeViewWrapper">
@@ -833,15 +827,126 @@
 
 
                 </div>
+               
             </div>
+            
+        </div>
+       
         </div>
 
 
+        <div class="popup" style="width: 45%;">
+
+            <div class="noticeBodyNew">
+                <div class="close">
+                    <i class="bi bi-x-lg "></i>
+
+                </div>
+                <div class="noticeHeader">
+                    <div class="historyUpHeader fontBlue" style="border-bottom: 1px solid#5897fb; ">
+                        Message
+                    </div>
+                    <div class="depositeItem depositeBill" style="display: flex; justify-content: space-between; margin-top: 10px;">
+
+                      <div class="markmes">Mark all message as read</div>
+                      <div class="markmes">Delete Select message</div>
+                     
+</div>
+<div class="footerItem" id="footer5" style="margin-top: 10px; display: flex; flex-direction: column;">
+    
+        <div class="match" style="display:flex;justify-content: space-between;">
+            <div class="notification"> [notification] <span class="prediction" >Match prediction event up to 5 million won </span> </div>
+            <div class="check">  <input type="checkbox" id="vehicle1" name="v ehicle1" value="Bike"></div>
+        </div>
+    
+
+<div class="date-details" style="display: flex; justify-content: space-between;"> 
+    <div class="date"> 2023-05-13 06:19:18</div>
+    <div class="read">Read</div>
+</div>
+    </div>
+    
+    <div class="footerItem" id="footer5" style="margin-top: 10px; display: flex; flex-direction: column;">
+    
+        <div class="match" style="display:flex;justify-content: space-between;">
+            <div class="notification"> [notification] <span class="prediction">Match prediction event up to 5 million won </span> </div>
+            <div class="check">  <input type="checkbox" id="vehicle1" name="v ehicle1" value="Bike"></div>
+        </div>
+    
+
+<div class="date-details" style="display: flex; justify-content: space-between;"> 
+    <div class="date"> 2023-05-13 06:19:18</div>
+    <div class="read">Read</div>
+</div>
+    </div>
+    <div class="footerItem" id="footer5" style="margin-top: 10px; display: flex; flex-direction: column;">
+    
+        <div class="match" style="display:flex;justify-content: space-between;">
+            <div class="notification"> [notification] <span class="prediction">Match prediction event up to 5 million won </span> </div>
+            <div class="check">  <input type="checkbox" id="vehicle1" name="v ehicle1" value="Bike"></div>
+        </div>
+    
+
+<div class="date-details" style="display: flex; justify-content: space-between;"> 
+    <div class="date"> 2023-05-13 06:19:18</div>
+    <div class="read">Read</div>
+</div>
+    </div>
+    <div class="footerItem" id="footer5" style="margin-top: 10px; display: flex; flex-direction: column;">
+    
+        <div class="match" style="display:flex;justify-content: space-between;">
+            <div class="notification"> [notification] <span class="prediction">Match prediction event up to 5 million won </span> </div>
+            <div class="check">  <input type="checkbox" id="vehicle1" name="v ehicle1" value="Bike"></div>
+        </div>
+    
+
+<div class="date-details" style="display: flex; justify-content: space-between;"> 
+    <div class="date"> 2023-05-13 06:19:18</div>
+    <div class="read">Read</div>
+</div>
+    </div>
+    <div class="pagination">
+        <div class="pageLeft">
+            <div class="pageLimiter">
+                <select name="oddsType" class="selectOptions2" id="mini1">
+                    <option value="10">10</option>
+                    <option value="20">20</option>
+                    <option value="30">30</option>
+                </select>
+            </div>
+        </div>
+        <div class="pageRight">
+            <div class="pageNo" id="miniPN1">1</i>
+            </div>
+            <div class="pageController">
+                <div class="pLeft " id="lbtn1"><i class="bi bi-chevron-left chevronLogo "></i></div>
+                <div class="pLeft" id="rbtn1"><i class="bi bi-chevron-right chevronLogo"></i></div>
+            </div>
+        </div>
+    </div>
+    </div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
 
         <script src="assets/js/board.js"></script>
         <script src="assets/js/extended.js"></script>
         <script src="assets/js/messages.js"></script>
+        <script>
+           const popup=document.querySelector('.popup');
+
+           const close=document.querySelector('.close');
+
+           window.onload=function(){
+            setTimeout(function(){
+                popup.style.display="block";
+            },500)
+            
+           }
+           close.addEventListener('click',()=>{
+            popup.style.display="none"
+           })
+        </script>	
+       
+       </div>
 </body>
 
 </html>
