@@ -1891,7 +1891,11 @@ document.addEventListener('DOMContentLoaded', function() {
             setActiveButton(event.target);
             // event.target.classList.toggle('betActive');
             // Toggle the 'button-active' class on the clicked button element
-
+            if(event.target.style.backgroundColor==="rgb(54, 60, 68)"){
+                event.target.style.backgroundColor="#16bdf9"
+            }else{
+                event.target.style.backgroundColor="rgb(54, 60, 68)"
+            }
             const modeIndex = event.target.id.split('-')[1]
             const gameIndex = event.target.id.split('-')[0]
             const id = event.target.id.substring(0, 3);

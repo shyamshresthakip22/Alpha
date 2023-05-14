@@ -18,7 +18,7 @@ const cartBackdrop = document.querySelector('.cartBackdrop');
 const noticeCancelBtn = document.querySelector('.noticeCancel');
 const slideDeposite = document.querySelector('.slideDeposite')
 const depositeDrop = document.querySelector('.depositeDrop')
-const matchHistory = document.querySelector('.matchHistory')
+const MatchHistory = document.querySelector('.matchHistory')
 const infoHistory = document.querySelector('.infoHistory')
 const historyDrop = document.querySelector('.my-backdrop3')
 const infoDrop = document.querySelector('.my-backdrop4')
@@ -557,7 +557,7 @@ function initApp() {
             location.reload();
           });
 
-        
+          
         //For leagues
         let newDiv = document.createElement('div');
         newDiv.classList.add('leagueTable');
@@ -913,10 +913,36 @@ function setActiveOdd3(button) {
 
 col2.addEventListener('click', (event) => {
     // Check if the clicked element is a button with the desired class
+    if(event.target.classList.contains('betOdds')){
+        if(event.target.style.backgroundColor==="rgb(54, 60, 68)"){
+            event.target.style.backgroundColor="#16bdf9"
+        }else{
+            event.target.style.backgroundColor="rgb(54, 60, 68)"
+        }
+    }
+    if(event.target.classList.contains('handiOdds')){
+        if(event.target.style.backgroundColor==="rgb(54, 60, 68)"){
+            event.target.style.backgroundColor="#16bdf9"
+        }else{
+            event.target.style.backgroundColor="rgb(54, 60, 68)"
+        }
+    }
+    if(event.target.classList.contains('ouOdds')){
+        if(event.target.style.backgroundColor==="rgb(54, 60, 68)"){
+            event.target.style.backgroundColor="#16bdf9"
+        }else{
+            event.target.style.backgroundColor="rgb(54, 60, 68)"
+        }
+    }
+    
     if (event.target.classList.contains('odds1')) {
         // Handle the button click here
         console.log('Button clicked:', event.target);
-        //
+        if(event.target.style.backgroundColor==="rgb(54, 60, 68)"){
+            event.target.style.backgroundColor="#16bdf9"
+        }else{
+            event.target.style.backgroundColor="rgb(54, 60, 68)"
+        }
         // setActiveButton(event.target);
         event.target.classList.toggle('betActive');
         // Toggle the 'button-active' class on the clicked button element
@@ -1071,7 +1097,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     })
 
-    matchHistory.addEventListener('click', () => {
+    MatchHistory.addEventListener('click', () => {
         historyDrop.style.display = 'flex'
 
         let historyCancelBtn = document.querySelector('.historyCancel')

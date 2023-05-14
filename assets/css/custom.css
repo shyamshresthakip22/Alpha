@@ -170,9 +170,9 @@ body {
     background-color: rgb(31, 38, 47);
     /* flex-basis: 350px;
     flex-grow: 1; */
+    transition:background-color 3s ease-in-out;
     width: 0;
     overflow: hidden;
-
 }
 
 .column5 {
@@ -364,6 +364,8 @@ body {
     justify-content: center;
     transition: bottom .3s ease;
     bottom: -10px;
+    transition: all 200ms;
+    transition: background-color 3s ease-in;
 }
 
 .selectTeam {
@@ -784,7 +786,6 @@ body {
     background-color: rgb(39, 48, 58);
     padding: 10px;
 }
-
 
 /* .betHeader{
     padding: 5px;
@@ -1598,6 +1599,7 @@ height: 200px; */
 
 .betSlipActive,
 .selectTeamActive {
+    transition: all 3s ease-in;
     transform: translateY(0px);
 }
 
