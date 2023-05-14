@@ -8,6 +8,7 @@ body {
     font-family: 'Noto Sans', sans-serif;
     background-color: rgb(23, 28, 34);
 }
+
 .pagination{
     display: flex;
     width: 100%;

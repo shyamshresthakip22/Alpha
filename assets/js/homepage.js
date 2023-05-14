@@ -50,7 +50,7 @@ const getBettingLimitBtn=document.getElementById('bettingLimit')
 const getBettingLimitPage=document.getElementById('bettingLimitPage')
 
 
-
+const Attendancebtn = document.querySelector(".Attendancebtn")
 const openpopup = document.querySelector(".changepopup")
 const inputfieldcontainer = document.querySelector(".inputfieldcontainer")
 const custompopupcontainer = document.querySelector(".custompopupcontainer")
@@ -89,7 +89,9 @@ custompopupcontainer.style.display = "none";
   })
 
 
+    //   Attendancebtn popup
 
+    
 
 
 
