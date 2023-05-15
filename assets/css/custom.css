@@ -356,7 +356,6 @@ body {
     box-sizing: inherit;
 }
 
-
 .sidebar {
     background-color: rgb(31, 38, 47);
     position: fixed;
@@ -547,6 +546,8 @@ body {
     display: flex;
     flex-direction: column;
     overflow: hidden;
+    pointer-events: all;
+ 
 }
 
 
@@ -1621,14 +1622,25 @@ height: 200px; */
     width: 80%;
     border-bottom: 1px solid rgb(39, 48, 58);
 }
+.slectlea{
+    background-color: #27303a;
+        height: calc(100vh - 325px); 
+        overflow-y: scroll;
+        padding: 0px 10px;
+        margin-top: 10px;
 
+}
+.selectLeague{
+    border-bottom: 1px solid hsla(0,0%,100%,.03);}
 .inputSports input {
     background-color: transparent;
     border: none;
     width: 100%;
     font-size: 12px;
 }
-
+.selectLeague:hover{
+    background-color:#2a333e;
+}
 .inputSports input::placeholder {
     font-size: 12px;
 }
@@ -1804,6 +1816,7 @@ height: 200px; */
 .selectTeamActive {
     transition: all 3s ease-in;
     transform: translateY(0px);
+    
 }
 
 
