@@ -27,6 +27,43 @@ const depositeDrop = document.querySelector('.depositeDrop')
 
 
 
+const openpopup = document.querySelector(".changepopup")
+const inputfieldcontainer = document.querySelector(".inputfieldcontainer")
+const Attendancebtn = document.querySelector(".Attendancebtn")
+const custompopupcontainer = document.querySelector(".custompopupcontainer")
+const closepopup = document.querySelector(".closepopup")
+const submitReportBtn  = document.querySelector(".submitReportBtn")
+const changepopup1 = document.querySelector(".changepopup1")
+
+
+custompopupcontainer.style.display = "none";
+ openpopup.addEventListener("click",function(){
+     if(custompopupcontainer.style.display == "none"){
+        custompopupcontainer.style.display = "block";
+        inputfieldcontainer.style.display = "none";
+    }  
+
+
+  })
+  closepopup.addEventListener("click",function(){
+       if( custompopupcontainer.style.display == "block"){
+        custompopupcontainer.style.display = "none";
+       }
+       
+  })
+
+  submitReportBtn.addEventListener("click",function(){
+    inputfieldcontainer.style.display = "block";
+  })
+
+  
+  custompopupcontainer.style.display = "none";
+  changepopup1.addEventListener("click",function(){
+    if(custompopupcontainer.style.display == "none"){
+        custompopupcontainer.style.display = "block";
+        inputfieldcontainer.style.display = "none";
+    } 
+  })
 
 
 

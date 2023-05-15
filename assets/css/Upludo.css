@@ -8,6 +8,52 @@ body {
     font-family: 'Noto Sans', sans-serif;
     background-color: rgb(23, 28, 34);
 }
+.custompopupcontainer{
+    width: 580px;
+    height: 270px;
+     position: absolute;
+     background-color: #1D232A;
+     top: 200px;
+     /* display: block; */
+}
+.box1{
+    width: 50%;
+     display: flex;
+     justify-content: center;
+     justify-content: space-evenly;
+     align-items: center;
+     /* border: 1px solid; */
+     margin-left: 250px;
+     margin-top: 20px;
+
+}
+.nert1{
+    margin-top: -24px;
+    margin-left: 50px;
+}
+.closepopup{
+     background-color: #16BDF9;
+     padding: 10px 15px;
+     position: absolute;
+     top: -20px;
+     font-size: 18px;
+}
+.subjectbox{
+    margin: 25px;
+}
+.box2{
+     /* border: 1px solid; */
+     display: flex;
+     justify-content: center;
+     gap: 10px;
+}
+
+.matchhistorybtns button{
+    padding: 7px 30px;
+    background-color: #394552;
+    color: white;
+    border: none;
+}
 
 .navBarToggler {
     display: inline-block;

@@ -23,6 +23,66 @@ const depositeDrop = document.querySelector('.depositeDrop')
 const slipCancel = document.querySelector('.slipCancel')
 
 
+const openpopup = document.querySelector(".changepopupsportslive")
+const inputfieldcontainer = document.querySelector(".inputfieldcontainer")
+const Attendancebtn = document.querySelector(".Attendancebtn")
+const custompopupcontainer = document.querySelector(".custompopupcontainer")
+const closepopup = document.querySelector(".closepopup")
+const submitReportBtn  = document.querySelector(".submitReportBtn")
+const changepopup1 = document.querySelector(".changepopupsportslive1")
+const attandececontainer = document.querySelector(".attandececontainer")
+const closeicone = document.querySelector(".closeicone")
+const sliderMenu1  = document.querySelector(".sliderMenu ")
+
+custompopupcontainer.style.display = "none";
+ openpopup.addEventListener("click",function(){
+     if(custompopupcontainer.style.display == "none"){
+        custompopupcontainer.style.display = "block";
+        inputfieldcontainer.style.display = "none";
+    }  
+
+
+  })
+  closepopup.addEventListener("click",function(){
+       if( custompopupcontainer.style.display == "block"){
+        custompopupcontainer.style.display = "none";
+       }
+       
+  })
+
+  submitReportBtn.addEventListener("click",function(){
+    inputfieldcontainer.style.display = "block";
+  })
+
+  
+  custompopupcontainer.style.display = "none";
+  changepopup1.addEventListener("click",function(){
+    if(custompopupcontainer.style.display == "none"){
+        custompopupcontainer.style.display = "block";
+        inputfieldcontainer.style.display = "none";
+    } 
+  })
+
+  attandececontainer.style.display = "none";
+    Attendancebtn.addEventListener("click",function(){
+          if(attandececontainer.style.display == "none"){
+            attandececontainer.style.display = "block";
+            sliderBackDrop.style.display = 'none'
+            sliderMenu.classList.remove('sliderMenuActive')
+          }
+          else{
+            sliderMenu1.style.display = "block";
+          }
+    })
+
+    closeicone.addEventListener("click",function(){
+        attandececontainer.style.display = "none";
+    })
+
+
+
+
+
 
 
 

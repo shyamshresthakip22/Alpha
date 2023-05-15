@@ -40,39 +40,35 @@ const OpenSelectLeaguePopupBtn=document.querySelector('.modal-header')
 const refreshBtn = document.getElementById('refresh-btn');
 const myPage = document.querySelector('.my-backdropMyPage')
 const MyPage = document.querySelector('.Mypage')
+
+
 const deletepopup = document.querySelector(".changepopup")
 const Inputfieldcontainer = document.querySelector(".inputfieldcontainer")
 const getMemberInfoBtn=document.getElementById('member-info')
 const getMemberInfoPage=document.getElementById('memberInfoPage')
-// const getChangePasswordBtn=document.getElementById('changePassword')
-// const getChangePasswordPage=document.getElementById('changePasswordPage')
 const getBettingLimitBtn=document.getElementById('bettingLimit')
 const getBettingLimitPage=document.getElementById('bettingLimitPage')
-const openpopup = document.querySelector(".changepopup")
-const inputfieldcontainer = document.querySelector(".inputfieldcontainer")
-// const getMemberInfoBtn=document.getElementById('member-info')
-// const getMemberInfoPage=document.getElementById('memberInfoPage')
 const getChangePasswordBtn=document.getElementById('changePassword')
 const getChangePasswordPage=document.getElementById('changePasswordPage')
-// const getBettingLimitBtn=document.getElementById('bettingLimit')
-// const getBettingLimitPage=document.getElementById('bettingLimitPage')
 
-
-const Attendancebtn = document.querySelector(".Attendancebtn")
 const openpopup = document.querySelector(".changepopup")
 const inputfieldcontainer = document.querySelector(".inputfieldcontainer")
+const Attendancebtn = document.querySelector(".Attendancebtn")
 const custompopupcontainer = document.querySelector(".custompopupcontainer")
 const closepopup = document.querySelector(".closepopup")
 const submitReportBtn  = document.querySelector(".submitReportBtn")
 const changepopup1 = document.querySelector(".changepopup1")
+const attandececontainer = document.querySelector(".attandececontainer")
+const closeicone = document.querySelector(".closeicone")
+const sliderMenu1  = document.querySelector(".sliderMenu ")
+// const NoticeWrapper2 = document.querySelector(".noticeBodyNew")
 
 
-custompopupcontainer.style.display = "none";
+
  openpopup.addEventListener("click",function(){
-     if(custompopupcontainer.style.display == "none"){
+     inputfieldcontainer.style.display = "none";
         custompopupcontainer.style.display = "block";
-        inputfieldcontainer.style.display = "none";
-    }  
+   
 
 
   })
@@ -88,16 +84,28 @@ custompopupcontainer.style.display = "none";
   })
 
   
-  custompopupcontainer.style.display = "none";
   changepopup1.addEventListener("click",function(){
-    if(custompopupcontainer.style.display == "none"){
         custompopupcontainer.style.display = "block";
-        inputfieldcontainer.style.display = "none";
-    } 
+        inputfieldcontainer.style.display = "none";         
   })
 
 
     //   Attendancebtn popup
+    attandececontainer.style.display = "none";
+    Attendancebtn.addEventListener("click",function(){
+          if(attandececontainer.style.display == "none"){
+            attandececontainer.style.display = "block";
+            sliderBackDrop.style.display = 'none'
+            sliderMenu.classList.remove('sliderMenuActive')
+          }
+          else{
+            sliderMenu1.style.display = "block";
+          }
+    })
+
+    closeicone.addEventListener("click",function(){
+        attandececontainer.style.display = "none";
+    })
 
     
 
@@ -1139,7 +1147,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
     MatchHistory.addEventListener('click', () => {
         historyDrop.style.display = 'flex'
-
         let historyCancelBtn = document.querySelector('.historyCancel')
         historyCancelBtn.addEventListener('click', function() {
             historyDrop.style.display = 'none'
