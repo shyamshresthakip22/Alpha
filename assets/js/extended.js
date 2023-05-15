@@ -1,4 +1,4 @@
-const matchHistory = document.querySelector('.matchHistory')
+ const matchHistory = document.querySelector('.matchHistory')
 const infoHistory = document.querySelector('.infoHistory')
 const historyDrop = document.querySelector('.my-backdrop3')
 const infoDrop = document.querySelector('.my-backdrop4')
@@ -9,6 +9,8 @@ const customerToggleBtn = document.querySelector('.customerBtn')
 const sliderCancel = document.querySelector('.sliderCancel')
 const myBetsBtn = document.querySelector('.myBetsBtn')
 const betsDrop = document.querySelector('.my-backdrop7')
+const BetOddsBtn=document.getElementsByClassName('betOdds')
+
 
 
 sliderCancel.addEventListener('click', () => {
