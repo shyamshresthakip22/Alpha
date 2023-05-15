@@ -50,10 +50,13 @@ const getBettingLimitBtn=document.getElementById('bettingLimit')
 const getBettingLimitPage=document.getElementById('bettingLimitPage')
 const getChangePasswordBtn=document.getElementById('changePassword')
 const getChangePasswordPage=document.getElementById('changePasswordPage')
+const memberInfo=document.querySelector('.Member-Info')
+const changePassword=document.querySelector('.Change-Password')
+const bettingLimit=document.querySelector('.Betting-Limit')
+const Attendancebtn = document.querySelector(".Attendancebtn")
 
 const openpopup = document.querySelector(".changepopup")
 const inputfieldcontainer = document.querySelector(".inputfieldcontainer")
-const Attendancebtn = document.querySelector(".Attendancebtn")
 const custompopupcontainer = document.querySelector(".custompopupcontainer")
 const closepopup = document.querySelector(".closepopup")
 const submitReportBtn  = document.querySelector(".submitReportBtn")
@@ -1074,6 +1077,30 @@ col2.addEventListener('click', (event) => {
     }
 });
 
+memberInfo.addEventListener('click', () => {
+
+    memberInfo.classList.add('historyUpHeaderActive')
+    changePassword.classList.remove('historyUpHeaderActive')
+    bettingLimit.classList.remove('historyUpHeaderActive')
+
+})
+changePassword.addEventListener('click', () => {
+    
+    changePassword.classList.add('historyUpHeaderActive')
+    memberInfo.classList.remove('historyUpHeaderActive')
+    bettingLimit.classList.remove('historyUpHeaderActive')
+
+
+   
+})
+bettingLimit.addEventListener('click', () => {
+    
+    bettingLimit.classList.add('historyUpHeaderActive')
+    memberInfo.classList.remove('historyUpHeaderActive')
+    changePassword.classList.remove('historyUpHeaderActive')
+
+   
+})
 
 document.addEventListener('DOMContentLoaded', function() {
     const buttons = document.querySelectorAll('.handiOdds');

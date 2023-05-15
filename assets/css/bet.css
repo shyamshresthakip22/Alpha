@@ -1781,7 +1781,7 @@ height: 200px; */
     padding: 10px;
     position: fixed;
     border-radius: 10px;
-    bottom: 15px;
+    bottom: 10vh;
     right: 15px;
     cursor: pointer;
     display: none;

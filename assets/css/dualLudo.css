@@ -673,8 +673,8 @@ height: 200px; */
     cursor: pointer;
 }
 
-.slipCancel,
-.slipCancel2 {
+.slipCancel
+{
     /* position: relative; */
     /* left: 0; */
     right: 0;
@@ -684,6 +684,31 @@ height: 200px; */
     display: block;
     width: 35px;
     cursor: pointer;
+}
+
+.slipCancel2 {
+    position: absolute;
+    /* left: 0; */
+    right: 0;
+    background-color: #16bdf9;
+    padding: 10px;
+    /* display: none; */
+    display: block;
+    width: 35px;
+    cursor: pointer;
+}
+@media (max-width:1400px){
+    .slipCancel2 {
+        position: absolute;
+        /* left: 0; */
+        right: 0;
+        background-color: #16bdf9;
+        padding: 10px;
+        /* display: none; */
+        display: block;
+        width: 35px;
+        cursor: pointer;
+    }
 }
 
 .depositeHistory {
@@ -895,8 +920,7 @@ height: 200px; */
     color: rgb(26, 153, 199)!important;
 }
 
-.slipBody,
-.slipBody2 {
+.slipBody {
     border-bottom: 1px solid #1e242c;
     overflow-y: auto;
     overflow-x: hidden;
@@ -906,6 +930,18 @@ height: 200px; */
     display: flex;
     flex-direction: column;
 }
+
+.slipBody2 {
+    border-bottom: 1px solid #1e242c;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 46vh;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
 
 .limitPopUp,
 .limitPopUp2 {
@@ -2146,7 +2182,7 @@ height: 200px; */
     padding: 10px;
     position: fixed;
     border-radius: 10px;
-    bottom: 15px;
+    bottom: 10vh;
     right: 70px;
     cursor: pointer;
     display: none;

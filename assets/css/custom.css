@@ -1226,7 +1226,7 @@ border-right: 1px solid #1e242c; */
     padding: 10px;
     position: fixed;
     border-radius: 10px;
-    bottom: 15px;
+    bottom: 10vh;
     right: 15px;
     cursor: pointer;
     display: none;
@@ -1534,12 +1534,17 @@ height: 200px; */
     width: 100%;
     display: flex;
     justify-content: center;
+
 }
 
 .depositeUpHeader,
 .historyUpHeader {
     display: flex;
     justify-content: space-around;
+}
+.historyUpHeaderActive{
+    color: blue;
+    font-weight: 500 !important;
 }
 
 .depositeItem,
