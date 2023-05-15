@@ -1998,6 +1998,82 @@ button, input{
     font-weight: 400; 
 }
 
+.custompopupcontainer{
+    width: 580px;
+    height: 280px;
+    background-color: #1F262F;
+    position: absolute;
+    top: 180px;
+    z-index: 11;
+}
+   .closepopup{
+        padding: 10px 20px;
+        background-color: #16BDF9;
+        color: white;
+        position: absolute;
+        top: -30px;
+        font-size: 15px;
+   }
+   .box1{
+        width: 270px;
+        height: 50px;
+        position: absolute;
+        right: 0;
+        top: 20px;
+        display: flex;
+        justify-content: space-between;
+   }
+   .innerpopup1{
+        width: 170px;
+        height: 50px;
+        display: flex;
+        padding: 10px;
+   }
+   .box2{
+        width: 300px;
+        height: 50px;
+        position: absolute;
+        bottom: 0;
+        left: 140px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+   }
+   .subjectbox{
+        width: 100px;
+        height: auto;
+        position: absolute;
+        top: 90px;
+        left: 20px;
+   }
+   .subjectbox p{
+         border-bottom: 1px solid;
+         border-bottom-color: #394552;
+   }
+
+   .matchhistorybtns{
+    width: 500px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.matchhistorybtns button{
+    background-color: #394552;
+    color: white;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 2px;
+}
+.hd3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 @media screen and (max-width : 375px) {
     .navbar-brand{
           position: absolute;
