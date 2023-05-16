@@ -65,6 +65,9 @@ const changepopup1 = document.querySelector(".changepopup1")
 const attandececontainer = document.querySelector(".attandececontainer")
 const inquerycontainer = document.querySelector(".inquerycontainer")
 const infoCancel12 = document.querySelector(".infoCancel12")
+const infoCancel121 = document.querySelector(".infoCancel121")
+
+
 
 
 const closeicone = document.querySelector(".closeicone")
@@ -116,7 +119,7 @@ const NoticeWrapper2 = document.querySelector(".noticeBodyNew")
     })
 
      //   Inquery popup
-     
+
      inquerycontainer.style.display = "none";
      Inquerybtn.addEventListener("click",function(){
            if(inquerycontainer.style.display == "none"){
@@ -129,7 +132,7 @@ const NoticeWrapper2 = document.querySelector(".noticeBodyNew")
            }
      })
  
-     infoCancel12.addEventListener("click",function(){
+     infoCancel121.addEventListener("click",function(){
         inquerycontainer.style.display = "none";
      })
 

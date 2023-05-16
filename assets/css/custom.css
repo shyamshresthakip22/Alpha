@@ -1090,7 +1090,6 @@ body {
 .inquerycontainer{
     margin-top: 60px;
  position: absolute;
- display: none;
 
 
 }
@@ -1682,7 +1681,7 @@ border-right: 1px solid #1e242c; */
 .historyCancel,
 .infoCancel,
 .infoCancel12,
-infoCancel121,
+.infoCancel121,
 .customerCancel1,
 .customerCancel2,
 .leaguePopupCancel,
