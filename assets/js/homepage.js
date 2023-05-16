@@ -54,6 +54,7 @@ const memberInfo=document.querySelector('.Member-Info')
 const changePassword=document.querySelector('.Change-Password')
 const bettingLimit=document.querySelector('.Betting-Limit')
 const Attendancebtn = document.querySelector(".Attendancebtn")
+const Inquerybtn = document.querySelector(".Inquerybtn ")
 
 const openpopup = document.querySelector(".changepopup")
 const inputfieldcontainer = document.querySelector(".inputfieldcontainer")
@@ -62,6 +63,10 @@ const closepopup = document.querySelector(".closepopup")
 const submitReportBtn  = document.querySelector(".submitReportBtn")
 const changepopup1 = document.querySelector(".changepopup1")
 const attandececontainer = document.querySelector(".attandececontainer")
+const inquerycontainer = document.querySelector(".inquerycontainer")
+const infoCancel12 = document.querySelector(".infoCancel12")
+
+
 const closeicone = document.querySelector(".closeicone")
 const sliderMenu1  = document.querySelector(".sliderMenu ")
 // const NoticeWrapper2 = document.querySelector(".noticeBodyNew")
@@ -109,6 +114,22 @@ const sliderMenu1  = document.querySelector(".sliderMenu ")
     closeicone.addEventListener("click",function(){
         attandececontainer.style.display = "none";
     })
+     //   Inquery popup
+     inquerycontainer.style.display = "none";
+     Inquerybtn.addEventListener("click",function(){
+           if(inquerycontainer.style.display == "none"){
+            inquerycontainer.style.display = "block";
+             sliderBackDrop.style.display = 'none'
+             sliderMenu.classList.remove('sliderMenuActive')
+           }
+           else{
+             sliderMenu1.style.display = "block";
+           }
+     })
+ 
+     infoCancel12.addEventListener("click",function(){
+        inquerycontainer.style.display = "none";
+     })
 
     
 

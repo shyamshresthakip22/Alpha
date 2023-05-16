@@ -179,7 +179,10 @@ body {
     display: flex;
     margin-right: 20px;
 }
-
+.Rightside{
+    display: flex;
+    
+}
 .pageController {
     display: flex;
 }
@@ -1019,6 +1022,90 @@ body {
     background-color: #16bdf9;
     ;
 }
+.inquerycontainer{
+    margin-top: 60px;
+ position: absolute;
+
+
+}
+.noticeBody{
+    background-color:black; 
+    width: 100%;
+    height:auto;
+}
+@media (max-width:768px) {
+    .noticeBody{
+        background-color:black; 
+        width: 100%;
+        height:50vh;
+    }
+}
+
+
+.inqdata{
+    margin-top: 4px;
+    background-color: #27303a;
+    height: calc(100vh - 350px);
+    overflow-y: scroll;
+    position: relative;
+}
+
+.inqtitle{
+display: flex;
+justify-content: space-between;
+
+
+}
+.titlesytle{
+    font-size: 12px;
+    font-weight: 400;
+}
+.inquery-details {
+    padding: 6px;
+}
+.time-detail{
+    display: flex;
+    justify-content: space-between;
+}
+.time-detail{
+    padding: 3px 0px;
+    border-bottom: 1px solid hsla(0,0%,100%,.03);
+}
+.selectinqry{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+.dlte {
+    font-size: 11px;
+    font-weight: 400;
+    background-color: #27303a;
+    padding: 1px 8px;
+    cursor: pointer;
+
+}
+.dlte:hover{
+    color: #16bdf9;
+}
+button#butn {
+    background-color: #27303a;
+    padding: 4px 10px;
+    font-size: 11px;
+    font-weight: 400;
+    position: relative;
+}
+.inqfoter{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+#close{
+    position: absolute;
+    background-color: rgb(39, 48, 58);
+    width: 97%;
+    height: 48vh;
+    margin-top: -320px;
+}
 
 .extraOdd {
     display: flex;
@@ -1038,7 +1125,25 @@ body {
     align-items: start;
     flex-direction: column;
 }
-
+.writetitle {
+    display: flex;
+    background-color: rgb(34, 42, 51);
+}
+input[type="text"] {
+    height: 38px;
+    background-color: rgb(34, 42, 51);
+    font-size: 12px;
+    padding-left: 6px;
+    color: white;
+}
+.upimg {
+    border-bottom: 1px solid rgb(34, 42, 51);
+    padding: 6px 10px;
+    cursor: pointer;
+}
+input.text.context {
+    background-color: rgb(39, 48, 58);
+}
 .teamRow1 {
     display: flex;
     width: 100%;
@@ -1483,8 +1588,6 @@ border-right: 1px solid #1e242c; */
 .noticeBody,
 .noticeBodyNew {
     background-color: #1F262F;
-    /* width: 500px;
-height: 200px; */
     display: flex;
     flex-direction: column;
     font-size: 14px;
@@ -1492,12 +1595,25 @@ height: 200px; */
     padding: 10px;
     width: 100%;
 }
+@media (max-width:480px) {
+    .noticeBody,
+    .noticeBodyNew {
+        background-color: #1F262F;
+        display: flex;
+        flex-direction: column;
+        font-size: 14px;
+        font-weight: 300;
+        padding: 10px;
+        width: 60%;
+    } 
+}
 
 .noticeCancel,
 .depositeCancel,
 .historyCancel,
 .infoCancel,
 .infoCancel12,
+infoCancel121,
 .customerCancel1,
 .customerCancel2,
 .leaguePopupCancel,
