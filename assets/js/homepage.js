@@ -69,7 +69,7 @@ const infoCancel12 = document.querySelector(".infoCancel12")
 
 const closeicone = document.querySelector(".closeicone")
 const sliderMenu1  = document.querySelector(".sliderMenu ")
-// const NoticeWrapper2 = document.querySelector(".noticeBodyNew")
+const NoticeWrapper2 = document.querySelector(".noticeBodyNew")
 
 
 
@@ -114,7 +114,9 @@ const sliderMenu1  = document.querySelector(".sliderMenu ")
     closeicone.addEventListener("click",function(){
         attandececontainer.style.display = "none";
     })
+
      //   Inquery popup
+     
      inquerycontainer.style.display = "none";
      Inquerybtn.addEventListener("click",function(){
            if(inquerycontainer.style.display == "none"){
@@ -990,6 +992,9 @@ col2.addEventListener('click', (event) => {
             event.target.style.backgroundColor="#16bdf9"
         }else{
             event.target.style.backgroundColor="rgb(54, 60, 68)"
+            event.target.style.border = "1px solid #16bdf9";
+
+
         }
     }
     if(event.target.classList.contains('handiOdds')){
@@ -997,6 +1002,9 @@ col2.addEventListener('click', (event) => {
             event.target.style.backgroundColor="#16bdf9"
         }else{
             event.target.style.backgroundColor="rgb(54, 60, 68)"
+            event.target.style.border = "1px solid #16bdf9";
+
+
         }
     }
     if(event.target.classList.contains('ouOdds')){
@@ -1004,6 +1012,8 @@ col2.addEventListener('click', (event) => {
             event.target.style.backgroundColor="#16bdf9"
         }else{
             event.target.style.backgroundColor="rgb(54, 60, 68)"
+            event.target.style.border = "1px solid #16bdf9";
+
         }
     }
     
@@ -1014,6 +1024,8 @@ col2.addEventListener('click', (event) => {
             event.target.style.backgroundColor="#16bdf9"
         }else{
             event.target.style.backgroundColor="rgb(54, 60, 68)"
+            event.target.style.border = "thick solid #16bdf9";
+
         }
         // setActiveButton(event.target);
         event.target.classList.toggle('betActive');

@@ -681,7 +681,7 @@ height: 200px; */
     background-color: #16bdf9;
     padding: 10px;
     /* display: none; */
-    display: block;
+    /* display: block; */
     width: 35px;
     cursor: pointer;
 }
@@ -709,6 +709,8 @@ height: 200px; */
         width: 35px;
         cursor: pointer;
     }
+    
+
 }
 
 .depositeHistory {

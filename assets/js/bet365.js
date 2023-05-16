@@ -1261,9 +1261,10 @@ document.addEventListener('DOMContentLoaded', function() {
         // remove active class from all buttons
         const buttons = document.querySelectorAll('.LmodeName')
         buttons.forEach(btn => btn.classList.remove('fontBlue'));
+        
 
         // add active class to the clicked button
-        button.querySelector('.LmodeName').classList.add('fontBlue');
+        // buttons.querySelector('.LmodeName').classList.add('fontBlue');
     }
 
     function setActiveById(button) {
