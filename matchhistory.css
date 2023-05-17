@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+ box-sizing: border-box;
+
+}
+.matchhistorybuttons button {
+    padding: 12px 30px;
+    background-color: #394552;
+    color: white;
+    border: none;
+    font-size: 12px;
+    margin-top: 20px;
+
+}
+.matchhistorybuttons button:hover{
+    background-color: #1A99C7;
+}
+.noticeBodyNew {
+    width: 90%;
+    margin: 0 auto;
+}
+.depositeHistory {
+    margin-top: 20px;
+}
+.pagination {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 200px;
+}
+p.liga {
+    font-size: 13px;
+    font-weight: 600;
+    color: #1A99C7;
+    background-color: #394552;
+    padding: 10px 20px;
+}

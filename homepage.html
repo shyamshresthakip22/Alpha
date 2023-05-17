@@ -161,7 +161,7 @@
                                     width="18" height="15">&nbsp;Bet365</a>
                         </li>
                         <li class="nav-item  mx-2">
-                            <a class="nav-link customUl matchHistory" href="#"><i
+                            <a class="nav-link customUl " href="matchHistory.html"><i
                                     class="bi bi-graph-up-arrow navLogo1"></i>Match History</a>
                         </li>
 
@@ -1538,9 +1538,9 @@
                         </div>
                     </div>
                     <div class="selectinqry">
-                        <div class="dlte">Delete Selected Inquery</div>
-                        <button id="butn" onclick="show ()">  Write</button>
-                        <div id="close">
+                        <button id="dlte" onclick="show1 ()">Delete Selected Inquery</button>
+                        <button id="butn" onclick="show ()" >  Write</button>
+                        <div id="close" style="display: none;">
                             <div class="writetitle">
                                 <div class="paramiter">
                                     <select name="oddsType" class="selectOptions2" id="mini1">
@@ -1557,9 +1557,27 @@
                             <div class="textarea">
                                 <input type="text" class="text context" placeholder="Write Context.">
                             </div>
+                           
                         </div>
-                        
-                        
+                       
+                        <div id="delete" style="display: none;" >
+                            <div class="question">
+                                <img src="./assets/images/questionMark.png" alt="#" width="70px" height="70px">
+                            </div>
+                            <p class="question-delete">Do you want to delete the selected details?</p>
+                            <div class="question-button">
+                                <button id="yes-no" onclick="show2 ()" >Yes</button>
+                                <button id="yes-no" onclick="show1 ()">No</button>
+                            </div>
+                            <div id="yes" style="display: none;">
+                            <div class="cancel">
+                                X
+                            </div>
+                            <p class="no-history">No history selected.</p>
+                            <div class="check">
+                                <button id="chk-btn" onclick="show3 ()" >Check</button></div>
+                            </div>
+                        </div>
                     </div>
                     <div class="inqfoter">
                         <div class="Left">
@@ -2137,7 +2155,46 @@ function  show (){
         return a=1;
     }
 }
+var b;
+function  show1 (){
+    if(b==1)
+    {
+        document.getElementById("delete").style.display="none"
+        return b=0;
+    }
+    else
+    {
+        document.getElementById("delete").style.display="inline"
+        return b=1;
+    }
+}
+var c;
+function  show2 (){
+    if(c==1)
+    {
+        document.getElementById("yes").style.display="none"
+        return c=0;
+    }
+    else
+    {
+        document.getElementById("yes").style.display="inline"
+        return c=1;
+    }
+}
 
+var d;
+function  show3 (){
+    if(d==1)
+    {
+        document.getElementById("yes").style.display="none"
+        return d=0;
+    }
+    else
+    {
+        document.getElementById("yes").style.display="inline"
+        return d=1;
+    }
+}
     </script>
 
 

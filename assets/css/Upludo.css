@@ -1516,7 +1516,9 @@ padding: 5px;
     width: 50%;
     font-size: 14px;
     font-weight: 300;
-    margin: 5px
+    margin: 5px;
+    
+    
 }
 
 .extraOddsBody2,
@@ -1592,6 +1594,7 @@ padding: 5px;
 .oddsFooterActive {
     height: 100%;
     transition: 0.5s all;
+ 
 }
 
 .finalOddWrapper {
@@ -1608,7 +1611,7 @@ padding: 5px;
     justify-content: space-around;
     height: 30px;
     font-weight: 800;
-    border: 2px solid #6f6f6f;
+    /* border: 2px solid #6f6f6f; */
     align-items: center;
     /* padding: 10px; */
     cursor: pointer;

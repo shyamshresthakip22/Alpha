@@ -1106,7 +1106,17 @@ body {
     }
 }
 
-
+.slectlea{
+    margin-top: 15px;
+    background-color: #27303a;
+    height: calc(100vh - 350px);
+    overflow-y: scroll;
+    
+}
+.selectLeague {
+    border-bottom: 1px solid rgb(23, 28, 34);
+    padding: 0px 10px;
+}
 .inqdata{
     margin-top: 4px;
     background-color: #27303a;
@@ -1114,7 +1124,15 @@ body {
     overflow-y: scroll;
     position: relative;
 }
-
+@media (max-width:1366px) {
+    .inqdata{
+        margin-top: 4px;
+        background-color: #27303a;
+        height: calc(100vh - 350px);
+        overflow-y: scroll;
+        position: relative;
+    }
+}
 .inqtitle{
 display: flex;
 justify-content: space-between;
@@ -1141,7 +1159,7 @@ justify-content: space-between;
     justify-content: space-between;
     margin-top: 8px;
 }
-.dlte {
+#dlte {
     font-size: 11px;
     font-weight: 400;
     background-color: #27303a;
@@ -1149,7 +1167,7 @@ justify-content: space-between;
     cursor: pointer;
 
 }
-.dlte:hover{
+#dlte:hover{
     color: #16bdf9;
 }
 button#butn {
@@ -1170,8 +1188,142 @@ button#butn {
     width: 97%;
     height: 48vh;
     margin-top: -320px;
+    
+}
+/* @media (max-width:1366px) {
+    #close{
+        position: absolute;
+        background-color: rgb(39, 48, 58);
+        width: 97%;
+        height: 33vh;
+        margin-top: -380px;
+        
+    }
+} */
+@media (max-width:480px) {
+    #close{
+        position: absolute;
+        background-color: rgb(39, 48, 58);
+        width: 58%;
+        height: 35vh;
+        margin-top: -380px;
+        
+    }
+}
+#delete{
+    position: absolute;
+    background-color: #1f262f!important;
+    width: 75%;
+    height: 33vh;
+    margin-top: -255px;
+    margin-left: 65px;
+    border-radius: 2px;
+}
+/* @media (max-width:1366px) {
+    #delete{
+        position: absolute;
+        background-color: #1f262f!important;
+        width: 75%;
+        height: 20vh;
+        margin-top: -275px;
+        margin-left: 65px;
+        border-radius: 2px;
+    }
+} */
+@media (max-width:480px) {
+    #delete{
+        position: absolute;
+        background-color: #1f262f!important;
+        width: 56%;
+        height: 20vh;
+        margin-top: -275px;
+        margin-left: 1px;
+        border-radius: 2px;
+    }
+}
+#yes{
+    position: absolute;
+    background-color: #1f262f!important;
+    width: 100%;
+    height: 34vh;
+    margin-top: -170px;
+    border-radius: 2px;    
+}
+@media (max-width:480px) {
+    #yes{
+        position: absolute;
+        background-color: #1f262f!important;
+        width: 100%;
+        height: 20vh;
+        margin-top: -170px;
+        border-radius: 2px;    
+    }
 }
 
+.question{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.question-delete{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 400;
+}
+.question-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 400;
+    gap: 10px;
+}
+button.yes-no {
+    padding: 5px 15px;
+    background-color: rgb(39, 48, 58);
+    color: white;
+    font-size: 12px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+button#yes-no {
+    padding: 5px 15px;
+    background-color: rgb(39, 48, 58);
+    color: white;
+    font-size: 12px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.cancel {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 400;
+    border: 2px solid #ff4646!important; 
+    border-radius: 50px;
+    width: 75px;
+    margin: 0 auto;
+    margin-top: 20px;
+    cursor: pointer;
+}
+p.no-history {
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 10px;
+}
+.check{
+    display: flex;
+    justify-content: center;
+}
+button#chk-btn {
+    background-color: rgb(39, 48, 58);
+    padding: 5px 15px;
+    font-size: 11px;
+    border-radius: 2px;
+}
 .extraOdd {
     display: flex;
     padding: 0 10px;
