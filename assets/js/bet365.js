@@ -1264,7 +1264,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
 
         // add active class to the clicked button
-        // buttons.querySelector('.LmodeName').classList.add('fontBlue');
+        buttons.querySelector('.LmodeName').classList.add('fontBlue');
     }
 
     function setActiveById(button) {

@@ -34,6 +34,8 @@ const slipCancel = document.querySelector('.slipCancel')
 const slipCancel1 = document.querySelector('.slipCancel1')
 const pointExchange = document.querySelector('.my-backdropPointExchange')
 const ExchangeApplication = document.querySelector('.my-backdropExchangeApplication')
+const attendBtn = document.querySelector('.my-backdropExchangeAttendBtn')
+
 const OpenRulesPopup = document.querySelector('.my-backdropRules')
 const OpenSelectLeaguePopup=document.querySelector('.my-backdropSelectLeague')
 const OpenSelectLeaguePopupBtn=document.querySelector('.modal-header')
@@ -112,7 +114,21 @@ const NoticeWrapper2 = document.querySelector(".noticeBodyNew")
           else{
             sliderMenu1.style.display = "block";
           }
+
+          let attend = document.querySelector('.attend')
+        attend.addEventListener('click', function() {
+            attendBtn.style.display = 'flex'
+            })
+
+            let closePopup = document.querySelector('.noBtn1')
+            closePopup.addEventListener('click', function() {
+                attendBtn.style.display = 'none'
+                
+
+            })
+
     })
+
 
     closeicone.addEventListener("click",function(){
         attandececontainer.style.display = "none";
@@ -900,6 +916,7 @@ cartWrapper.addEventListener('click', function() {
     })
 })
 
+
 // selectTeam.addEventListener('click', function() {
 //     cartBackdrop.style.display = 'flex'
 //     col5.style.display = 'flex'
@@ -989,10 +1006,15 @@ function setActiveOdd3(button) {
 }
 
 col2.addEventListener('click', (event) => {
+    let cartNumber = document.querySelector('.cartNumber')
     // Check if the clicked element is a button with the desired class
-    if(event.target.classList.contains('betOdds')){
-        if(event.target.style.backgroundColor==="rgb(54, 60, 68)"){
-            event.target.style.backgroundColor="#16bdf9"
+    if(event.target.classList.contains('betOdds') ){
+        if(event.target.style.backgroundColor==="rgb(54, 60, 68)")
+        {
+            event.target.style.backgroundColor="#27303a"
+            event.target.style.border = "none";
+            // console.log('Hello Umar');
+
         }else{
             event.target.style.backgroundColor="rgb(54, 60, 68)"
             event.target.style.border = "1px solid #16bdf9";
@@ -1001,8 +1023,10 @@ col2.addEventListener('click', (event) => {
         }
     }
     if(event.target.classList.contains('handiOdds')){
-        if(event.target.style.backgroundColor==="rgb(54, 60, 68)"){
-            event.target.style.backgroundColor="#16bdf9"
+        if(event.target.style.backgroundColor==="rgb(54, 60, 68)")
+        {
+            event.target.style.backgroundColor="#27303a"
+            event.target.style.border = "none";
         }else{
             event.target.style.backgroundColor="rgb(54, 60, 68)"
             event.target.style.border = "1px solid #16bdf9";
@@ -1011,8 +1035,10 @@ col2.addEventListener('click', (event) => {
         }
     }
     if(event.target.classList.contains('ouOdds')){
-        if(event.target.style.backgroundColor==="rgb(54, 60, 68)"){
-            event.target.style.backgroundColor="#16bdf9"
+        if(event.target.style.backgroundColor==="rgb(54, 60, 68)")
+        {
+            event.target.style.backgroundColor="#27303a"
+            event.target.style.border = "none";
         }else{
             event.target.style.backgroundColor="rgb(54, 60, 68)"
             event.target.style.border = "1px solid #16bdf9";
@@ -1023,8 +1049,10 @@ col2.addEventListener('click', (event) => {
     if (event.target.classList.contains('odds1')) {
         // Handle the button click here
         console.log('Button clicked:', event.target);
-        if(event.target.style.backgroundColor==="rgb(54, 60, 68)"){
-            event.target.style.backgroundColor="#16bdf9"
+        if(event.target.style.backgroundColor==="rgb(54, 60, 68)")
+        {
+            event.target.style.backgroundColor="#27303a"
+            event.target.style.border = "none";
         }else{
             event.target.style.backgroundColor="rgb(54, 60, 68)"
             event.target.style.border = "thick solid #16bdf9";
@@ -1258,6 +1286,8 @@ document.addEventListener('DOMContentLoaded', function() {
             let closeNoPopup = document.querySelector('.noBtn')
             closeNoPopup.addEventListener('click', function() {
                 ExchangeApplication.style.display = 'none'
+                pointExchange.style.display = 'none'
+
             })
 
             let openRules = document.querySelector('.infoRules')

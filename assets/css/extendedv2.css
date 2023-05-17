@@ -45,11 +45,11 @@
     @keyframes slideIn {
         0% {
           opacity: 1;
-          transform: translateY(30%);
+          transform: translateY(0);
         }
         100% {
           opacity: 1;
-          transform: translateY(0);
+          transform: translateY(30%);
         }
       }
     
@@ -81,6 +81,8 @@
           transform: translateY(0);
         }
       }
+
+      
     
     .slipHeader {
         justify-content: space-between;

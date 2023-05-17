@@ -23,8 +23,9 @@ body {
     position: absolute;
     background-color: #1D232A;
     top: 200px;
-    /* display: none; */
+    display: none;
 }
+
 
 .box1 {
     width: 50%;
@@ -70,25 +71,35 @@ body {
     top: 120px;
     display: none;
 }
-@media (max-width:530px){
-    .attandececontainer{
+
+@media (max-width:530px) {
+    .attandececontainer {
         width: 100% !important;
-        
+
     }
-    .textcontainer p{
+
+    .textcontainer p {
         font-size: 7px !important;
     }
 }
-@media (max-width:768px){
-    
-    .textcontainer p{
+
+@media (max-width:768px) {
+
+    .textcontainer p {
         font-size: 7px !important;
     }
 }
-@media (max-width:1000px){
-    
-    .textcontainer p{
+
+@media (max-width:1000px) {
+
+    .textcontainer p {
         font-size: 8px !important;
+    }
+}
+
+@media (min-width:1400px) {
+    .attandececontainer {
+        margin-left: auto !important;
     }
 }
 
@@ -223,9 +234,6 @@ body {
     align-items: center;
 }
 
-.custompopupcontainer {
-    display: none;
-}
 
 .pagination {
     display: flex;
@@ -239,10 +247,12 @@ body {
     display: flex;
     margin-right: 20px;
 }
-.Rightside{
+
+.Rightside {
     display: flex;
-    
+
 }
+
 .pageController {
     display: flex;
 }
@@ -592,8 +602,7 @@ body {
     justify-content: center;
     transition: bottom .3s ease;
     bottom: -10px;
-    transition: all 200ms;
-    transition: background-color 3s ease-in;
+    
 }
 
 .selectTeam {
@@ -1087,79 +1096,70 @@ body {
     background-color: #16bdf9;
     ;
 }
-.inquerycontainer{
+
+.inquerycontainer {
     margin-top: 60px;
- position: absolute;
+    position: absolute;
 
 
 }
-.noticeBody{
-    background-color:black; 
+
+.noticeBody {
+    background-color: black;
     width: 100%;
-    height:auto;
+    height: auto;
 }
+
 @media (max-width:768px) {
-    .noticeBody{
-        background-color:black; 
+    .noticeBody {
+        background-color: black;
         width: 100%;
-        height:50vh;
+        height: 50vh;
     }
 }
 
-.slectlea{
-    margin-top: 15px;
-    background-color: #27303a;
-    height: calc(100vh - 350px);
-    overflow-y: scroll;
-    
-}
-.selectLeague {
-    border-bottom: 1px solid rgb(23, 28, 34);
-    padding: 0px 10px;
-}
-.inqdata{
+
+.inqdata {
     margin-top: 4px;
     background-color: #27303a;
     height: calc(100vh - 350px);
     overflow-y: scroll;
     position: relative;
 }
-@media (max-width:1366px) {
-    .inqdata{
-        margin-top: 4px;
-        background-color: #27303a;
-        height: calc(100vh - 350px);
-        overflow-y: scroll;
-        position: relative;
-    }
-}
-.inqtitle{
-display: flex;
-justify-content: space-between;
+
+.inqtitle {
+    display: flex;
+    justify-content: space-between;
 
 
 }
-.titlesytle{
+
+.titlesytle {
     font-size: 12px;
     font-weight: 400;
 }
+
 .inquery-details {
     padding: 6px;
 }
-.time-detail{
+
+.time-detail {
     display: flex;
     justify-content: space-between;
 }
-.time-detail{
+
+.time-detail {
     padding: 3px 0px;
-    border-bottom: 1px solid hsla(0,0%,100%,.03);
+    border-bottom: 1px solid hsla(0, 0%, 100%, .03);
 }
-.selectinqry{
+
+.selectinqry {
     display: flex;
     justify-content: space-between;
     margin-top: 8px;
 }
-#dlte {
+
+.dlte {
     font-size: 11px;
     font-weight: 400;
     background-color: #27303a;
@@ -1167,9 +1167,11 @@ justify-content: space-between;
     cursor: pointer;
 
 }
-#dlte:hover{
+
+.dlte:hover {
     color: #16bdf9;
 }
+
 button#butn {
     background-color: #27303a;
     padding: 4px 10px;
@@ -1177,12 +1179,14 @@ button#butn {
     font-weight: 400;
     position: relative;
 }
-.inqfoter{
+
+.inqfoter {
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
 }
-#close{
+
+#close {
     position: absolute;
     background-color: rgb(39, 48, 58);
     width: 97%;
@@ -1342,10 +1346,12 @@ button#chk-btn {
     align-items: start;
     flex-direction: column;
 }
+
 .writetitle {
     display: flex;
     background-color: rgb(34, 42, 51);
 }
+
 input[type="text"] {
     height: 38px;
     background-color: rgb(34, 42, 51);
@@ -1353,14 +1359,17 @@ input[type="text"] {
     padding-left: 6px;
     color: white;
 }
+
 .upimg {
     border-bottom: 1px solid rgb(34, 42, 51);
     padding: 6px 10px;
     cursor: pointer;
 }
+
 input.text.context {
     background-color: rgb(39, 48, 58);
 }
+
 .teamRow1 {
     display: flex;
     width: 100%;
@@ -1568,6 +1577,23 @@ border-right: 1px solid #1e242c; */
         display: none;
         margin: auto !important;
     }
+
+    .custompopupcontainer {
+        width: 100%;
+        height: 52vh;
+        left: 0;
+    }
+
+    .innerpopup1 {
+        width: 5vh;
+        height: auto;
+    }
+    .box2{
+        right: 0 !important;
+        left: 10vh !important;
+    }
+
+
 }
 
 @media (max-width:768px) {
@@ -1582,6 +1608,25 @@ border-right: 1px solid #1e242c; */
         display: none;
         margin: auto !important;
     }
+    .custompopupcontainer {
+        
+        justify-content: center;
+        align-items: center;
+        width: 600px;
+        /* margin-top: 15vh; */
+        height: 52vh;
+        
+    }
+
+    .innerpopup1 {
+        width: 5vh;
+        height: auto;
+    }
+    .box2{
+        right: 0 !important;
+        left: 10vh !important;
+    }
+
 }
 
 @media (max-width:1400px) {
@@ -1596,6 +1641,24 @@ border-right: 1px solid #1e242c; */
         display: none;
         margin: auto !important;
     }
+    .custompopupcontainer {
+        
+        justify-content: center;
+        align-items: center;
+        width: 600px;
+        height: 50vh;
+        
+    }
+
+    .innerpopup1 {
+        width: 5vh;
+        height: auto;
+    }
+    .box2{
+        right: 0 !important;
+        left: 10vh !important;
+    }
+
 }
 
 .cartNumber {
@@ -1785,6 +1848,7 @@ border-right: 1px solid #1e242c; */
 .my-backdrop7,
 .my-backdropPointExchange,
 .my-backdropExchangeApplication,
+.my-backdropExchangeAttendBtn,
 .my-backdropRules,
 .my-backdropSelectLeague,
 .my-backdropMyPage {
@@ -1801,6 +1865,7 @@ border-right: 1px solid #1e242c; */
     display: none;
 }
 
+
 .inputLeague {
     text-indent: 5px;
 }
@@ -1815,7 +1880,9 @@ border-right: 1px solid #1e242c; */
     padding: 10px;
     width: 100%;
 }
+
 @media (max-width:480px) {
+
     .noticeBody,
     .noticeBodyNew {
         background-color: #1F262F;
@@ -1824,8 +1891,8 @@ border-right: 1px solid #1e242c; */
         font-size: 14px;
         font-weight: 300;
         padding: 10px;
-        width: 60%;
-    } 
+        width: 100%;
+    }
 }
 
 .noticeCancel,
@@ -2005,6 +2072,7 @@ border-right: 1px solid #1e242c; */
 
 .yesBtn,
 .noBtn,
+.noBtn1,
 .RulesBtn {
     font-size: 13px;
     font-weight: 500;
@@ -2520,14 +2588,6 @@ input {
     font-weight: 400;
 }
 
-.custompopupcontainer {
-    width: 580px;
-    height: 280px;
-    background-color: #1F262F;
-    position: absolute;
-    top: 180px;
-    z-index: 11;
-}
 
 .closepopup {
     padding: 10px 20px;
@@ -2553,6 +2613,7 @@ input {
     height: 50px;
     display: flex;
     padding: 10px;
+   
 }
 
 .box2 {
@@ -2670,15 +2731,6 @@ input {
     display: none;
 }
 
-.custompopupcontainer {
-    width: 580px;
-    height: 280px;
-    background-color: #1F262F;
-    /* background-color: yellow; */
-    position: absolute;
-    top: 200px;
-    z-index: 11;
-}
 
 .closepopup {
     padding: 10px 13px;
@@ -2700,13 +2752,6 @@ input {
     justify-content: space-between;
 }
 
-.innerpopup1 {
-    width: 170px;
-    height: 50px;
-    /* border: 1px solid red; */
-    display: flex;
-    padding: 10px;
-}
 
 .box2 {
     width: 300px;

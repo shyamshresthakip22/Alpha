@@ -712,6 +712,13 @@ height: 200px; */
     
 
 }
+@media (min-width:1400px){
+    .slipCancel2 {
+        display: none;
+    }
+    
+
+}
 
 .depositeHistory {
     margin-top: 10px;
