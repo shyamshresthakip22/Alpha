@@ -17,6 +17,7 @@ body {
     top: 120px;
     display: none;
 }
+
 .scrollbarconatiner{
     width: 98%;
     height: 200px;
@@ -345,7 +346,9 @@ body {
     flex-direction: column;
     margin: 10px;
 }
-
+.inquerycontainer{
+    display: none;
+}
 .title {
     color: rgb(97, 102, 108);
     /* width: 45%;

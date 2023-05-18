@@ -26,6 +26,9 @@ const slipCancel = document.querySelector('.slipCancel')
 const openpopup = document.querySelector(".changepopupsportslive")
 const inputfieldcontainer = document.querySelector(".inputfieldcontainer")
 const Attendancebtn = document.querySelector(".Attendancebtn")
+const OpenInquerybtn = document.querySelector(".Inquerybtn1")
+
+const OpenInqueryContainer = document.querySelector(".inquerycontainer")
 const custompopupcontainer = document.querySelector(".custompopupcontainer")
 const closepopup = document.querySelector(".closepopup")
 const submitReportBtn  = document.querySelector(".submitReportBtn")
@@ -78,8 +81,25 @@ custompopupcontainer.style.display = "none";
     closeicone.addEventListener("click",function(){
         attandececontainer.style.display = "none";
     })
+    
+    OpenInquerybtn.addEventListener('çlick', function(){
+        OpenInqueryContainer.style.display="block"
+    })
+    // inquerycontainer.style.display = "none";
+    // Inquerybtn.addEventListener("click",function(){
+    //       if(inquerycontainer.style.display == "none"){
+    //        inquerycontainer.style.display = "block";
+    //         sliderBackDrop.style.display = 'none'
+    //         sliderMenu.classList.remove('sliderMenuActive')
+    //       }
+    //       else{
+    //         sliderMenu1.style.display = "block";
+    //       }
+    // })
 
-
+    // infoCancel121.addEventListener("click",function(){
+    //    inquerycontainer.style.display = "none";
+    // })
 
 
 

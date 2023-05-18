@@ -57,6 +57,9 @@ const changePassword=document.querySelector('.Change-Password')
 const bettingLimit=document.querySelector('.Betting-Limit')
 const Attendancebtn = document.querySelector(".Attendancebtn")
 const Inquerybtn = document.querySelector(".Inquerybtn ")
+const pointbtn = document.querySelector(".pointbtn ")
+const custrbtn = document.querySelector(".custrbtn ")
+
 
 const openpopup = document.querySelector(".changepopup")
 const inputfieldcontainer = document.querySelector(".inputfieldcontainer")
@@ -65,9 +68,12 @@ const closepopup = document.querySelector(".closepopup")
 const submitReportBtn  = document.querySelector(".submitReportBtn")
 const changepopup1 = document.querySelector(".changepopup1")
 const attandececontainer = document.querySelector(".attandececontainer")
+const pointexchcontainer = document.querySelector(".pointexchcontainer")
+const customercontainer = document.querySelector(".customercontainer")
 const inquerycontainer = document.querySelector(".inquerycontainer")
 const infoCancel12 = document.querySelector(".infoCancel12")
 const infoCancel121 = document.querySelector(".infoCancel121")
+const infoCancel1211 = document.querySelector(".infoCancel1211")
 
 
 
@@ -151,8 +157,67 @@ const NoticeWrapper2 = document.querySelector(".noticeBodyNew")
      infoCancel121.addEventListener("click",function(){
         inquerycontainer.style.display = "none";
      })
+        //  point popup
+        pointexchcontainer.style.display = "none";
+        pointbtn.addEventListener("click",function(){
+              if(pointexchcontainer.style.display == "none"){
+                pointexchcontainer.style.display = "block";
+                sliderBackDrop.style.display = 'none'
+                sliderMenu.classList.remove('sliderMenuActive')
+              }
+              else{
+                sliderMenu1.style.display = "block";
+              }
+        })
+        infoCancel1211.addEventListener("click",function(){
+            pointexchcontainer.style.display = "none";
+        })
+            //   customer ceneter popup
+            customercontainer.style.display = "none";
+            custrbtn.addEventListener("click",function(){
+                  if(customercontainer.style.display == "none"){
+                    customercontainer.style.display = "block";
+                    sliderBackDrop.style.display = 'none'
+                    sliderMenu.classList.remove('sliderMenuActive')
+                  }
+                  else{
+                    sliderMenu1.style.display = "block";
+                  }
+            })
+            closeicone.addEventListener("click",function(){
+                customercontainer.style.display = "none";
+            })
+            //    My Page popup 
+            customercontainer.style.display = "none";
+            custrbtn.addEventListener("click",function(){
+                  if(customercontainer.style.display == "none"){
+                    customercontainer.style.display = "block";
+                    sliderBackDrop.style.display = 'none'
+                    sliderMenu.classList.remove('sliderMenuActive')
+                  }
+                  else{
+                    sliderMenu1.style.display = "block";
+                  }
+            })
+            closeicone.addEventListener("click",function(){
+                customercontainer.style.display = "none";
+            })
 
-    
+
+
+
+      // Select League
+      OpenSelectLeaguePopupBtn.addEventListener('click', () => {
+        sliderBackDrop.style.display = 'none'
+        sliderMenu.classList.remove('sliderMenuActive')
+        OpenSelectLeaguePopup.style.display = 'flex'
+        changeCancel = document.querySelector('.leaguePopupCancel')
+        changeCancel.addEventListener('click', () => {
+            OpenSelectLeaguePopup.style.display = 'none'
+        })
+       
+    })
+
 
 
 
@@ -1255,18 +1320,7 @@ document.addEventListener('DOMContentLoaded', function() {
             infoDrop.style.display = 'none'
         })
     })
-    // Select League
-    OpenSelectLeaguePopupBtn.addEventListener('click', () => {
-        sliderBackDrop.style.display = 'none'
-        sliderMenu.classList.remove('sliderMenuActive')
-        OpenSelectLeaguePopup.style.display = 'flex'
-        changeCancel = document.querySelector('.leaguePopupCancel')
-        changeCancel.addEventListener('click', () => {
-            OpenSelectLeaguePopup.style.display = 'none'
-        })
-       
-    })
-
+  
     //Point Exchange Popup
 
     pointExchangeToggleBtn.addEventListener('click', () => {

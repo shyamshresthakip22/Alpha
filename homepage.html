@@ -81,10 +81,10 @@
                             <div class="impBtns myBetsBtn ">
                                 <a href="myBets.html" style="color: white; text-decoration: none;">My Bets</a>
                             </div>
-                            <div class="impBtns customerBtn">
+                            <div class="impBtns customerBtn custrbtn">
                                 Customer Center
                             </div>
-                            <div class="impBtns pointExchange">
+                            <div class="impBtns pointExchange pointbtn">
                                 Point Exchange
                             </div>
                             <div class="impBtns pointExchange Attendancebtn">
@@ -464,12 +464,11 @@
 
             </div>
         </div>
-        <div class="my-backdrop5 historyDrop">
+        <div class="customercontainer">
             <div class="NoticeWrapper2">
                 <div class="noticeBodyNew">
-                    <div class="customerCancel1">
+                    <div class="closeicone">
                         <i class="bi bi-x-lg "></i>
-
                     </div>
                     <div class="noticeHeader">
                         <div class="historyUpHeader fontBlue">
@@ -671,10 +670,10 @@
 
 
 
-    <div class="my-backdropPointExchange infoDrop">
+    <div class="pointexchcontainer">
         <div class="NoticeWrapper2">
             <div class="noticeBodyNew">
-                <div class="infoCancel12">
+                <div class="infoCancel1211">
                     <i class="bi bi-x-lg "></i>
                 </div>
                 <div class="noticeHeader">
@@ -1580,7 +1579,7 @@
                             </div>
                         </div>
                         <div class="selectinqry">
-                            <div class="dlte">Delete Selected Inquery</div>
+                            <button id="dlte" onclick="show5 ()"> Delete Selected Inquery</button>
                             <button id="butn" onclick="show ()"> Write</button>
                             <div id="close">
                                 <div class="writetitle">
@@ -1739,7 +1738,8 @@
             <div class="sortWrapper">
                 <div class="sortButtons d-flex justify-content-between">
                     <div class="d-flex">
-                        <div class="btn1 modal-header"><i class="bi bi-bookmark "></i>Select league</div>
+                        <div class="btn1 modal-header" ><i class="bi bi-bookmark "></i>Select league</div>
+                       
                         <div class="btn2 active"><i class="bi bi-sort-down"></i>Sort time</div>
                         <div class="btn3"><i class="bi bi-sort-up"></i>Sort league</div>
                     </div>
@@ -2197,7 +2197,18 @@
                 return a = 1;
             }
         }
-
+      
+        var a;
+        function show2 () {
+            if (a == 1) {
+                document.getElementById("yes").style.display = "none"
+                return a = 0;
+            }
+            else {
+                document.getElementById("yes").style.display = "inline"
+                return a = 1;
+            }
+        }
 var d;
 function  show3 (){
     if(d==1)
@@ -2211,6 +2222,46 @@ function  show3 (){
         return d=1;
     }
 }
+var d;
+function  show5 (){
+    if(d==1)
+    {
+        document.getElementById("delete").style.display="none"
+        return d=0;
+    }
+    else
+    {
+        document.getElementById("delete").style.display="inline"
+        return d=1;
+    }
+}
+var d;
+function  show1 (){
+    if(d==1)
+    {
+        document.getElementById("delete").style.display="none"
+        return d=0;
+    }
+    else
+    {
+        document.getElementById("delete").style.display="none"
+        return d=1;
+    }
+}
+var d;
+function  showlea (){
+    if(d==1)
+    {
+        document.getElementById("close").style.display="inline"
+        return d=0;
+    }
+    else
+    {
+        document.getElementById("close").style.display="none"
+        return d=1;
+    }
+}
+
     </script>
 
 
