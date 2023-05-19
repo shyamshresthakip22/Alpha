@@ -66,7 +66,7 @@
                             </div>
 
                             <div class="menuItem">
-                                <div class="dispIcon specDisp">Point</div>
+                                <div class="dispIcon specDisp pointbtn">Point</div>
                                 <div class="dispIcon">0</div>
                             </div>
                         </div>
@@ -84,7 +84,7 @@
                             <div class="impBtns customerBtn custrbtn">
                                 Customer Center
                             </div>
-                            <div class="impBtns pointExchange pointbtn">
+                            <div class="impBtns pointExchange pointexbtn">
                                 Point Exchange
                             </div>
                             <div class="impBtns pointExchange Attendancebtn">
@@ -153,6 +153,10 @@
                                     class="bi bi-ladder navLogo1"></i>Snake and Ladder</a>
                         </li>
                         <li class="nav-item  mx-2">
+                            <a class="nav-link customUl" href="miniGames.html">
+                                <i class="bi bi-joystick navLogo1"></i>Mini Game</a>
+                        </li>
+                        <li class="nav-item  mx-2">
                             <a class="nav-link customUl" href="dualLudo.html"><i
                                     class="bi bi-dice-6-fill navLogo1"></i><i class="bi bi-ladder navLogo1"></i>Dual</a>
                         </li>
@@ -211,11 +215,9 @@
                             <div class="noticeBtn">Delete selected messages</div>
                         </div>
                     </div>
-
-
                 </div>
-
             </div>
+         
         </div>
         <div class="my-backdrop2 depositeDrop">
             <div class="NoticeWrapper2">
@@ -465,7 +467,7 @@
             </div>
         </div>
         <div class="customercontainer">
-            <div class="NoticeWrapper2">
+            <div class="custom">
                 <div class="noticeBodyNew">
                     <div class="closeicone">
                         <i class="bi bi-x-lg "></i>
@@ -484,6 +486,7 @@
                             <div class="headerItem">
                                 <div class="hd1">Status</div>
                                 <div class="hd2">Subject</div>
+                                <button>Subject</button>
                                 <div class="hd3">Writer</div>
                                 <div class="hd3">Date</div>
 
@@ -521,22 +524,20 @@
                                         style="background-color: #394552; border: none; padding: 10px 20px; display: flex; justify-content: center; align-items: center; font-size: 10px; margin-left: -25px;">Writer</button>
                                     <p style="margin-top: 10px; margin-left: 10px;">Netest1</p>
                                 </div>
-                                <div class="innerpopup1">
+                                <div class="innerpopup1" >
                                     <button
                                         style="background-color: #394552; border: none; padding: 10px 20px; display: flex; justify-content: center; align-items: center; font-size: 10px; margin-left: -25px;">Date</button>
-                                    <p style="margin-top: 10px; margin-left: 10px;">2023-05-05</p>
+                                    <p class="date23" style="margin-top: 10px; margin-left: 10px;">2023-05-05</p>
                                 </div>
                             </div>
                             <div class="subjectbox">
-                                <p style="font-size: 20px;">Subject1</p>
-                                <p>Subject2</p>
+                                <p class="subj1">Subject1</p>
+                                <p class="subj1">Subject2</p>
 
                             </div>
                             <div class="box2">
-                                <button
-                                    style="padding: 10px 40px; background-color: #1A99C7; border: none; font-size: 15px;">List</button>
-                                <button
-                                    style="padding: 10px 40px; border: none; background-color: #394552; font-size: 15px;">Delete</button>
+                                <button class="listbtn">List</button>
+                                <button class="delbtn">Delete</button>
                             </div>
                         </div>
 
@@ -671,7 +672,7 @@
 
 
     <div class="pointexchcontainer">
-        <div class="NoticeWrapper2">
+        <div class="pointTrans">
             <div class="noticeBodyNew">
                 <div class="infoCancel1211">
                     <i class="bi bi-x-lg "></i>
@@ -695,11 +696,11 @@
                     </div>
                     <div class="pagination">
                         <div class="infoRules pageLeft pt-4">
-                            <i class="fa fa-question-circle" aria-hidden="true"></i>
+                            <i class="fa fa-question-circle holdingsbtn" aria-hidden="true" style="cursor:pointer;"></i>
                         </div>
                         <div class="pageRight">
                             <div class="ExchangeApplicationBtn">
-                                <div class="noticeBtn">Application For Exchange</div>
+                                <div class="noticeBtn ">Application For Exchange</div>
                             </div>
                         </div>
                     </div>
@@ -757,26 +758,26 @@
     </div>
     <!-- ************* -->
 
-    <div class="my-backdropRules historyDrop">
+    <div class="holdings">
         <div class="NoticeWrapper2">
-            <div class="noticeBodyNew">
+            <div class="noticeBodyNew" style=" width: 60%;margin-left: -120px;">
                 <div class="depositeItem depositeBill pt-4">
                     <div>
-                        <p style="color: yellow; font-size: 12px;">
+                        <p style="color: rgb(239, 198, 49);font-weight: 400; font-size: 11px; text-align: center;">
                             Points received by members can be converted into holdings.
                         </p>
-                        <p style="color: yellow;font-size: 12px;padding-top: -5px;">
+                        <p style="color: rgb(239, 198, 49);font-weight: 400;font-size: 11px;padding-top: -5px; text-align: center;">
                             The minimum amount for one-time conversion is 5,000 points, and it can be converted in
                             increments of 1 won.
                         </p>
-                        <p style="color: yellow;font-size: 12px;padding-top: -5px;">
+                        <p style="color: rgb(239, 198, 49);font-weight: 400;font-size: 11px;padding-top: -5px; text-align: center;">
                             After entering the desired amount in the application point column , click Apply for
                             Conversion .
                         </p>
                     </div>
                 </div>
                 <div class="d-flex justify-content-center">
-                    <div class="noticeBtn RulesBtn text-center">Close</div>
+                    <div class="noticeBtn RulesBtn text-center holdingclose ">Close</div>
                 </div>
             </div>
         </div>
@@ -1405,6 +1406,7 @@
     <div class="column2">
         <div class="chooseSports chooseSports1">
             <div class="attandececontainer">
+
                 <div class="headingbox">
                     <h6>Attandece Check</h6>
                 </div>
@@ -1420,7 +1422,10 @@
                     <!-- <p class="paraline2"></p> -->
 
                 </div>
-                <div class="closeicone">X</div>
+                <!-- <div class="closeicone">XY</div> -->
+                <div class="closeicone">
+                    <i class="bi bi-x-lg "></i>
+                </div>
                 <div class="yearmonth">
                     <p>
                         <script>document.write(new Date().getFullYear());</script> Year

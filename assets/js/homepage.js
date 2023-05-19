@@ -18,14 +18,16 @@ const cartBackdrop = document.querySelector('.cartBackdrop');
 const noticeCancelBtn = document.querySelector('.noticeCancel');
 const slideDeposite = document.querySelector('.slideDeposite')
 const depositeDrop = document.querySelector('.depositeDrop')
-const MatchHistory = document.querySelector('.matchHistory')
 const infoHistory = document.querySelector('.infoHistory')
 const historyDrop = document.querySelector('.my-backdrop3')
+const holdings = document.querySelector('.holdings')
+
 const infoDrop = document.querySelector('.my-backdrop4')
 const customerDrop1 = document.querySelector('.my-backdrop5')
 const customerDrop2 = document.querySelector('.my-backdrop6')
 const betsDrop = document.querySelector('.my-backdrop7')
 const changeInfoBtn = document.querySelector('.changeBtn')
+const holdingsbtn = document.querySelector('.holdingsbtn')
 
 const myBetsBtn = document.querySelector('.myBetsBtn')
 const customerToggleBtn = document.querySelector('.customerBtn')
@@ -58,6 +60,7 @@ const bettingLimit=document.querySelector('.Betting-Limit')
 const Attendancebtn = document.querySelector(".Attendancebtn")
 const Inquerybtn = document.querySelector(".Inquerybtn ")
 const pointbtn = document.querySelector(".pointbtn ")
+const pointexbtn = document.querySelector(".pointexbtn ")
 const custrbtn = document.querySelector(".custrbtn ")
 
 
@@ -74,9 +77,7 @@ const inquerycontainer = document.querySelector(".inquerycontainer")
 const infoCancel12 = document.querySelector(".infoCancel12")
 const infoCancel121 = document.querySelector(".infoCancel121")
 const infoCancel1211 = document.querySelector(".infoCancel1211")
-
-
-
+const holdingclose = document.querySelector(".holdingclose")
 
 const closeicone = document.querySelector(".closeicone")
 const sliderMenu1  = document.querySelector(".sliderMenu ")
@@ -135,7 +136,6 @@ const NoticeWrapper2 = document.querySelector(".noticeBodyNew")
 
     })
 
-
     closeicone.addEventListener("click",function(){
         attandececontainer.style.display = "none";
     })
@@ -172,6 +172,38 @@ const NoticeWrapper2 = document.querySelector(".noticeBodyNew")
         infoCancel1211.addEventListener("click",function(){
             pointexchcontainer.style.display = "none";
         })
+        // point Exchange popup
+        pointexchcontainer.style.display = "none";
+        pointexbtn.addEventListener("click",function(){
+              if(pointexchcontainer.style.display == "none"){
+                pointexchcontainer.style.display = "block";
+                sliderBackDrop.style.display = 'none'
+                sliderMenu.classList.remove('sliderMenuActive')
+              }
+              else{
+                sliderMenu1.style.display = "block";
+              }
+        })
+        infoCancel1211.addEventListener("click",function(){
+            pointexchcontainer.style.display = "none";
+        })
+
+        //   Holding 
+        holdings.style.display = "none";
+        holdingsbtn.addEventListener("click",function(){
+              if(holdings.style.display == "none"){
+                holdings.style.display = "block";
+                sliderBackDrop.style.display = 'none'
+                sliderMenu.classList.remove('sliderMenuActive')
+              }
+              else{
+                sliderMenu1.style.display = "block";
+              }
+        })
+        holdingclose.addEventListener("click",function(){
+            holdings.style.display = "none";
+        })
+
             //   customer ceneter popup
             customercontainer.style.display = "none";
             custrbtn.addEventListener("click",function(){
@@ -1301,26 +1333,6 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     })
 
-    MatchHistory.addEventListener('click', () => {
-        historyDrop.style.display = 'flex'
-        let historyCancelBtn = document.querySelector('.historyCancel')
-        historyCancelBtn.addEventListener('click', function() {
-            historyDrop.style.display = 'none'
-
-        })
-
-    })
-    let pageNo = 1;
-    changeInfoBtn.addEventListener('click', () => {
-        infoDrop.style.display = 'flex'
-        sliderBackDrop.style.display = 'none'
-        sliderMenu.classList.remove('sliderMenuActive')
-        changeCancel = document.querySelector('.infoCancel')
-        changeCancel.addEventListener('click', () => {
-            infoDrop.style.display = 'none'
-        })
-    })
-  
     //Point Exchange Popup
 
     pointExchangeToggleBtn.addEventListener('click', () => {
