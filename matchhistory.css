@@ -14,7 +14,7 @@
 
 }
 .matchhistorybuttons button:hover{
-    background-color: #1A99C7;
+    background-color: #F8FF13;
 }
 .noticeBodyNew {
     width: 90%;
@@ -32,7 +32,7 @@
 p.liga {
     font-size: 13px;
     font-weight: 600;
-    color: #1A99C7;
+    color: #F8FF13;
     background-color: #394552;
     padding: 10px 20px;
 }

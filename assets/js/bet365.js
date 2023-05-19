@@ -1935,7 +1935,7 @@ document.addEventListener('DOMContentLoaded', function() {
             // event.target.classList.toggle('betActive');
             // Toggle the 'button-active' class on the clicked button element
             if(event.target.style.backgroundColor==="rgb(54, 60, 68)"){
-                event.target.style.backgroundColor="#16bdf9"
+                event.target.style.backgroundColor="#F8FF13"
             }else{
                 event.target.style.backgroundColor="rgb(54, 60, 68)"
             }

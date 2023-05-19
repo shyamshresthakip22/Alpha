@@ -38,7 +38,7 @@
         border-right: none;
    }
    .attend{
-        background-color: #129ed1;
+        background-color:#F8FF13;
         color: #97999B;
          
    }
@@ -55,7 +55,7 @@
          margin-top: 10px;
    }
    .closeicone{
-        background-color: #129ed1;
+        background-color:#F8FF13;
         position: absolute;
         top: -20px;
         right: 20px;
@@ -69,14 +69,14 @@
          display: flex;
          justify-content: center;
          align-items: center;
-         color: #129ed1;
+         color:#F8FF13;
          margin-top: 20px;
    }
    .textcontainer{
         width: 98%;
         /* height: 200px; */
         height: auto;
-        border: 1px solid #129ed1;
+        border: 1px solid#F8FF13;
         border-left: none;
         border-right: none;
         border-bottom: none;
@@ -155,16 +155,16 @@
     }
     
     .customUl1 {
-        color: rgb(26, 153, 199)!important
+        color: #F8FF13!important
     }
     
     .customUl1:hover {
         color: rgb(218, 218, 218)!important;
-        box-shadow: inset 0 0 0 1px #1a99c7;
+        box-shadow: inset 0 0 0 1px #F8FF13;
     }
     
     .customUl:hover {
-        color: rgb(26, 153, 199)!important
+        color: #F8FF13!important
     }
     
     .customDrop {
@@ -178,7 +178,7 @@
     }
     
     .customDropper:hover {
-        color: #16bdf9 !important;
+        color: #F8FF13 !important;
         background-color: rgb(39, 48, 58)!important;
     }
     
@@ -199,7 +199,7 @@
         max-width: 40%;
         overflow-y: auto;
         overflow-x: hidden;
-        /* background-color: #16bdf9; */
+        /* background-color: #F8FF13; */
     }
     
     .column3 {
@@ -264,7 +264,7 @@
     }
     
     .active {
-        color: #16bdf9!important;
+        color: #F8FF13!important;
     }
     
     .sportsMenu {
@@ -288,7 +288,7 @@
 } */
     
     .spanWord {
-        color: rgb(26, 153, 199)!important;
+        color: #F8FF13!important;
     }
     
     .rightSegment {
@@ -314,7 +314,7 @@
     }
     
     .bi-person-circle {
-        color: rgb(26, 153, 199)!important;
+        color: #F8FF13!important;
         font-size: 25px;
         display: none;
     }
@@ -324,11 +324,11 @@
     }
     
     .submenu:hover {
-        color: rgb(26, 153, 199)!important;
+        color: #F8FF13!important;
     }
     
     .signinBtn {
-        background-color: rgb(26, 153, 199)!important;
+        background-color: #F8FF13!important;
         cursor: pointer;
         padding: 0 20px;
         border-radius: 2px;
@@ -390,7 +390,7 @@
         display: flex;
         padding: 10px;
         justify-content: center;
-        border-bottom: 1px solid #16bdf9;
+        border-bottom: 1px solid #F8FF13;
     }
     
     .noticeDownHeader {
@@ -409,7 +409,7 @@
     }
     
     .depositeActive {
-        border-bottom: 1px solid #16bdf9;
+        border-bottom: 1px solid #F8FF13;
     }
     
     .noticeDownHeader {
@@ -491,15 +491,15 @@
     }
     
     .depositeBtn0:hover {
-        color: #16bdf9;
+        color: #F8FF13;
     }
     
     .depositeBtn1:hover {
-        color: #16bdf9;
+        color: #F8FF13;
     }
     
     .bi-list {
-        color: rgb(26, 153, 199)!important;
+        color: #F8FF13!important;
         font-size: 25px;
         display: none;
     }
@@ -529,8 +529,8 @@
     
     .noticeItem:hover {
         background-color: #222a33;
-        box-shadow: inset 2px 0 #1a99c7;
-        /* box-shadow: inset 0 0 0 2px #1a99c7; */
+        box-shadow: inset 2px 0 #F8FF13;
+        /* box-shadow: inset 0 0 0 2px #F8FF13; */
     }
     
     .upperItem,
@@ -570,11 +570,11 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        border-bottom: 1px solid rgb(26, 153, 199)!important;
+        border-bottom: 1px solid #F8FF13!important;
     }
     
     .HeaderTop {
-        color: rgb(26, 153, 199)!important;
+        color: #F8FF13!important;
         font-size: 12px;
     }
     
@@ -592,7 +592,7 @@
     }
     
     .op1:hover {
-        color: rgb(26, 153, 199)!important;
+        color: #F8FF13!important;
     }
     
     .slipBody {
@@ -640,7 +640,7 @@
     }
     
     .emptyAll:hover {
-        color: rgb(26, 153, 199)!important;
+        color: #F8FF13!important;
     }
     
     .IncDec {
@@ -686,7 +686,7 @@
     }
     
     .odds1:hover {
-        box-shadow: inset 0 0 0 2px #1a99c7;
+        box-shadow: inset 0 0 0 2px #F8FF13;
     }
     
     .highlightOdd {
@@ -710,7 +710,7 @@
     .OddsNumberAmnt {
         font-size: 12px;
         font-weight: 300;
-        color: rgb(26, 153, 199)!important;
+        color: #F8FF13!important;
     }
     
     .BetBtn {
@@ -721,7 +721,7 @@
     }
     
     .btnNew {
-        background-color: rgb(26, 153, 199)!important;
+        background-color: #F8FF13!important;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -877,7 +877,7 @@
     }
     
     .active {
-        color: #1a99c7;
+        color: #F8FF13;
     }
     
     .btn1 {
@@ -887,7 +887,7 @@
         /* padding: 0 10px; */
         width: 120px;
         padding: 5px;
-        background-color: #1a99c7;
+        background-color: #F8FF13;
         color: #fff;
         border-radius: 4px;
         height: 35px;
@@ -992,18 +992,18 @@
     }
     
     .betOdds:hover {
-        background-color: #16bdf9;
+        background-color: #F8FF13;
     }
     
     .handiOdds:hover,
     .ouOdds:hover {
         /* border: 1px solid blue; */
-        background-color: #16bdf9;
+        background-color: #F8FF13;
         ;
     }
     
     .extraOdd:hover {
-        background-color: #16bdf9;
+        background-color: #F8FF13;
         ;
     }
     
@@ -1042,8 +1042,8 @@
     }
     
     .betActive {
-        /* box-shadow: inset 0 0 0 2px #1a99c7;
-        /* background-color: #16bdf9; */
+        /* box-shadow: inset 0 0 0 2px #F8FF13;
+        /* background-color: #F8FF13; */
         /* color: white!important; */
     }
     
@@ -1146,6 +1146,7 @@
         justify-content: space-between;
         align-items: center;
     }
+
     
     .ExtraOddsWrapper {
         padding: 5px;
@@ -1232,7 +1233,7 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
-        /* background-color: #16bdf9; */
+        /* background-color: #F8FF13; */
         width: 100%;
         white-space: nowrap;
         font-size: 10px;
@@ -1322,7 +1323,7 @@
     }
     
     .msgBack {
-        background-color: #16bdf9;
+        background-color: #F8FF13;
         display: none;
         justify-content: center;
         padding: 10px;
@@ -1331,7 +1332,7 @@
     
     .navMsgBar {
         display: flex;
-        background-color: #129ed1;
+        background-color:#F8FF13;
         width: 60px;
         justify-content: space-between;
         height: 20px;
@@ -1401,7 +1402,7 @@
     }
     
     .impBtns:hover {
-        color: #129ed1;
+        color:#F8FF13;
     }
     
     .specDisp {
@@ -1431,7 +1432,7 @@
     }
     
     .msgBack:hover {
-        background-color: #129ed1;
+        background-color:#F8FF13;
     }
     
     .fontOrange {
@@ -1443,7 +1444,7 @@
     }
     
     .fontBlue {
-        color: #16bdf9;
+        color: #F8FF13;
     }
     /* START::Deposite and Withdraw Screen */
     
@@ -1487,7 +1488,7 @@
         position: relative;
         right: 0;
         margin-top: -35px;
-        background-color: #16bdf9;
+        background-color: #F8FF13;
         padding: 10px;
         display: block;
         width: 35px;
@@ -1497,7 +1498,7 @@
     .slipCancel {
         position: relative;
         left: 0;
-        background-color: #16bdf9;
+        background-color: #F8FF13;
         padding: 10px;
         display: none;
         width: 35px;
@@ -1544,7 +1545,7 @@
     }
     
     .menuItem:hover {
-        color: #129ed1;
+        color:#F8FF13;
     }
     
     .dispIcon {
@@ -1679,11 +1680,11 @@
     }
     
     .depositeBtn0:hover {
-        color: #16bdf9;
+        color: #F8FF13;
     }
     
     .depositeBtn1:hover {
-        color: #16bdf9;
+        color: #F8FF13;
     }
     
     .accordionOdd {
@@ -1737,7 +1738,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            background-color: rgb(26, 153, 199) !important;
+            background-color: #F8FF13 !important;
             width: 80%;
             height: 70px;
         }
@@ -1827,6 +1828,10 @@
         .slipCancel {
             display: block;
         }
+        .gameCol5 {
+            display: none !important;
+        }
+    
     }
     /* Add additional styles as needed */
     

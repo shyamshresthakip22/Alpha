@@ -80,6 +80,8 @@ const infoCancel1211 = document.querySelector(".infoCancel1211")
 const holdingclose = document.querySelector(".holdingclose")
 
 const closeicone = document.querySelector(".closeicone")
+const closeIcon = document.querySelector(".closeicone1")
+
 const sliderMenu1  = document.querySelector(".sliderMenu ")
 const NoticeWrapper2 = document.querySelector(".noticeBodyNew")
 
@@ -136,7 +138,8 @@ const NoticeWrapper2 = document.querySelector(".noticeBodyNew")
 
     })
 
-    closeicone.addEventListener("click",function(){
+
+    closeIcon.addEventListener("click",function(){
         attandececontainer.style.display = "none";
     })
 
@@ -1114,7 +1117,7 @@ col2.addEventListener('click', (event) => {
 
         }else{
             event.target.style.backgroundColor="rgb(54, 60, 68)"
-            event.target.style.border = "1px solid #16bdf9";
+            event.target.style.border = "1px solid #F8FF13";
 
 
         }
@@ -1126,7 +1129,7 @@ col2.addEventListener('click', (event) => {
             event.target.style.border = "none";
         }else{
             event.target.style.backgroundColor="rgb(54, 60, 68)"
-            event.target.style.border = "1px solid #16bdf9";
+            event.target.style.border = "1px solid #F8FF13";
 
 
         }
@@ -1138,7 +1141,7 @@ col2.addEventListener('click', (event) => {
             event.target.style.border = "none";
         }else{
             event.target.style.backgroundColor="rgb(54, 60, 68)"
-            event.target.style.border = "1px solid #16bdf9";
+            event.target.style.border = "1px solid #F8FF13";
 
         }
     }
@@ -1152,7 +1155,7 @@ col2.addEventListener('click', (event) => {
             event.target.style.border = "none";
         }else{
             event.target.style.backgroundColor="rgb(54, 60, 68)"
-            event.target.style.border = "thick solid #16bdf9";
+            event.target.style.border = "thick solid #F8FF13";
 
         }
         // setActiveButton(event.target);

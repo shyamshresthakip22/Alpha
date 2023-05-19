@@ -9,51 +9,56 @@ body {
     background-color: rgb(23, 28, 34);
 }
 
-.matchhistorybtns button{
+.matchhistorybtns button {
     padding: 7px 30px;
     background-color: #394552;
     color: white;
     border: none;
 }
 
-.custompopupcontainer{
+.custompopupcontainer {
     width: 580px;
     height: 270px;
-     position: absolute;
-     background-color: #1D232A;
-     top: 200px;
-     /* display: block; */
+    position: absolute;
+    background-color: #1D232A;
+    top: 200px;
+    /* display: block; */
 }
-.box1{
+
+.box1 {
     width: 50%;
-     display: flex;
-     justify-content: center;
-     justify-content: space-evenly;
-     align-items: center;
-     /* border: 1px solid; */
-     margin-left: 250px;
-     margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 1px solid; */
+    margin-left: 250px;
+    margin-top: 20px;
 
 }
-.nert1{
+
+.nert1 {
     margin-top: -24px;
     margin-left: 50px;
 }
-.closepopup{
-     background-color: #16BDF9;
-     padding: 10px 15px;
-     position: absolute;
-     top: -20px;
-     font-size: 18px;
+
+.closepopup {
+    background-color: #F8FF13;
+    padding: 10px 15px;
+    position: absolute;
+    top: -20px;
+    font-size: 18px;
 }
-.subjectbox{
+
+.subjectbox {
     margin: 25px;
 }
-.box2{
-     /* border: 1px solid; */
-     display: flex;
-     justify-content: center;
-     gap: 10px;
+
+.box2 {
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 }
 
 .navBarToggler {
@@ -68,7 +73,7 @@ body {
 }
 
 .customNav {
-    background-color: rgb(31, 38, 47)!important;
+    background-color: rgb(31, 38, 47) !important;
     border-width: 1px 0;
     border-style: solid;
     border-color: rgb(64, 64, 68);
@@ -80,36 +85,36 @@ body {
 }
 
 .customUl {
-    color: rgb(218, 218, 218)!important;
+    color: rgb(218, 218, 218) !important;
     font-size: 14px !important;
 }
 
 .customUl1 {
-    color: rgb(26, 153, 199)!important
+    color: #F8FF13 !important
 }
 
 .customUl1:hover {
-    color: rgb(218, 218, 218)!important;
-    border: 1px solid rgb(26, 153, 199)!important;
+    color: rgb(218, 218, 218) !important;
+    border: 1px solid #F8FF13 !important;
 }
 
 .customUl:hover {
-    color: rgb(26, 153, 199)!important
+    color: #F8FF13 !important
 }
 
 .customDrop {
-    background-color: rgb(26, 25, 28)!important;
-    border: 1px solid rgb(64, 64, 68)!important;
+    background-color: rgb(26, 25, 28) !important;
+    border: 1px solid rgb(64, 64, 68) !important;
     border-radius: 0%;
 }
 
 .customDropper {
-    color: rgb(218, 218, 218)!important;
+    color: rgb(218, 218, 218) !important;
 }
 
 .customDropper:hover {
-    color: rgb(193, 138, 110)!important;
-    background-color: rgb(26, 25, 28)!important;
+    color: rgb(193, 138, 110) !important;
+    background-color: rgb(26, 25, 28) !important;
 }
 
 .bodyWrapper {
@@ -129,7 +134,7 @@ body {
     max-width: 30%;
     overflow-y: auto;
     overflow-x: hidden;
-    /* background-color: #16bdf9; */
+    /* background-color: #F8FF13; */
 }
 
 .column3 {
@@ -194,7 +199,7 @@ justify-content: space-around; */
 }
 
 .active {
-    color: #16bdf9!important;
+    color: #F8FF13 !important;
 }
 
 .sportsMenu {
@@ -220,7 +225,7 @@ flex-direction: row-reverse;
 } */
 
 .spanWord {
-    color: rgb(26, 153, 199)!important;
+    color: #F8FF13 !important;
 }
 
 .rightSegment {
@@ -246,7 +251,7 @@ flex-direction: row-reverse;
 }
 
 .bi-person-circle {
-    color: rgb(26, 153, 199)!important;
+    color: #F8FF13 !important;
     font-size: 25px;
     display: none;
 }
@@ -256,11 +261,11 @@ flex-direction: row-reverse;
 }
 
 .submenu:hover {
-    color: rgb(26, 153, 199)!important;
+    color: #F8FF13 !important;
 }
 
 .signinBtn {
-    background-color: rgb(26, 153, 199)!important;
+    background-color: #F8FF13 !important;
     cursor: pointer;
     padding: 0 20px;
     border-radius: 2px;
@@ -383,7 +388,7 @@ height: 200px; */
     display: flex;
     padding: 10px;
     justify-content: center;
-    border-bottom: 1px solid #16bdf9;
+    border-bottom: 1px solid #F8FF13;
 }
 
 .noticeDownHeader {
@@ -537,7 +542,7 @@ height: 200px; */
     position: relative;
     right: 0;
     margin-top: -35px;
-    background-color: #16bdf9;
+    background-color: #F8FF13;
     padding: 10px;
     display: block;
     width: 35px;
@@ -551,7 +556,7 @@ height: 200px; */
 }
 
 .bi-list {
-    color: rgb(26, 153, 199)!important;
+    color: #F8FF13 !important;
     font-size: 25px;
     display: none;
 }
@@ -567,7 +572,7 @@ height: 200px; */
 
 .fontSecondary {
     color: rgb(134, 140, 148);
-    font-weight: 500!important;
+    font-weight: 500 !important;
 }
 
 .noticeItem {
@@ -590,14 +595,14 @@ height: 200px; */
 
 .noticeItem:hover {
     background-color: #222a33;
-    box-shadow: inset 2px 0 #1a99c7;
-    /* box-shadow: inset 0 0 0 2px #1a99c7; */
+    box-shadow: inset 2px 0 #F8FF13;
+    /* box-shadow: inset 0 0 0 2px #F8FF13; */
 }
 
 .boardItem:hover {
     background-color: #222a33;
-    box-shadow: inset 2px 0 #1a99c7;
-    /* box-shadow: inset 0 0 0 2px #1a99c7; */
+    box-shadow: inset 2px 0 #F8FF13;
+    /* box-shadow: inset 0 0 0 2px #F8FF13; */
 }
 
 .upperItem,
@@ -637,11 +642,11 @@ height: 200px; */
     justify-content: center;
     align-items: center;
     background-color: rgb(39, 48, 58);
-    border-bottom: 1px solid rgb(26, 153, 199)!important;
+    border-bottom: 1px solid #F8FF13 !important;
 }
 
 .HeaderTop {
-    color: rgb(26, 153, 199)!important;
+    color: #F8FF13 !important;
     font-size: 12px;
 }
 
@@ -659,7 +664,7 @@ height: 200px; */
 }
 
 .op1:hover {
-    color: rgb(26, 153, 199)!important;
+    color: #F8FF13 !important;
 }
 
 .slipBody {
@@ -707,7 +712,7 @@ height: 200px; */
 }
 
 .emptyAll:hover {
-    color: rgb(26, 153, 199)!important;
+    color: #F8FF13 !important;
 }
 
 .IncDec {
@@ -768,7 +773,7 @@ height: 200px; */
 }
 
 .odds1:hover {
-    box-shadow: inset 0 0 0 2px #1a99c7;
+    box-shadow: inset 0 0 0 2px #F8FF13;
 }
 
 .highlightOdd {
@@ -792,7 +797,7 @@ height: 200px; */
 .OddsNumberAmnt {
     font-size: 12px;
     font-weight: 300;
-    color: rgb(26, 153, 199)!important;
+    color: #F8FF13 !important;
 }
 
 .BetBtn {
@@ -803,7 +808,7 @@ height: 200px; */
 }
 
 .btnNew {
-    background-color: rgb(26, 153, 199)!important;
+    background-color: #F8FF13 !important;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -813,7 +818,7 @@ height: 200px; */
 }
 
 .btnNew:hover {
-    background-color: rgb(29, 170, 222)!important;
+    background-color: rgb(29, 170, 222) !important;
     cursor: pointer;
 }
 
@@ -958,7 +963,7 @@ align-items: center; */
 }
 
 .active {
-    color: #1a99c7;
+    color: #F8FF13;
 }
 
 .btn1 {
@@ -968,7 +973,7 @@ align-items: center; */
     /* padding: 0 10px; */
     width: 120px;
     padding: 5px;
-    background-color: #1a99c7;
+    background-color: #F8FF13;
     color: #fff;
     border-radius: 4px;
     height: 35px;
@@ -1073,17 +1078,17 @@ padding: 5px;
 }
 
 .betOdds:hover {
-    background-color: #16bdf9;
+    background-color: #F8FF13;
 }
 
 .handiOdds:hover {
     /* border: 1px solid blue; */
-    background-color: #16bdf9;
+    background-color: #F8FF13;
     ;
 }
 
 .extraOdd:hover {
-    background-color: #16bdf9;
+    background-color: #F8FF13;
     ;
 }
 
@@ -1114,15 +1119,15 @@ padding: 5px;
 }
 
 .specWidth {
-    width: 40%!important;
-    display: flex!important;
-    justify-content: space-around!important;
+    width: 40% !important;
+    display: flex !important;
+    justify-content: space-around !important;
 }
 
 .betActive {
-    box-shadow: inset 0 0 0 2px #1a99c7;
-    /* background-color: #16bdf9; */
-    color: white!important;
+    box-shadow: inset 0 0 0 2px #F8FF13;
+    /* background-color: #F8FF13; */
+    color: white !important;
 }
 
 .cartItemsWrapper {}
@@ -1267,7 +1272,7 @@ padding: 5px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* background-color: #16bdf9; */
+    /* background-color: #F8FF13; */
     width: 40%;
 }
 
@@ -1319,15 +1324,15 @@ border-right: 1px solid #1e242c; */
 }
 
 .fontBlue {
-    color: #16bdf9;
+    color: #F8FF13;
 }
 
- ::-webkit-scrollbar {
+::-webkit-scrollbar {
     width: 5px;
     border-radius: 30px;
 }
 
- ::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
     background-color: rgb(54, 60, 68);
 }
 
@@ -1335,20 +1340,23 @@ border-right: 1px solid #1e242c; */
 /* Styles for small screens (up to 576px) */
 
 @media (max-width: 576px) {
+
     /* Add additional styles as needed */
     .credUsername {
         border: none;
         width: 50%;
     }
+
     .credPassword {
         width: 50%;
     }
+
     .savedCred {
         padding: 10;
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: rgb(26, 153, 199) !important;
+        background-color: #F8FF13 !important;
         width: 80%;
         height: 70px;
     }
@@ -1372,7 +1380,7 @@ border-right: 1px solid #1e242c; */
 }
 
 .navbar-collapse {
-    flex-direction: row-reverse!important;
+    flex-direction: row-reverse !important;
 }
 
 .sliderMenu {
@@ -1417,7 +1425,7 @@ border-right: 1px solid #1e242c; */
 }
 
 .menuItem:hover {
-    color: #129ed1;
+    color:#F8FF13;
 }
 
 .impBtns {
@@ -1433,7 +1441,7 @@ border-right: 1px solid #1e242c; */
 }
 
 .impBtns:hover {
-    color: #129ed1;
+    color:#F8FF13;
 }
 
 .menuItem {
@@ -1528,7 +1536,7 @@ height: 200px; */
     position: relative;
     right: 0;
     margin-top: -35px;
-    background-color: #16bdf9;
+    background-color: #F8FF13;
     padding: 10px;
     display: block;
     width: 35px;
@@ -1538,7 +1546,7 @@ height: 200px; */
 .slipCancel {
     position: relative;
     left: 0;
-    background-color: #16bdf9;
+    background-color: #F8FF13;
     padding: 10px;
     display: none;
     width: 35px;
@@ -1585,7 +1593,7 @@ height: 200px; */
 }
 
 .menuItem:hover {
-    color: #129ed1;
+    color:#F8FF13;
 }
 
 .dispIcon {
@@ -1754,15 +1762,15 @@ height: 200px; */
 }
 
 .depositeBtn0:hover {
-    color: #16bdf9;
+    color: #F8FF13;
 }
 
 .depositeBtn1:hover {
-    color: #16bdf9;
+    color: #F8FF13;
 }
 
 .depositeActive {
-    border-bottom: 1px solid #16bdf9;
+    border-bottom: 1px solid #F8FF13;
 }
 
 .NoticeWrapper,
@@ -1814,6 +1822,7 @@ height: 200px; */
 }
 
 @media (max-width: 1500px) {
+
     /* Add additional styles as needed */
     /* .column2 {
     max-width: 76%;
@@ -1821,12 +1830,15 @@ height: 200px; */
     .leagueCol3 {
         display: none;
     }
+
     .leagueCol4 {
         display: none;
     }
+
     .gameCol3 {
         display: none;
     }
+
     .gameCol4 {
         display: none;
     }
@@ -1840,6 +1852,7 @@ height: 200px; */
 }
 
 @media (max-width: 1400px) {
+
     /* Add additional styles as needed */
     /* .column2 {
     max-width: 73%;
@@ -1848,12 +1861,15 @@ height: 200px; */
         display: none;
         flex-basis: 0px;
     }
+
     .cartWrapper {
         display: block;
     }
+
     .column4 {
         max-width: 100%;
     }
+
     .column2 {
         max-width: none;
     }
@@ -1873,21 +1889,27 @@ height: 200px; */
     .logoSegment {
         display: block;
     }
+
     .sidebar {
         left: -100%;
     }
+
     .rightSegment {
         display: none;
     }
+
     .bi-person-circle {
         display: block;
     }
+
     .bi-list {
         display: block;
     }
+
     .betSlip {
         /* right: 100% */
     }
+
     /* .column2 {
     flex-basis: 1300px;
 } */
@@ -1895,25 +1917,31 @@ height: 200px; */
         display: none;
         flex-basis: 0px;
     }
+
     .customUl {
         font-size: 10px !important;
     }
+
     .customUl1 {
         font-size: 10px !important;
     }
+
     .tab-group li a {
         font-size: 16px;
     }
+
     h3,
     h1 {
         font-size: 16px;
     }
+
     /* .column2 {
     max-width: 100%;
 } */
     /* Add additional styles as needed */
     /* Styles for medium screens (up to 768px) */
     @media (max-width: 1008px) {
+
         /* Add additional styles as needed */
         /* .leagueCol3 {
         display: flex;
@@ -1930,29 +1958,92 @@ height: 200px; */
         .column2 {
             max-width: none;
         }
+
         .column4 {
             display: 100%;
         }
     }
+
     /* Styles for large screens (up to 992px) */
     @media (max-width: 852px) {
+
         /* Add additional styles as needed */
         .playerOddsContainer {
             flex-direction: column;
         }
+
         .playerBetSlip {
             width: 100%;
         }
+
         .extraOddsContainer {
             width: 100%;
         }
+
         .selectOptions {
             display: block;
         }
+
         .sliderMenuActive {
             width: 40%;
         }
     }
+
     /* Styles for extra large screens (up to 1200px) */
     /* Styles for screens larger than 1200px */
+}
+
+.footer {
+    background-color: #27303a;
+    height: 50vh;
+    margin-top: 2vh;
+
+}
+
+.footer-content {
+    text-align: center;
+}
+
+.footer-content img {
+    max-width: 30%;
+    height: auto;
+    margin-top: 10vh;
+}
+
+.footer-content p {
+    margin-top: 5vh;
+    line-height: 2vh;
+    font-weight: 300;
+    font-size: 18px;
+    padding: 0 3vh;
+}
+
+@media (max-width:480px) {
+    .footer-content p {
+        font-weight: 300;
+        font-size: 10px;
+        padding: 0 2vh;
+    }
+
+    .footer {
+        margin-top: 0px !important;
+
+    }
+
+}
+
+@media (max-width:768px) {
+    .footer-content p {
+        font-weight: 300;
+        font-size: 12px;
+        padding: 0 3vh;
+    }
+}
+
+@media (max-width:1400px) {
+    .footer-content p {
+        font-weight: 300;
+        font-size: 15px;
+        padding: 0 3vh;
+    }
 }

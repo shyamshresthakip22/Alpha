@@ -32,7 +32,7 @@ body {
     margin-left: 50px;
 }
 .closepopup{
-     background-color: #16BDF9;
+     background-color: #F8FF13;
      padding: 10px 15px;
      position: absolute;
      top: -20px;
@@ -88,16 +88,16 @@ body {
 }
 
 .customUl1 {
-    color: rgb(26, 153, 199) !important
+    color: #F8FF13 !important
 }
 
 .customUl1:hover {
     color: rgb(218, 218, 218) !important;
-    border: 1px solid rgb(26, 153, 199) !important;
+    border: 1px solid #F8FF13 !important;
 }
 
 .customUl:hover {
-    color: rgb(26, 153, 199) !important
+    color: #F8FF13 !important
 }
 
 .customDrop {
@@ -132,7 +132,7 @@ body {
     max-width: 30%;
     overflow-y: auto;
     overflow-x: hidden;
-    /* background-color: #16bdf9; */
+    /* background-color: #F8FF13; */
 }
 
 .column3 {
@@ -197,7 +197,7 @@ justify-content: space-around; */
 }
 
 .active {
-    color: #16bdf9 !important;
+    color: #F8FF13 !important;
 }
 
 .sportsMenu {
@@ -223,7 +223,7 @@ flex-direction: row-reverse;
 } */
 
 .spanWord {
-    color: rgb(26, 153, 199) !important;
+    color: #F8FF13 !important;
 }
 
 .rightSegment {
@@ -249,7 +249,7 @@ flex-direction: row-reverse;
 }
 
 .bi-person-circle {
-    color: rgb(26, 153, 199) !important;
+    color: #F8FF13 !important;
     font-size: 25px;
     display: none;
 }
@@ -259,11 +259,11 @@ flex-direction: row-reverse;
 }
 
 .submenu:hover {
-    color: rgb(26, 153, 199) !important;
+    color: #F8FF13 !important;
 }
 
 .signinBtn {
-    background-color: rgb(26, 153, 199) !important;
+    background-color: #F8FF13 !important;
     cursor: pointer;
     padding: 0 20px;
     border-radius: 2px;
@@ -449,7 +449,7 @@ height: 200px; */
     display: flex;
     padding: 10px;
     justify-content: center;
-    border-bottom: 1px solid #16bdf9;
+    border-bottom: 1px solid #F8FF13;
 }
 
 .depositeUpHeader1,
@@ -472,7 +472,7 @@ height: 200px; */
 }
 
 .depositeActive {
-    border-bottom: 1px solid #16bdf9;
+    border-bottom: 1px solid #F8FF13;
 }
 
 .noticeDownHeader {
@@ -638,7 +638,7 @@ height: 200px; */
 }
 
 .diceGenerator:hover {
-    box-shadow: inset 0 0 0 2px #1a99c7;
+    box-shadow: inset 0 0 0 2px #F8FF13;
 }
 
 .playerOddsContainer {
@@ -666,7 +666,7 @@ height: 200px; */
     position: relative;
     right: 0;
     margin-top: -35px;
-    background-color: #16bdf9;
+    background-color: #F8FF13;
     padding: 10px;
     display: block;
     width: 35px;
@@ -676,7 +676,7 @@ height: 200px; */
 .slipCancel {
     position: relative;
     left: 0;
-    background-color: #16bdf9;
+    background-color: #F8FF13;
     padding: 10px;
     display: none;
     width: 35px;
@@ -709,15 +709,15 @@ height: 200px; */
 }
 
 .depositeBtn0:hover {
-    color: #16bdf9;
+    color: #F8FF13;
 }
 
 .depositeBtn1:hover {
-    color: #16bdf9;
+    color: #F8FF13;
 }
 
 .bi-list {
-    color: rgb(26, 153, 199) !important;
+    color: #F8FF13 !important;
     font-size: 25px;
     display: none;
 }
@@ -794,14 +794,14 @@ height: 200px; */
 
 .noticeItem:hover {
     background-color: #222a33;
-    box-shadow: inset 2px 0 #1a99c7;
-    /* box-shadow: inset 0 0 0 2px #1a99c7; */
+    box-shadow: inset 2px 0 #F8FF13;
+    /* box-shadow: inset 0 0 0 2px #F8FF13; */
 }
 
 .boardItem:hover {
     background-color: #222a33;
-    box-shadow: inset 2px 0 #1a99c7;
-    /* box-shadow: inset 0 0 0 2px #1a99c7; */
+    box-shadow: inset 2px 0 #F8FF13;
+    /* box-shadow: inset 0 0 0 2px #F8FF13; */
 }
 
 .upperItem,
@@ -874,11 +874,11 @@ height: 200px; */
     justify-content: center;
     align-items: center;
     background-color: rgb(39, 48, 58);
-    border-bottom: 1px solid rgb(26, 153, 199) !important;
+    border-bottom: 1px solid #F8FF13 !important;
 }
 
 .HeaderTop {
-    color: rgb(26, 153, 199) !important;
+    color: #F8FF13 !important;
     font-size: 12px;
 }
 
@@ -896,7 +896,7 @@ height: 200px; */
 }
 
 .op1:hover {
-    color: rgb(26, 153, 199) !important;
+    color: #F8FF13 !important;
 }
 
 .slipBody {
@@ -957,7 +957,7 @@ height: 200px; */
 }
 
 .emptyAll:hover {
-    color: rgb(26, 153, 199) !important;
+    color: #F8FF13 !important;
 }
 
 .IncDec {
@@ -1018,7 +1018,7 @@ height: 200px; */
 }
 
 .odds1:hover {
-    box-shadow: inset 0 0 0 2px #1a99c7;
+    box-shadow: inset 0 0 0 2px #F8FF13;
 }
 
 .highlightOdd {
@@ -1042,7 +1042,7 @@ height: 200px; */
 .OddsNumberAmnt {
     font-size: 12px;
     font-weight: 300;
-    color: rgb(26, 153, 199) !important;
+    color: #F8FF13 !important;
 }
 
 .BetBtn {
@@ -1053,7 +1053,7 @@ height: 200px; */
 }
 
 .btnNew {
-    background-color: rgb(26, 153, 199) !important;
+    background-color: #F8FF13 !important;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1210,7 +1210,7 @@ align-items: center; */
 }
 
 .active {
-    color: #1a99c7;
+    color: #F8FF13;
 }
 
 .btn1 {
@@ -1220,7 +1220,7 @@ align-items: center; */
     /* padding: 0 10px; */
     width: 120px;
     padding: 5px;
-    background-color: #1a99c7;
+    background-color: #F8FF13;
     color: #fff;
     border-radius: 4px;
     height: 35px;
@@ -1325,17 +1325,17 @@ padding: 5px;
 }
 
 .betOdds:hover {
-    background-color: #16bdf9;
+    background-color: #F8FF13;
 }
 
 .handiOdds:hover {
     /* border: 1px solid blue; */
-    background-color: #16bdf9;
+    background-color: #F8FF13;
     ;
 }
 
 .extraOdd:hover {
-    background-color: #16bdf9;
+    background-color: #F8FF13;
     ;
 }
 
@@ -1372,8 +1372,8 @@ padding: 5px;
 }
 
 .betActive {
-    box-shadow: inset 0 0 0 2px #1a99c7;
-    /* background-color: #16bdf9; */
+    box-shadow: inset 0 0 0 2px #F8FF13;
+    /* background-color: #F8FF13; */
     color: white !important;
 }
 
@@ -1536,7 +1536,7 @@ padding: 5px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* background-color: #16bdf9; */
+    /* background-color: #F8FF13; */
     width: 40%;
 }
 
@@ -1645,7 +1645,7 @@ padding: 5px;
 }
 
 .oddsSelect:hover {
-    box-shadow: inset 0 0 0 2px #1a99c7;
+    box-shadow: inset 0 0 0 2px #F8FF13;
 }
 
 .Under {
@@ -1713,7 +1713,7 @@ padding: 5px;
 }
 
 .fontBlue {
-    color: #16bdf9;
+    color: #F8FF13;
 }
 
 .menuItem {
@@ -1811,7 +1811,7 @@ padding: 5px;
 }
 
 .impBtns:hover {
-    color: #129ed1;
+    color:#F8FF13;
 }
 
 .specDisp {
@@ -1880,7 +1880,7 @@ height: 200px; */
     position: relative;
     right: 0;
     margin-top: -35px;
-    background-color: #16bdf9;
+    background-color: #F8FF13;
     padding: 10px;
     display: block;
     width: 35px;
@@ -1922,7 +1922,7 @@ height: 200px; */
 }
 
 .menuItem:hover {
-    color: #129ed1;
+    color:#F8FF13;
 }
 
 .dispIcon {
@@ -2059,11 +2059,11 @@ height: 200px; */
 }
 
 .depositeBtn0:hover {
-    color: #16bdf9;
+    color: #F8FF13;
 }
 
 .depositeBtn1:hover {
-    color: #16bdf9;
+    color: #F8FF13;
 }
 
 
@@ -2101,7 +2101,7 @@ height: 200px; */
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: rgb(26, 153, 199) !important;
+        background-color: #F8FF13 !important;
         width: 80%;
         height: 70px;
     }
@@ -2362,4 +2362,57 @@ height: 200px; */
 
     /* Styles for extra large screens (up to 1200px) */
     /* Styles for screens larger than 1200px */
+}
+.footer {
+    background-color: #27303a;
+    height: 50vh;
+    margin-top: 2vh;
+
+}
+
+.footer-content {
+    text-align: center;
+}
+
+.footer-content img {
+    max-width: 30%;
+    height: auto;
+    margin-top: 10vh;
+}
+
+.footer-content p {
+    margin-top: 5vh;
+    line-height: 2vh;
+    font-weight: 300;
+    font-size: 18px;
+    padding: 0 3vh;
+}
+
+@media (max-width:480px) {
+    .footer-content p {
+        font-weight: 300;
+        font-size: 10px;
+        padding: 0 2vh;
+    }
+
+    .footer {
+        margin-top: 0px !important;
+
+    }
+
+}
+
+@media (max-width:768px) {
+    .footer-content p {
+        font-weight: 300;
+        font-size: 12px;
+        padding: 0 3vh;
+    }
+}
+@media (max-width:1400px) {
+    .footer-content p {
+        font-weight: 300;
+        font-size: 15px;
+        padding: 0 3vh;
+    }
 }

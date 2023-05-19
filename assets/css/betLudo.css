@@ -8,8 +8,10 @@ body {
     font-family: 'Noto Sans', sans-serif;
     background-color: rgb(23, 28, 34);
 }
+
 @media (min-width: 1401px){
     .betSlip{
-        left: 150vh !important;
+        /* left: 150vh; */
+        position: initial;
     }
 }

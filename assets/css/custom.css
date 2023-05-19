@@ -46,7 +46,7 @@ body {
 }
 
 .closepopup {
-    background-color: #16BDF9;
+    background-color: #F8FF13;
     padding: 10px 15px;
     position: absolute;
     top: -20px;
@@ -136,7 +136,7 @@ body {
 
 .attend {
     height: 5vh !important;
-    background-color: #129ed1;
+    background-color:#F8FF13;
     color: #97999B;
     position: relative;
     top: 1vh;
@@ -161,8 +161,9 @@ body {
     margin-top: 10px;
 }
 
-.closeicone {
-    background-color: #129ed1;
+.closeicone,
+.closeicone1 {
+    background-color:#F8FF13;
     position: absolute;
     top: -20px;
     right: 20px;
@@ -183,7 +184,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #129ed1;
+    color:#F8FF13;
     margin-top: 20px;
 }
 
@@ -191,7 +192,7 @@ body {
     max-width: 100%;
     /* height: 200px; */
     height: auto;
-    border-top: 1px solid #129ed1;
+    border-top: 1px solid#F8FF13;
     background-color: #232B34;
     padding: 10px 0px;
     display: flex;
@@ -366,16 +367,16 @@ body {
 }
 
 .customUl1 {
-    color: rgb(26, 153, 199) !important
+    color: #F8FF13 !important
 }
 
 .customUl1:hover {
     color: rgb(218, 218, 218) !important;
-    border: 1px solid rgb(26, 153, 199) !important;
+    border: 1px solid #F8FF13 !important;
 }
 
 .customUl:hover {
-    color: rgb(26, 153, 199) !important
+    color: #F8FF13 !important
 }
 
 .customDrop {
@@ -410,7 +411,7 @@ body {
     max-width: 77%;
     overflow-y: auto;
     overflow-x: hidden;
-    /* background-color: #16bdf9; */
+    /* background-color: #F8FF13; */
 }
 
 
@@ -497,7 +498,7 @@ body {
 }
 
 .active {
-    color: #16bdf9 !important;
+    color: #F8FF13 !important;
 }
 
 .sportsMenu {
@@ -523,7 +524,7 @@ body {
 } */
 
 .spanWord {
-    color: rgb(26, 153, 199) !important;
+    color: #F8FF13 !important;
 }
 
 .rightSegment {
@@ -549,7 +550,7 @@ body {
 }
 
 .bi-person-circle {
-    color: rgb(26, 153, 199) !important;
+    color: #F8FF13 !important;
     font-size: 25px;
     display: none;
 }
@@ -559,11 +560,11 @@ body {
 }
 
 .submenu:hover {
-    color: rgb(26, 153, 199) !important;
+    color: #F8FF13 !important;
 }
 
 .signinBtn {
-    background-color: rgb(26, 153, 199) !important;
+    background-color: #F8FF13 !important;
     cursor: pointer;
     padding: 0 20px;
     border-radius: 2px;
@@ -597,7 +598,7 @@ body {
 }
 
 .bi-list {
-    color: rgb(26, 153, 199) !important;
+    color: #F8FF13 !important;
     font-size: 25px;
     display: none;
 }
@@ -613,7 +614,7 @@ body {
     justify-content: center;
     transition: bottom .3s ease;
     bottom: -10px;
-    
+
 }
 
 .selectTeam {
@@ -650,11 +651,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-bottom: 1px solid rgb(26, 153, 199) !important;
+    border-bottom: 1px solid #F8FF13 !important;
 }
 
 .HeaderTop {
-    color: rgb(26, 153, 199) !important;
+    color: #F8FF13 !important;
     font-size: 12px;
 }
 
@@ -672,7 +673,7 @@ body {
 }
 
 .op1:hover {
-    color: rgb(26, 153, 199) !important;
+    color: #F8FF13 !important;
 }
 
 .slipBody {
@@ -726,7 +727,7 @@ body {
 }
 
 .emptyAll:hover {
-    color: rgb(26, 153, 199) !important;
+    color: #F8FF13 !important;
 }
 
 .IncDec {
@@ -803,7 +804,7 @@ body {
 .OddsNumberAmnt {
     font-size: 12px;
     font-weight: 300;
-    color: rgb(26, 153, 199) !important;
+    color: #F8FF13 !important;
 }
 
 .BetBtn {
@@ -814,7 +815,7 @@ body {
 }
 
 .btnNew {
-    background-color: rgb(26, 153, 199) !important;
+    background-color: #F8FF13 !important;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -897,7 +898,7 @@ body {
 }
 
 .singleSport:hover .sportName {
-    color: aqua;
+    color:#F8FF13;
     cursor: pointer;
 }
 
@@ -977,7 +978,7 @@ body {
 }
 
 .active {
-    color: #1a99c7;
+    color: #F8FF13;
 }
 
 .btn1 {
@@ -987,7 +988,7 @@ body {
     /* padding: 0 10px; */
     width: 120px;
     padding: 5px;
-    background-color: #1a99c7;
+    background-color: #F8FF13;
     color: #fff;
     border-radius: 4px;
     height: 35px;
@@ -1096,21 +1097,21 @@ body {
 }
 
 .betOdds:hover {
-    background-color: #16bdf9;
+    background-color: #F8FF13;
 }
 
 .ouOdds:hover {
-    background-color: #16bdf9;
+    background-color: #F8FF13;
 }
 
 .handiOdds:hover {
     /* border: 1px solid blue; */
-    background-color: #16bdf9;
+    background-color: #F8FF13;
     ;
 }
 
 .extraOdd:hover {
-    background-color: #16bdf9;
+    background-color: #F8FF13;
     ;
 }
 
@@ -1120,8 +1121,10 @@ body {
     display: none;
 
 }
-.customercontainer{
+
+.customercontainer {
     width: 50%;
+    height: auto;
     background-color: #1f262f !important;
     position: absolute;
     top: 120px;
@@ -1129,7 +1132,7 @@ body {
     
 }
 
-.pointexchcontainer{
+.pointexchcontainer {
     width: 50%;
     height: auto;
     background-color: #1f262f !important;
@@ -1143,7 +1146,9 @@ body {
     width: 100%;
     height: auto;
 }
-.noticeBody, .noticeBodyNew {
+
+.noticeBody,
+.noticeBodyNew {
     background-color: #1F262F;
     display: flex;
     flex-direction: column;
@@ -1153,6 +1158,7 @@ body {
     width: 100%;
     margin-top: 20px;
 }
+
 .slectlea {
     background-color: #27303a;
     height: calc(100vh - 325px);
@@ -1160,6 +1166,7 @@ body {
     padding: 0px 10px;
     margin-top: 10px;
 }
+
 @media (max-width:768px) {
     .slectlea {
         background-color: #27303a;
@@ -1169,9 +1176,10 @@ body {
         margin-top: 10px;
     }
 }
+
 .selectLeague {
-    border-bottom: 1px solid hsla(0,0%,100%,.03);
-   
+    border-bottom: 1px solid hsla(0, 0%, 100%, .03);
+
 }
 
 @media (max-width:768px) {
@@ -1233,7 +1241,7 @@ body {
 }
 
 .dlte:hover {
-    color: #16bdf9;
+    color: #F8FF13;
 }
 
 button#butn {
@@ -1259,38 +1267,41 @@ button#butn {
 }
 
 @media (max-width:768px) {
-    #close{
+    #close {
         position: absolute;
         background-color: rgb(39, 48, 58);
         width: 97%;
         height: 35vh;
         margin-top: -397px;
-        
+
     }
 }
+
 @media (max-width:480px) {
-    #close{
+    #close {
         position: absolute;
         background-color: rgb(39, 48, 58);
         width: 57%;
         height: 35vh;
         margin-top: -393px;
-        
+
     }
 }
-#delete{
+
+#delete {
     position: absolute;
-    background-color: #1f262f!important;
+    background-color: #1f262f !important;
     width: 68%;
     height: 30vh;
     margin-top: 140px;
     margin-left: 85px;
     border-radius: 2px;
 }
+
 @media (max-width:768px) {
-    #delete{
+    #delete {
         position: absolute;
-        background-color: #1f262f!important;
+        background-color: #1f262f !important;
         width: 75%;
         height: 21vh;
         margin-top: 150px;
@@ -1299,16 +1310,16 @@ button#butn {
     }
 }
 
-@media (max-width: 480px){
-#delete {
-    position: absolute;
-    background-color: #1f262f!important;
-    width: 57%;
-    height: 20vh;
-    margin-top: 160px;
-    margin-left: 1px;
-    border-radius: 2px;
-}
+@media (max-width: 480px) {
+    #delete {
+        position: absolute;
+        background-color: #1f262f !important;
+        width: 57%;
+        height: 20vh;
+        margin-top: 160px;
+        margin-left: 1px;
+        border-radius: 2px;
+    }
 }
 
 button#dlte {
@@ -1319,49 +1330,52 @@ button#dlte {
 }
 
 
-#yes{
+#yes {
     position: absolute;
-    background-color: #1f262f!important;
+    background-color: #1f262f !important;
     width: 100%;
     height: 26vh;
     margin-top: -150px;
-    border-radius: 2px; 
+    border-radius: 2px;
 }
+
 @media (max-width:768px) {
-    #yes{
+    #yes {
         position: absolute;
-        background-color: #1f262f!important;
+        background-color: #1f262f !important;
         width: 100%;
         height: 18vh;
         margin-top: -150px;
-        border-radius: 2px; 
+        border-radius: 2px;
     }
 }
 
 @media (max-width:480px) {
-    #yes{
+    #yes {
         position: absolute;
-        background-color: #1f262f!important;
+        background-color: #1f262f !important;
         width: 100%;
         height: 20vh;
         margin-top: -170px;
-        border-radius: 2px;    
+        border-radius: 2px;
     }
 }
 
-.question{
+.question {
     display: flex;
     justify-content: center;
     margin-top: 30px;
 }
-.question-delete{
+
+.question-delete {
     display: flex;
     justify-content: center;
     margin-top: 10px;
     font-size: 12px;
     font-weight: 400;
 }
-.question-button{
+
+.question-button {
     display: flex;
     justify-content: center;
     margin-top: 10px;
@@ -1369,6 +1383,7 @@ button#dlte {
     font-weight: 400;
     gap: 10px;
 }
+
 button.yes-no {
     padding: 5px 15px;
     background-color: rgb(39, 48, 58);
@@ -1377,6 +1392,7 @@ button.yes-no {
     border-radius: 2px;
     cursor: pointer;
 }
+
 button#yes-no {
     padding: 5px 15px;
     background-color: rgb(39, 48, 58);
@@ -1385,25 +1401,27 @@ button#yes-no {
     border-radius: 2px;
     cursor: pointer;
 }
+
 .cancel {
     display: flex;
     justify-content: center;
     font-size: 50px;
     font-weight: 400;
-    border: 2px solid #ff4646!important; 
+    border: 2px solid #ff4646 !important;
     border-radius: 50px;
     width: 75px;
     margin: 0 auto;
     margin-top: 5px;
     cursor: pointer;
 }
+
 @media (max-width:480px) {
     .cancel {
         display: flex;
         justify-content: center;
         font-size: 50px;
         font-weight: 400;
-        border: 2px solid #ff4646!important; 
+        border: 2px solid #ff4646 !important;
         border-radius: 50px;
         width: 75px;
         margin: 0 auto;
@@ -1411,22 +1429,26 @@ button#yes-no {
         cursor: pointer;
     }
 }
+
 p.no-history {
     font-size: 12px;
     font-weight: 400;
     text-align: center;
     margin-top: 10px;
 }
-.check{
+
+.check {
     display: flex;
     justify-content: center;
 }
+
 button#chk-btn {
     background-color: rgb(39, 48, 58);
     padding: 5px 15px;
     font-size: 11px;
     border-radius: 2px;
 }
+
 .extraOdd {
     display: flex;
     padding: 0 10px;
@@ -1475,7 +1497,7 @@ input.text.context {
 }
 
 .betActive {
-    /* background-color: #16bdf9;
+    /* background-color: #F8FF13;
     color: white!important; */
 }
 
@@ -1557,12 +1579,16 @@ input.text.context {
 }
 
 .fontBlue {
-    color: #16bdf9;
+    color: #F8FF13;
 }
+
 .infoCancel1211 {
-    background-color: #1a99c7;
-    width: 35px;
-    height: 31px;
+    /* background-color: #1a99c7; */
+    /* width: 35px; */
+    /* height: 31px; */
+    background-color: #F8FF13;
+    width: 30px;
+    height: 30px;
     position: absolute;
     text-align: center;
     margin-top: -43px;
@@ -1570,6 +1596,7 @@ input.text.context {
     font-size: 18px;
     font-weight: 400;
 }
+
 .extraOddsBody {
     display: flex;
     flex-direction: column;
@@ -1617,7 +1644,7 @@ border-right: 1px solid #1e242c; */
 }
 
 .odds1:hover {
-    box-shadow: inset 0 0 0 2px #1a99c7;
+    box-shadow: inset 0 0 0 2px #F8FF13;
 }
 
 .accordionOdd {
@@ -1700,7 +1727,8 @@ border-right: 1px solid #1e242c; */
         width: 5vh;
         height: auto;
     }
-    .box2{
+
+    .box2 {
         right: 0 !important;
         left: 10vh !important;
     }
@@ -1720,17 +1748,23 @@ border-right: 1px solid #1e242c; */
         display: none;
         margin: auto !important;
     }
+
     .custompopupcontainer {
-        
-        width: 95%;
-        
+
+        justify-content: center;
+        align-items: center;
+        width: 600px;
+        /* margin-top: 15vh; */
+        height: 52vh;
+
     }
 
     .innerpopup1 {
         width: 5vh;
         height: auto;
     }
-    .box2{
+
+    .box2 {
         right: 0 !important;
         left: 10vh !important;
     }
@@ -1750,11 +1784,21 @@ border-right: 1px solid #1e242c; */
         margin: auto !important;
     }
 
+    .custompopupcontainer {
+
+        justify-content: center;
+        align-items: center;
+        width: 600px;
+        height: 50vh;
+
+    }
+
     .innerpopup1 {
         width: 5vh;
         height: auto;
     }
-    .box2{
+
+    .box2 {
         right: 0 !important;
         left: 10vh !important;
     }
@@ -1812,7 +1856,7 @@ border-right: 1px solid #1e242c; */
 }
 
 .menuItem:hover {
-    color: #129ed1;
+    color:#F8FF13;
 }
 
 .impBtns {
@@ -1828,7 +1872,7 @@ border-right: 1px solid #1e242c; */
 }
 
 .impBtns:hover {
-    color: #129ed1;
+    color:#F8FF13;
 }
 
 .menuItem {
@@ -2009,7 +2053,7 @@ border-right: 1px solid #1e242c; */
     position: relative;
     right: 0;
     margin-top: -35px;
-    background-color: #16bdf9;
+    background-color: #F8FF13;
     padding: 10px;
     display: block;
     width: 35px;
@@ -2021,7 +2065,7 @@ border-right: 1px solid #1e242c; */
 .slipCancel1 {
     position: relative;
     left: 0;
-    background-color: #16bdf9;
+    background-color: #F8FF13;
     padding: 10px;
     display: none;
     width: 35px;
@@ -2049,7 +2093,7 @@ border-right: 1px solid #1e242c; */
 }
 
 .historyUpHeaderActive {
-    color: #1a99c7;
+    color: #F8FF13;
     font-weight: 500 !important;
 }
 
@@ -2074,7 +2118,7 @@ border-right: 1px solid #1e242c; */
 }
 
 .menuItem:hover {
-    color: #129ed1;
+    color:#F8FF13;
 }
 
 .dispIcon {
@@ -2258,15 +2302,15 @@ border-right: 1px solid #1e242c; */
 }
 
 .depositeBtn0:hover {
-    color: #16bdf9;
+    color: #F8FF13;
 }
 
 .depositeBtn1:hover {
-    color: #16bdf9;
+    color: #F8FF13;
 }
 
 .depositeActive {
-    border-bottom: 1px solid #16bdf9;
+    border-bottom: 1px solid #F8FF13;
 }
 .custom{
     position: absolute;
@@ -2348,7 +2392,7 @@ border-right: 1px solid #1e242c; */
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: rgb(26, 153, 199) !important;
+        background-color: #F8FF13 !important;
         width: 80%;
         height: 70px;
     }
@@ -2445,10 +2489,10 @@ border-right: 1px solid #1e242c; */
         justify-content: space-between;
     }
 
-    .gameCol5 {
+    /* .gameCol5 {
         display: none !important;
-    }
-}
+    } */
+} 
 
 @media (max-width: 1400px) {
     /* Add additional styles as needed */
@@ -2707,7 +2751,7 @@ input {
 
 .closepopup {
     padding: 10px 20px;
-    background-color: #16BDF9;
+    background-color: #F8FF13;
     color: white;
     position: absolute;
     top: -30px;
@@ -2729,7 +2773,7 @@ input {
     height: 50px;
     display: flex;
     padding: 10px;
-   
+
 }
 
 .box2 {
@@ -2877,7 +2921,7 @@ input {
 
 .closepopup {
     padding: 10px 13px;
-    background-color: #16BDF9;
+    background-color: #F8FF13;
     color: white;
     position: absolute;
     top: -30px;
@@ -2989,4 +3033,58 @@ input {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.footer {
+    background-color: #27303a;
+    height: 50vh;
+    margin-top: 2vh;
+
+}
+
+.footer-content {
+    text-align: center;
+}
+
+.footer-content img {
+    max-width: 30%;
+    height: auto;
+    margin-top: 10vh;
+}
+
+.footer-content p {
+    margin-top: 5vh;
+    line-height: 2vh;
+    font-weight: 300;
+    font-size: 18px;
+    padding: 0 3vh;
+}
+
+@media (max-width:480px) {
+    .footer-content p {
+        font-weight: 300;
+        font-size: 10px;
+        padding: 0 2vh;
+    }
+
+    .footer {
+        margin-top: 0px !important;
+
+    }
+
+}
+
+@media (max-width:768px) {
+    .footer-content p {
+        font-weight: 300;
+        font-size: 12px;
+        padding: 0 3vh;
+    }
+}
+@media (max-width:1400px) {
+    .footer-content p {
+        font-weight: 300;
+        font-size: 15px;
+        padding: 0 3vh;
+    }
 }

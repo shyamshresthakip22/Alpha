@@ -36,16 +36,16 @@ body {
 }
 
 .customUl1 {
-    color: rgb(26, 153, 199)!important
+    color: #F8FF13!important
 }
 
 .customUl1:hover {
     color: rgb(218, 218, 218)!important;
-    border: 1px solid rgb(26, 153, 199)!important;
+    border: 1px solid #F8FF13!important;
 }
 
 .customUl:hover {
-    color: rgb(26, 153, 199)!important
+    color: #F8FF13!important
 }
 
 .customDrop {
@@ -110,7 +110,7 @@ body {
 }
 
 .tab-group .active a {
-    background-color: rgb(26, 153, 199) !important;
+    background-color: #F8FF13 !important;
     color: #ffffff;
 }
 
@@ -220,7 +220,7 @@ textarea {
 
 .button:hover,
 .button:focus {
-    background-color: rgb(26, 153, 199)!important
+    background-color: #F8FF13!important
 }
 
 .button-block {
@@ -274,7 +274,7 @@ textarea {
 }
 
 .customRegister {
-    background-color: rgb(26, 153, 199) !important;
+    background-color: #F8FF13 !important;
     padding: 8px;
     display: flex;
     justify-content: center;
@@ -284,7 +284,7 @@ textarea {
 }
 
 .customLogin {
-    background-color: rgb(26, 153, 199) !important;
+    background-color: #F8FF13 !important;
     padding: 8px;
     display: flex;
     justify-content: center;
@@ -301,7 +301,7 @@ textarea {
 }
 
 .customOtpBtn {
-    background-color: rgb(26, 153, 199) !important;
+    background-color: #F8FF13 !important;
     padding: 8px;
     display: flex;
     justify-content: center;
@@ -348,7 +348,7 @@ textarea {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgb(26, 153, 199) !important;
+    background-color: #F8FF13 !important;
     width: 80%;
     height: 70px;
 }
@@ -371,7 +371,7 @@ textarea {
     justify-content: space-evenly;
     align-items: center;
     display: flex;
-    background-color: rgb(26, 153, 199) !important;
+    background-color: #F8FF13 !important;
     margin: 5px;
     padding: 10px;
     border-radius: 10px;
@@ -417,7 +417,7 @@ textarea {
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: rgb(26, 153, 199) !important;
+        background-color: #F8FF13 !important;
         width: 80%;
         height: 70px;
     }
