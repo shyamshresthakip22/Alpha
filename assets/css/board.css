@@ -143,6 +143,7 @@ body {
     flex-grow: 1;
     display: flex;
     max-width: 47%;
+  
 }
 
 .sidebar {
@@ -302,7 +303,13 @@ flex-direction: row-reverse;
 .noticeViewWrapper {
     padding: 10px;
 }
-
+@media (max-width:480px) {
+    .noticeViewWrapper {
+        padding: 10px;
+        display: none;
+    }
+    
+}
 .noticeViewer {
     display: flex;
     flex-direction: column;

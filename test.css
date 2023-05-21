@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Bank-information{
+    background-color: #222a33;
+    height: 200px;
+    margin: 0 auto;
+    color: white;
+    margin-top: 40px;
+    height: 42vh;
+}
+h3.bank-title {
+    font-size: 15px;
+    padding: 16px;
+    font-family: serif;
+}
+.Bank-check {
+    background-color: #1f2732;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    width: 90%;
+    margin-left: 10px;
+}
+p.info {
+    text-align: center;
+    font-size: 18px;
+    color: yellow;
+    padding: 16px;
+    font-family: sans-serif;
+}
+p.details {
+    font-size: 12px;
+    text-align: justify;
+    margin: 10px 20px;
+    font-family: sans-serif;
+}
+.footer {
+    background: black;
+    color: white;
+    text-align: center;
+    height: 32vh;
+
+}
+img.foterimg {
+    width: 80%;
+    margin-top: 15px;
+}
+p {
+    font-size: 11px;
+    font-family: sans-serif;
+    margin: 0px 10px;
+
+}
