@@ -89,7 +89,12 @@ body {
     .textcontainer p {
         font-size: 7px !important;
     }
+    .cart-icon {
+        display: none !important;
+    }
+    
 }
+
 
 @media (max-width:1000px) {
 
@@ -1749,7 +1754,7 @@ border-right: 1px solid #1e242c; */
 
 @media (max-width:768px) {
     .cartWrapper {
-        background-color: rgba(26, 153, 199, 0.4);
+        background-color: #f8ff13;
         padding: 10px;
         position: fixed;
         border-radius: 10px;
@@ -1779,13 +1784,17 @@ border-right: 1px solid #1e242c; */
         right: 0 !important;
         left: 10vh !important;
     }
+    .cartNumber {
+        font-weight: 600;
+        color: black;
+    }
 
 }
 
 @media (max-width:1400px) {
     .cartWrapper {
-        background-color: rgba(26, 153, 199, 0.4);
-        padding: 10px;
+        /* background-color: rgba(26, 153, 199, 0.4); */
+        padding: 20px;
         position: fixed;
         border-radius: 10px;
         bottom: 50px;
@@ -1821,8 +1830,10 @@ border-right: 1px solid #1e242c; */
     display: flex;
     position: absolute;
     top: 10px;
-    right: 5px;
+    right: 15px;
     font-size: 14px;
+    
+    
 }
 
 .bi-cart3 {
@@ -2776,36 +2787,7 @@ input {
      display: flex;
     margin-left: 300px;
     margin-top: 80px;
-}
-@media (max-width:375px) {
-    .message-popup{
-        width: 80%;
-        display: none;
-        position: absolute;
-        display: flex;
-        margin-left: 45px;
-        margin-top: 80px;
-    }
-}
-@media (max-width:414px) {
-    .message-popup{
-        width: 80%;
-        display: none;
-        position: absolute;
-        display: flex;
-        margin-left: 45px;
-        margin-top: 80px;
-    }
-}
-@media (max-width:820px) {
-    .message-popup{
-        width: 80%;
-        display: none;
-        position: absolute;
-        display: flex;
-        margin-left: 55px;
-        margin-top: 90px;
-    }
+
 }
 #msg{
         position: absolute;
@@ -2815,24 +2797,14 @@ input {
         margin-left: 350px;
         margin-top: 150px;
 }
-@media (max-width:820px) {
+@media (max-width:375px) {
     #msg{
         position: absolute;
         background-color: #1f262f;
         box-shadow: 0 0 10px #000;
-        width: 670px;
-        margin-left: 40px;
-        margin-top: 180px;
-}
-}
-@media (max-width:768px) {
-    #msg{
-        position: absolute;
-        background-color: #1f262f;
-        box-shadow: 0 0 10px #000;
-        width: 620px;
-        margin-left: 45px;
-        margin-top: 180px;
+        width: 200px;
+        margin-left: 150px;
+        margin-top: 100px;
 }
 }
 @media (max-width:414px) {
@@ -2841,18 +2813,8 @@ input {
         background-color: #1f262f;
         box-shadow: 0 0 10px #000;
         width: 200px;
-        margin-left: 85px;
-        margin-top: 180px;
-}
-}
-@media (max-width:375px) {
-    #msg{
-        position: absolute;
-        background-color: #1f262f;
-        box-shadow: 0 0 10px #000;
-        width: 200px;
         margin-left: 150px;
-        margin-top: 180px;
+        margin-top: 100px;
 }
 }
 .msg-head{

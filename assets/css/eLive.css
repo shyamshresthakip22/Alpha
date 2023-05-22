@@ -1836,6 +1836,24 @@ height: 200px; */
         height: 70px;
     }
 }
+@media (max-width: 768px) {
+    .cartWrapper{
+        background-color: #f8ff13;
+        padding: 20px;
+
+    }
+    .cartNumber{
+        right: 15px;
+        font-weight: 600;
+        color: black;
+        top: 10px;
+    }
+    .cart-icon {
+        display: none !important;
+    }
+}
+
+
 
 .selectOptions {
     background-color: rgb(34, 42, 51);
