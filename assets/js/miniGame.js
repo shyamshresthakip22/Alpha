@@ -34,6 +34,46 @@ const custompopupcontainer = document.querySelector(".custompopupcontainer")
 const closepopup = document.querySelector(".closepopup")
 const submitReportBtn  = document.querySelector(".submitReportBtn")
 const changepopup1 = document.querySelector(".changepopup1")
+const depositeapplication1 = document.querySelector(".depositeapplication1")
+const withdrawldetailscontainer = document.querySelector(".withdrawldetailscontainer")
+const closeicone = document.querySelector(".closeicone")
+const NoticeWrapper2 = document.querySelector(".NoticeWrapper2")
+const mainHeaderBtn1 = document.querySelector(".mainHeaderBtn1")
+const mainHeaderBtn2 = document.querySelector(".mainHeaderBtn2")
+const deletebox = document.querySelector(".deletebox")
+const questionmarkbox = document.querySelector(".questionmarkbox")
+const nobtn = document.querySelector(".nobtn")
+const yesbtn = document.querySelector(".yesbtn")
+const checkbox = document.querySelector(".checkbox")
+const checkbtn = document.querySelector(".checkbtn")
+
+deletebox.addEventListener("click",function(){
+    questionmarkbox.style.display = "block";
+    questionmarkbox.style.display = "flex";
+})
+
+depositeapplication1.addEventListener("click",function(){
+        withdrawldetailscontainer.style.display = "block";
+        mainHeaderBtn1.classList.add('depositeActive')
+
+            mainHeaderBtn2.classList.remove('depositeActive')
+})
+closeicone.addEventListener("click",function(){
+    withdrawldetailscontainer.style.display = "none";
+    NoticeWrapper2.style.display = "none";
+})
+nobtn.addEventListener("click",function(){
+    questionmarkbox.style.display = "none";
+})
+yesbtn.addEventListener("click",function(){
+    checkbox.style.display = "block";
+    checkbox.style.display =  "flex";
+})
+checkbtn.addEventListener("click",function(){
+        checkbox.style.display = "none";
+        questionmarkbox.style.display = "none";
+})
+
 
 
 custompopupcontainer.style.display = "none";

@@ -9,7 +9,135 @@ body {
     background-color: rgb(23, 28, 34);
     overflow: scroll;
 }
+.depositeHistory{
+     display: none;
+}
+.depositebox{
+     width: 100%;
+     height: 30px;
+     /* border: 1px solid white; */
+     display: flex;
+     justify-content: center;
+     justify-content: space-around;
+}
+.depositeapplication{
+     width: 200px;
+     height: auto;
+     /* border: 1px solid; */
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: #F8FF13;
+     cursor: pointer;
+}
+.depositeapplication1{
+    color: #999987;
+}
+.depositeapplication1:hover{
+    color: #F8FF13;
+}
+.withdrawldetailscontainer{
+     width: 600px;
+     height: 450px;
+     background-color: #1F262F;
+     position: absolute;
+     display: flex;     
+     justify-content: center;
+     display: none;
+     top: 100px;
+}
+.closeicone{
+     width: 35px;
+     height: 35px;
+     background-color: #F8FF13;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     position: absolute;
+     right: 0;
+     top: -20px;
+     cursor: pointer;
 
+}
+.depositeUpHeader10{
+     color: #F8FF13;
+}
+.nodatabox{
+     width: 100%;
+     height: 5vh;
+     background-color: #232B34;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     /* margin-top: 10px; */
+}
+.nodatabox p {
+    margin-top: 7px;
+}
+.deletebox{
+     width: 25%;
+     height: 5vh;
+     background-color: #394552;
+     position: absolute;
+     bottom: 60px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     cursor: pointer;
+
+}
+.deletebox p{
+     align-items: center;
+     position: absolute;
+     top: 5px;
+}
+.pagination2{
+     position: absolute;
+     bottom: 10px;
+}
+.questionmarkbox{
+      width: 480px;
+      height: 300px;
+      background-color: #1F262F;
+      position: absolute;
+      top: 80px;
+      left: 55px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      display: none;
+}
+.buttongroups button{
+     padding: 10px 30px;
+     color: white;
+     background-color: #394552;
+     border: none;
+    
+}
+.checkbox{
+    width: 480px;
+    height: 300px;
+    background-color: #1F262F;
+    position: absolute;
+    top: 80px;
+    left: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: none;
+}
+.circlebox{
+     width: 80px;
+     height: 80px;
+     border: 2px solid #FF4646;
+     border-radius: 50%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 15px;
+}
 .custompopupcontainer {
     width: 580px;
     height: 270px;
@@ -18,6 +146,7 @@ body {
     top: 200px;
     /* display: none; */
 }
+
 
 .box1 {
     width: 50%;

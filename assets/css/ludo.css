@@ -568,6 +568,7 @@ height: 200px; */
 
 .box {
     display: flex;
+
 }
 
 .boxOU {
@@ -1447,13 +1448,15 @@ padding: 5px;
     display: flex;
 }
 
+
 .extraOddsBody {
     display: flex;
     flex-direction: column;
     width: 50%;
     font-size: 14px;
     font-weight: 300;
-    margin: 5px
+    margin: 5px;
+
 }
 
 .extraOddsBody2,
@@ -1464,7 +1467,7 @@ padding: 5px;
     width: 50%;
     font-size: 14px;
     font-weight: 300;
-    margin: 5px
+    margin: 5px;
 }
 
 .fullGame {
@@ -1481,6 +1484,7 @@ padding: 5px;
     border-bottom: 1px solid #1e242c;
     display: flex;
     justify-content: center;
+    scroll-behavior: auto;
 }
 
 .oddsFooter {

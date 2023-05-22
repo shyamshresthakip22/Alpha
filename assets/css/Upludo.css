@@ -553,7 +553,6 @@ height: 200px; */
 .fillers {
     background-color: rgb(48, 59, 71);
 }
-
 .gameMode {
     width: 20%;
     font-size: 10px;
@@ -563,21 +562,18 @@ height: 200px; */
     flex-direction: column;
     cursor: pointer;
 }
-
 .modeName {
     margin-top: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 .playerPlaceholder {
     display: flex;
     justify-content: center;
     margin-top: 10px;
     /* align-items: center; */
 }
-
 .Player {
     background-color: rgb(34, 42, 51);
     height: 500px;
@@ -588,7 +584,6 @@ height: 200px; */
     align-items: center;
     /* flex-direction: column; */
 }
-
 .diceHistory {
     height: 100%;
     width: 10%;
@@ -616,6 +611,7 @@ height: 200px; */
 .box {
     display: flex;
 }
+
 
 .boxOU {
     display: flex;
@@ -1583,19 +1579,21 @@ padding: 5px;
     display: flex;
     background-color: #fff;
     /* background-color: rgb(48, 59, 71); */
-    /* height: 40px; */
+    height: 40px;
     justify-content: space-around;
     align-items: start;
     width: 100%;
     overflow-y: hidden;
     overflow-x: auto;
     height: 0;
+    
+
 }
+
 
 .oddsFooterActive {
     height: 100%;
-    transition: 0.5s all;
- 
+    transition: 0.5s all; 
 }
 
 .finalOddWrapper {
@@ -1612,7 +1610,7 @@ padding: 5px;
     justify-content: space-around;
     height: 30px;
     font-weight: 800;
-    /* border: 2px solid #6f6f6f; */
+    border: 2px solid #6f6f6f;
     align-items: center;
     /* padding: 10px; */
     cursor: pointer;
@@ -2077,7 +2075,6 @@ height: 200px; */
     width: 5px;
     border-radius: 30px;
 }
-
 ::-webkit-scrollbar-thumb {
     background-color: rgb(54, 60, 68);
 }
@@ -2307,7 +2304,7 @@ height: 200px; */
         .extraOddsBody {
             width: 100%;
         }
-
+       
         .extraOddsBody2,
         .extraOddsBody1,
         .extraOddsBody3 {

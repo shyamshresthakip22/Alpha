@@ -161,23 +161,14 @@ function replaceSidebar(leagueIndx, gameIndx) {
         //col4.replaceChild(newComponent, oldComponent)
 
     let reps = allBets.length
-
-
     for (i = 0; i < reps; i++) {
-
-
         let allBetsDiv = document.createElement('div');
         allBetsDiv.classList.add('extraOddsBody');
         allBetsDiv.innerHTML = `
             
             <div class="oddsHeader fontBlue">${allBets[i].title}</div>
             <div class="oddsFooter">
-               
-    
-    
             </div>
-        
-       
             `
         const extraOddsContainer = document.querySelector('.extraOddsContainer');
 
@@ -555,15 +546,12 @@ function reloadCard() {
 
 }
 
-const diceBtn = document.querySelector('.diceGenerator')
-diceBtn.addEventListener('click',
-
-    function() {
-
+  const diceBtn = document.querySelector('.diceGenerator')
+   diceBtn.addEventListener('click',
+   function() {             
         var randomNumber = Math.floor(Math.random() * 6) + 1;
         var dice = document.querySelector('.dice')
         dice.innerHTML = `
-
     <img src="assets/images/dice-${randomNumber}.png" alt="" width="120" height="120" class="diceLogo">
     `
         var resultElement = document.querySelector(".diceNumber");
@@ -572,10 +560,8 @@ diceBtn.addEventListener('click',
         generateHistoryTable1(randomNumber);
         generateHistoryTable2(randomNumber);
         generateHistoryTable(randomNumber);
-        //console.log(diceHistory)
-
+        console.log(diceHistory)
     }
-
 )
 
 const loginBtn = document.querySelector('.loginBtn')
