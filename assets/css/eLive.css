@@ -870,6 +870,7 @@ flex-direction: row-reverse;
     height: 40px;
     width: 95%;
     font-weight: 300;
+    color: black;
 }
 
 .btnNew:hover {
@@ -1030,7 +1031,7 @@ align-items: center; */
     width: 120px;
     padding: 5px;
     background-color: #F8FF13;
-    color: #fff;
+    color: #000;
     border-radius: 4px;
     height: 35px;
     cursor: pointer;
@@ -1161,6 +1162,7 @@ padding: 5px;
     margin-left: 5px;
     height: 75px;
     cursor: pointer;
+    
 }
 
 .gameCol1 {
@@ -1275,6 +1277,12 @@ padding: 5px;
     flex-grow: 1;
     justify-content: space-between;
     align-items: center;
+}
+.gameCol5 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
 }
 
 .ExtraOddsWrapper {
@@ -1868,9 +1876,9 @@ height: 200px; */
     .gameCol3 {
         display: none;
     }
-    .gameCol4 {
+    /* .gameCol4 {
         display: none;
-    }
+    } */
     .column3 {
         display: flex;
     }
@@ -2079,6 +2087,10 @@ height: 200px; */
     .footer {
         margin-top: 0px !important;
 
+    }
+    .column4{
+       
+        max-width: 100%;
     }
 
 }

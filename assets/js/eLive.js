@@ -21,6 +21,7 @@ const gamesContainer = document.querySelector('.gamesContainer')
 const slideDeposite = document.querySelector('.slideDeposite')
 const depositeDrop = document.querySelector('.depositeDrop')
 const slipCancel = document.querySelector('.slipCancel')
+const col2 = document.querySelector('.column2')
 
 
 const openpopup = document.querySelector(".changepopupsportslive")
@@ -691,6 +692,9 @@ function initApp() {
                 <div class="nestedOdds ${val.btn7}" id="${indx}-${key}-2-2-ou">${val.handiBets[7]}</div>
             </div>
     
+        </div>
+        <div class="gameCol5" >
+        <div class="extraOdd" id="${indx}-${key}">	&#129122;</div>
         </div>
         <div class="gameOdds"></div>
    `;
@@ -1595,7 +1599,41 @@ document.addEventListener('DOMContentLoaded', function() {
     // });
     extraOdd.forEach(function(extraOdd) {
         extraOdd.addEventListener('click', function(event) {
-            // Toggle the 'button-active' class on the clicked button element
+            let p = 1
+
+
+
+            let leagueIndx = event.target.id.split('-').join('')[0]
+            let gameIndx = event.target.id.split('-').join('')[1]
+            replaceSidebar(gameIndx, leagueIndx)
+            col2.style.display = 'none'
+            col4.style.display = 'flex'
+            col4.classList.add('maxWidth');
+            const exitDetail = document.querySelector('.exitDetail');
+
+            exitDetail.addEventListener('click', () => {
+                p = p + 1
+                console.log('aa')
+                col2.style.display = ''
+                col4.style.display = 'none'
+                col4.classList.remove('maxWidth');
+
+
+
+            })
+
+            window.addEventListener('resize', () => {
+                if (window.innerWidth > 1008) {
+                    col4.style.display = 'flex'
+                    col2.style.display = ''
+
+                } else {
+                    col4.style.display = 'none'
+                    col2.style.display = ''
+                }
+            })
+
+
 
 
 

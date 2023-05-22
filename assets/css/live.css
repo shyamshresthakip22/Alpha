@@ -1926,3 +1926,9 @@
         /* Styles for extra large screens (up to 1200px) */
         /* Styles for screens larger than 1200px */
     }
+
+    @media (max-width:480px){
+        .gameCol5 {
+            display: flex !important;
+        }
+    }

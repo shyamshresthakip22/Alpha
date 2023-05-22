@@ -1104,7 +1104,7 @@ function initApp() {
     
         </div>
         <div class="gameCol5">
-        <div class="extraOdd" id="${indx}-${key}"><i class="bi bi-chevron-right chevronLogo "></i></div>
+        <div class="extraOdd" id="${indx}-${key}">&#129122;</div>
         </div>
         <div class="gameOdds"></div>
    `;

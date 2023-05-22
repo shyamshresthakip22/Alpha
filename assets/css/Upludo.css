@@ -1060,6 +1060,7 @@ height: 200px; */
     height: 40px;
     width: 95%;
     font-weight: 300;
+    color: black;
 }
 
 .btnNew:hover {
