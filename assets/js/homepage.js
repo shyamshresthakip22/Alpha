@@ -62,7 +62,7 @@ const Inquerybtn = document.querySelector(".Inquerybtn ")
 const pointbtn = document.querySelector(".pointbtn ")
 const pointexbtn = document.querySelector(".pointexbtn ")
 const custrbtn = document.querySelector(".custrbtn ")
-
+const messsagebtn = document.querySelector(".messsagebtn ")
 
 const openpopup = document.querySelector(".changepopup")
 const inputfieldcontainer = document.querySelector(".inputfieldcontainer")
@@ -78,9 +78,13 @@ const infoCancel12 = document.querySelector(".infoCancel12")
 const infoCancel121 = document.querySelector(".infoCancel121")
 const infoCancel1211 = document.querySelector(".infoCancel1211")
 const holdingclose = document.querySelector(".holdingclose")
+const messagepopup= document.querySelector(".message-popup")
+
 
 const closeicone = document.querySelector(".closeicone")
 const closeIcon = document.querySelector(".closeicone1")
+const close = document.querySelector(".close")
+
 
 const sliderMenu1  = document.querySelector(".sliderMenu ")
 const NoticeWrapper2 = document.querySelector(".noticeBodyNew")
@@ -142,7 +146,22 @@ const NoticeWrapper2 = document.querySelector(".noticeBodyNew")
     closeIcon.addEventListener("click",function(){
         attandececontainer.style.display = "none";
     })
-
+        // message
+        messagepopup.style.display = "none";
+        messsagebtn.addEventListener("click",function(){
+              if(messagepopup.style.display == "none"){
+                messagepopup.style.display = "block";
+                sliderBackDrop.style.display = 'none'
+                sliderMenu.classList.remove('sliderMenuActive')
+              }
+              else{
+                sliderMenu1.style.display = "block";
+              }
+        })
+    
+        close.addEventListener("click",function(){
+            messagepopup.style.display = "none";
+        })
      //   Inquery popup
 
      inquerycontainer.style.display = "none";

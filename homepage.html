@@ -57,7 +57,7 @@
 
                         <div class="noticeInterface">
                             <div class="menuItem" id="messages">
-                                <div class="dispIcon specDisp"><i class="bi bi-envelope"></i></div>
+                                <div class="dispIcon specDisp messsagebtn"><i class="bi bi-envelope"></i></div>
                                 <div class="dispIcon">3</div>
                             </div>
                             <div class="menuItem">
@@ -199,14 +199,127 @@
 
         </div>
         <div class="cartBackdrop"></div>
-        <div class="my-backdrop0">
+        <div class="message-popup" >
+            <div class="noticeBodyNew">
+                <div class="close">
+                    <i class="bi bi-x-lg "></i>
+                </div>
+                <div class="noticeHeader">
+                    <div class="historyUpHeader fontBlue" style="border-bottom: 1px solid#5897fb; ">
+                        Message
+                    </div>
+                    <div class="depositeItem depositeBill"
+                        style="display: flex; justify-content: space-between; margin-top: 10px;">
+
+                        <div class="markmes">Mark all message as read</div>
+                        <div class="markmes">Delete Select message</div>
+                    </div>
+                </div>
+                <div class="footerItem" id="footer5" style="margin-top: 10px; display: flex; flex-direction: column;">
+
+                    <div class="match" style="display:flex;justify-content: space-between;">
+                        <div class="notification"> [notification] <span class="prediction">Match prediction event up to
+                                5 million won </span> </div>
+                        <div class="check"> <input type="checkbox" id="vehicle1" name="v ehicle1" value="Bike"></div>
+                    </div>
+
+
+                    <div class="date-details" onclick="show22 ()"  style="display: flex; justify-content: space-between;">
+                        <div class="date"> 2023-05-13 06:19:18</div>
+                        <div class="read">Read</div>
+                    </div>
+                </div>
+                <div class="footerItem" id="footer5" style="margin-top: 10px; display: flex; flex-direction: column;">
+
+                    <div class="match" style="display:flex;justify-content: space-between;">
+                        <div class="notification"> [notification] <span class="prediction">Match prediction event up to
+                                5 million won </span> </div>
+                        <div class="check"> <input type="checkbox" id="vehicle1" name="v ehicle1" value="Bike"></div>
+                    </div>
+
+
+                    <div class="date-details" onclick="show22 ()"  style="display: flex; justify-content: space-between;">
+                        <div class="date"> 2023-05-13 06:19:18</div>
+                        <div class="read">Read</div>
+                    </div>
+                </div>
+                <div class="footerItem" id="footer5" style="margin-top: 10px; display: flex; flex-direction: column;">
+
+                    <div class="match" style="display:flex;justify-content: space-between;">
+                        <div class="notification"> [notification] <span class="prediction">Match prediction event up to
+                                5 million won </span> </div>
+                        <div class="check"> <input type="checkbox" id="vehicle1" name="v ehicle1" value="Bike"></div>
+                    </div>
+
+
+                    <div class="date-details"  onclick="show22 ()" style="display: flex; justify-content: space-between;" >
+                        <div class="date"> 2023-05-13 06:19:18</div>
+                        <div class="read">Read</div>
+                       
+                    </div>
+                </div>
+                <div class="footerItem" id="footer5" style="margin-top: 10px; display: flex; flex-direction: column;">
+
+                    <div class="match" style="display:flex;justify-content: space-between;">
+                        <div class="notification"> [notification] <span class="prediction">Match prediction event up to
+                                5 million won </span> </div>
+                        <div class="check"> <input type="checkbox" id="vehicle1" name="v ehicle1" value="Bike"></div>
+                    </div>
+
+
+                    <div class="date-details" onclick="show22 ()"  style="display: flex; justify-content: space-between;">
+                        <div class="date"> 2023-05-13 06:19:18</div>
+                        <div class="read">Read</div>
+                    </div>
+                </div>
+                <div class="pagination">
+                    <div class="pageLeft">
+                        <div class="pageLimiter">
+                            <select name="oddsType" class="selectOptions2" id="mini1">
+                                <option value="10">10</option>
+                                <option value="20">20</option>
+                                <option value="30">30</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="pageRight">
+                        <div class="pageNo" id="miniPN1">1</i>
+                        </div>
+                        <div class="pageController">
+                            <div class="pLeft " id="lbtn1"><i class="bi bi-chevron-left chevronLogo "></i></div>
+                            <div class="pLeft" id="rbtn1"><i class="bi bi-chevron-right chevronLogo"></i></div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <div id="msg" style="display: none;">
+            <div class="close">
+                <i class="bi bi-x-lg" onclick="show123 ()"></i>
+            </div>
+            <p class="msg-head">Message</p>
+            <div class="msg-details">
+                <span class="notfiction">[notification] Bet365 Maintenance Complete Announcement </span>
+                    <p class="date2">2023-05-22 15:36:56</p>
+                    <div>
+                        <p class="hlo">Hello member </p>
+                        <p class="bet365">Bet365 Maintenance Completed </p>
+                    </div>
+            </div>
+            <div class="back">
+                <button id="bck-btn"onclick="show123 ()">Back</button>
+            </div>
+        </div>
+        <!-- <div class="my-backdrop0" >
             <div class="NoticeWrapper">
                 <div class="noticeBody" id="msgBody">
                     <div class="noticeCancel" id="msgCancel">
                         <i class="bi bi-x-lg "></i>
 
                     </div>
-                    <div class="noticeHeader">
+                    <div class="noticeHeader" >
                         <div class="noticeUpHeader fontBlue">
                             Message
                         </div>
@@ -219,7 +332,7 @@
                 </div>
             </div>
          
-        </div>
+        </div> -->
         <div class="my-backdrop2 depositeDrop">
             <div class="NoticeWrapper2">
                 <div class="noticeBodyNew">
@@ -2270,7 +2383,28 @@
                 return d = 1;
             }
         }
-
+        var d;
+        function show22() {
+            if (d == 1) {
+                document.getElementById("msg").style.display = "inline"
+                return d = 0;
+            }
+            else {
+                document.getElementById("msg").style.display = "none"
+                return d = 1;
+            }
+        }
+        var d;
+        function show123() {
+            if (d == 1) {
+                document.getElementById("msg").style.display = "inline"
+                return d = 0;
+            }
+            else {
+                document.getElementById("msg").style.display = "none"
+                return d = 1;
+            }
+        }
     </script>
 
 

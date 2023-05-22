@@ -43,6 +43,14 @@ p.details {
     height: 32vh;
 
 }
+@media (max-width:480px) {
+    p.details {
+        font-size: 12px;
+        text-align: justify;
+        margin: 70px 20px;
+        font-family: sans-serif;
+    }
+}
 img.foterimg {
     width: 80%;
     margin-top: 15px;
