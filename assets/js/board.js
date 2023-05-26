@@ -186,12 +186,12 @@ document.addEventListener('DOMContentLoaded', function() {
 const mediaQuery = window.matchMedia('(max-width: 480px)');
 if (mediaQuery.matches) {
     document.getElementById("0").onclick = function () {
-        location.href = "http://127.0.0.1:5500/test.html";
+        location.href = "http://127.0.0.1:5500/promo.html";
     }
     document.getElementById("1").onclick = function () {
-        location.href = "http://127.0.0.1:5500/test.html";
+        location.href = "http://127.0.0.1:5500/promo.html";
     }
     document.getElementById("2").onclick = function () {
-        location.href = "http://127.0.0.1:5500/test.html";
+        location.href = "http://127.0.0.1:5500/promo.html";
     }
 };

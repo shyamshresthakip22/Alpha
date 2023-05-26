@@ -23,7 +23,8 @@ const loginBtn = document.querySelector('.loginBtn')
 const sliderMenu = document.querySelector('.sliderMenu')
 const sliderBackDrop = document.querySelector('.sliderMenuBackDrop')
 const depositeDrop = document.querySelector('.depositeDrop')
-
+const footer = document.querySelector('.footer')
+const clients = document.querySelector('.clients')
 
 
 
@@ -34,6 +35,7 @@ const custompopupcontainer = document.querySelector(".custompopupcontainer")
 const closepopup = document.querySelector(".closepopup")
 const submitReportBtn  = document.querySelector(".submitReportBtn")
 const changepopup1 = document.querySelector(".changepopup1")
+
 const depositeapplication1 = document.querySelector(".depositeapplication1")
 const withdrawldetailscontainer = document.querySelector(".withdrawldetailscontainer")
 const closeicone = document.querySelector(".closeicone")
@@ -54,9 +56,9 @@ deletebox.addEventListener("click",function(){
 
 depositeapplication1.addEventListener("click",function(){
         withdrawldetailscontainer.style.display = "block";
-        mainHeaderBtn1.classList.add('depositeActive')
+        mainHeaderBtn2.classList.add('depositeActive')
 
-            mainHeaderBtn2.classList.remove('depositeActive')
+        mainHeaderBtn1.classList.remove('depositeActive')
 })
 closeicone.addEventListener("click",function(){
     withdrawldetailscontainer.style.display = "none";
@@ -74,7 +76,7 @@ checkbtn.addEventListener("click",function(){
         questionmarkbox.style.display = "none";
 })
 
-
+//  Close Withdrwal
 
 custompopupcontainer.style.display = "none";
  openpopup.addEventListener("click",function(){
@@ -1312,6 +1314,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
             // noticeDownHeader.style.display = 'none'
+            footer.style.marginTop = "0vh"
+            clients.style.marginTop = "140vh"
+
 
 
 
@@ -1754,7 +1759,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         })
         mainHeaderBtn2.addEventListener('click', function() {
-
+                    //   console.log("Ali Gohar");
             mainHeaderBtn2.classList.add('depositeActive')
 
             mainHeaderBtn1.classList.remove('depositeActive')

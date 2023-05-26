@@ -569,10 +569,60 @@ function setActiveOdd3(button) {
 }
 
 col2.addEventListener('click', (event) => {
+    let cartNumber = document.querySelector('.cartNumber')
+
     // Check if the clicked element is a button with the desired class
-    if (event.target.classList.contains('odds1')) {
+    if (event.target.classList.contains('betOdds')) {
         // Handle the button click here
         console.log('Button clicked:', event.target);
+        if(event.target.style.backgroundColor==="rgb(54, 60, 68)")
+        {
+            event.target.style.backgroundColor="#27303a"
+            event.target.style.border = "none";
+            // console.log('Hello Umar');
+
+        }else{
+            event.target.style.backgroundColor="rgb(54, 60, 68)"
+            event.target.style.border = "1px solid #F8FF13";
+
+
+        }
+        if(event.target.classList.contains('handiOdds')){
+            if(event.target.style.backgroundColor==="rgb(54, 60, 68)")
+            {
+                event.target.style.backgroundColor="#27303a"
+                event.target.style.border = "none";
+            }else{
+                event.target.style.backgroundColor="rgb(54, 60, 68)"
+                event.target.style.border = "1px solid #F8FF13";
+    
+    
+            }
+        }
+        if(event.target.classList.contains('ouOdds')){
+            if(event.target.style.backgroundColor==="rgb(54, 60, 68)")
+            {
+                event.target.style.backgroundColor="#27303a"
+                event.target.style.border = "none";
+            }else{
+                event.target.style.backgroundColor="rgb(54, 60, 68)"
+                event.target.style.border = "1px solid #F8FF13";
+    
+            }
+        }
+        
+        if (event.target.classList.contains('odds1')) {
+            // Handle the button click here
+            console.log('Button clicked:', event.target);
+            if(event.target.style.backgroundColor==="rgb(54, 60, 68)")
+            {
+                event.target.style.backgroundColor="#27303a"
+                event.target.style.border = "none";
+            }else{
+                event.target.style.backgroundColor="rgb(54, 60, 68)"
+                event.target.style.border = "thick solid #F8FF13";
+    
+            }
         //
         // setActiveButton(event.target);
         event.target.classList.toggle('betActive');
@@ -655,6 +705,7 @@ col2.addEventListener('click', (event) => {
 
 
     }
+}
 });
 
 
