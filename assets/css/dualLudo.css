@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     color: #ffffff;
-    overflow: hidden;
+   
 }
 
 body {
@@ -22,11 +22,11 @@ body {
 }
 
 .navbar-collapse {
-    flex-direction: row-reverse!important;
+    flex-direction: row-reverse !important;
 }
 
 .customNav {
-    background-color: rgb(31, 38, 47)!important;
+    background-color: rgb(31, 38, 47) !important;
     border-width: 1px 0;
     border-style: solid;
     border-color: rgb(64, 64, 68);
@@ -38,36 +38,37 @@ body {
 }
 
 .customUl {
-    color: rgb(218, 218, 218)!important;
-    font-size: 14px !important;
+    color: rgb(218, 218, 218) !important;
+    font-size: 11px !important;
+    white-space: nowrap;
 }
 
 .customUl1 {
-    color: #F8FF13!important
+    color: #F8FF13 !important
 }
 
 .customUl1:hover {
-    color: rgb(218, 218, 218)!important;
-    border: 1px solid #F8FF13!important;
+    color: rgb(218, 218, 218) !important;
+    border: 1px solid #F8FF13 !important;
 }
 
 .customUl:hover {
-    color: #F8FF13!important
+    color: #F8FF13 !important
 }
 
 .customDrop {
-    background-color: rgb(26, 25, 28)!important;
-    border: 1px solid rgb(64, 64, 68)!important;
+    background-color: rgb(26, 25, 28) !important;
+    border: 1px solid rgb(64, 64, 68) !important;
     border-radius: 0%;
 }
 
 .customDropper {
-    color: rgb(218, 218, 218)!important;
+    color: rgb(218, 218, 218) !important;
 }
 
 .customDropper:hover {
-    color: rgb(193, 138, 110)!important;
-    background-color: rgb(26, 25, 28)!important;
+    color: rgb(193, 138, 110) !important;
+    background-color: rgb(26, 25, 28) !important;
 }
 
 .bodyWrapper {
@@ -160,7 +161,7 @@ justify-content: space-around; */
 }
 
 .active {
-    color: #F8FF13!important;
+    color: #F8FF13 !important;
 }
 
 .sportsMenu {
@@ -186,7 +187,7 @@ flex-direction: row-reverse;
 } */
 
 .spanWord {
-    color: #F8FF13!important;
+    color: #F8FF13 !important;
 }
 
 .rightSegment {
@@ -212,7 +213,7 @@ flex-direction: row-reverse;
 }
 
 .bi-person-circle {
-    color: #F8FF13!important;
+    color: #F8FF13 !important;
     font-size: 25px;
     display: none;
 }
@@ -222,11 +223,11 @@ flex-direction: row-reverse;
 }
 
 .submenu:hover {
-    color: #F8FF13!important;
+    color: #F8FF13 !important;
 }
 
 .signinBtn {
-    background-color: #F8FF13!important;
+    background-color: #F8FF13 !important;
     cursor: pointer;
     padding: 0 20px;
     border-radius: 2px;
@@ -673,8 +674,7 @@ height: 200px; */
     cursor: pointer;
 }
 
-.slipCancel
-{
+.slipCancel {
     /* position: relative; */
     /* left: 0; */
     right: 0;
@@ -697,7 +697,8 @@ height: 200px; */
     width: 35px;
     cursor: pointer;
 }
-@media (max-width:1400px){
+
+@media (max-width:1400px) {
     .slipCancel2 {
         position: absolute;
         /* left: 0; */
@@ -709,14 +710,15 @@ height: 200px; */
         width: 35px;
         cursor: pointer;
     }
-    
+
 
 }
-@media (min-width:1400px){
+
+@media (min-width:1400px) {
     .slipCancel2 {
         display: none;
     }
-    
+
 
 }
 
@@ -754,7 +756,7 @@ height: 200px; */
 }
 
 .bi-list {
-    color: #F8FF13!important;
+    color: #F8FF13 !important;
     font-size: 25px;
     display: none;
 }
@@ -770,7 +772,7 @@ height: 200px; */
 
 .fontSecondary {
     color: rgb(134, 140, 148);
-    font-weight: 500!important;
+    font-weight: 500 !important;
 }
 
 .noticeItem {
@@ -904,11 +906,11 @@ height: 200px; */
     justify-content: center;
     align-items: center;
     background-color: rgb(39, 48, 58);
-    border-bottom: 1px solid #F8FF13!important;
+    border-bottom: 1px solid #F8FF13 !important;
 }
 
 .HeaderTop {
-    color: #F8FF13!important;
+    color: #F8FF13 !important;
     font-size: 12px;
 }
 
@@ -926,7 +928,7 @@ height: 200px; */
 }
 
 .op1:hover {
-    color: #F8FF13!important;
+    color: #F8FF13 !important;
 }
 
 .slipBody {
@@ -1003,7 +1005,7 @@ height: 200px; */
 
 .emptyAll:hover,
 .emptyAll2:hover {
-    color: #F8FF13!important;
+    color: #F8FF13 !important;
 }
 
 .IncDec {
@@ -1089,7 +1091,7 @@ height: 200px; */
 .OddsNumberAmnt2 {
     font-size: 12px;
     font-weight: 300;
-    color: #F8FF13!important;
+    color: #F8FF13 !important;
 }
 
 .BetBtn {
@@ -1100,7 +1102,7 @@ height: 200px; */
 }
 
 .btnNew {
-    background-color: #F8FF13!important;
+    background-color: #F8FF13 !important;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1111,7 +1113,7 @@ height: 200px; */
 }
 
 .btnNew:hover {
-    background-color: rgb(29, 170, 222)!important;
+    background-color: rgb(29, 170, 222) !important;
     cursor: pointer;
 }
 
@@ -1414,15 +1416,15 @@ padding: 5px;
 }
 
 .specWidth {
-    width: 40%!important;
-    display: flex!important;
-    justify-content: space-around!important;
+    width: 40% !important;
+    display: flex !important;
+    justify-content: space-around !important;
 }
 
 .betActive {
     box-shadow: inset 0 0 0 2px #F8FF13;
     /* background-color: #F8FF13; */
-    color: white!important;
+    color: white !important;
 }
 
 .cartItemsWrapper,
@@ -1866,7 +1868,7 @@ padding: 5px;
 }
 
 .impBtns:hover {
-    color:#F8FF13;
+    color: #F8FF13;
 }
 
 .specDisp {
@@ -1977,7 +1979,7 @@ height: 200px; */
 }
 
 .menuItem:hover {
-    color:#F8FF13;
+    color: #F8FF13;
 }
 
 .dispIcon {
@@ -2127,12 +2129,12 @@ height: 200px; */
 
 /* END::Deposite and Withdraw Screen */
 
- ::-webkit-scrollbar {
+::-webkit-scrollbar {
     width: 5px;
     border-radius: 30px;
 }
 
- ::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
     background-color: rgb(54, 60, 68);
 }
 
@@ -2140,14 +2142,17 @@ height: 200px; */
 /* Styles for small screens (up to 576px) */
 
 @media (max-width: 576px) {
+
     /* Add additional styles as needed */
     .credUsername {
         border: none;
         width: 50%;
     }
+
     .credPassword {
         width: 50%;
     }
+
     .savedCred {
         padding: 10;
         display: flex;
@@ -2188,14 +2193,15 @@ height: 200px; */
 
 .cartWrapper,
 .cartWrapper2 {
-    background-color: rgba(26, 153, 199, 0.4);
-    padding: 10px;
+    background-color:#1a99c766;
+    padding: 20px;
     position: fixed;
     border-radius: 10px;
-    bottom: 10vh;
+    bottom: 20vh;
     right: 70px;
     cursor: pointer;
     display: none;
+    z-index: 1;
 }
 
 .bi-cart3 {
@@ -2208,11 +2214,13 @@ height: 200px; */
     display: flex;
     position: absolute;
     top: 10px;
-    right: 5px;
+    right: 15px;
     font-size: 14px;
+    color: #000;
 }
 
 @media (max-width: 1500px) {
+
     /* Add additional styles as needed */
     /* .column2 {
     max-width: 76%;
@@ -2220,12 +2228,15 @@ height: 200px; */
     .leagueCol3 {
         display: none;
     }
+
     .leagueCol4 {
         display: none;
     }
+
     .gameCol3 {
         display: none;
     }
+
     .gameCol4 {
         display: none;
     }
@@ -2239,6 +2250,7 @@ height: 200px; */
 }
 
 @media (max-width: 1400px) {
+
     /* Add additional styles as needed */
     /* .column2 {
     max-width: 73%;
@@ -2248,19 +2260,24 @@ height: 200px; */
         display: none;
         flex-basis: 0px;
     }
+
     .column4 {
         max-width: 100%;
     }
+
     .column42 {
         max-width: 100%;
     }
+
     .column2 {
         max-width: none;
     }
+
     .cartWrapper,
     .cartWrapper2 {
         display: block;
     }
+
     .slipHeader {
         justify-content: space-between;
     }
@@ -2280,21 +2297,27 @@ height: 200px; */
     .logoSegment {
         display: block;
     }
+
     .sidebar {
         left: -100%;
     }
+
     .rightSegment {
         display: none;
     }
+
     .bi-person-circle {
         display: block;
     }
+
     .bi-list {
         display: block;
     }
+
     .betSlip {
         /* right: 100% */
     }
+
     /* .column2 {
     flex-basis: 1300px;
 } */
@@ -2303,25 +2326,31 @@ height: 200px; */
         display: none;
         flex-basis: 0px;
     }
+
     .customUl {
         font-size: 10px !important;
     }
+
     .customUl1 {
         font-size: 10px !important;
     }
+
     .tab-group li a {
         font-size: 16px;
     }
+
     h3,
     h1 {
         font-size: 16px;
     }
+
     /* .column2 {
     max-width: 100%;
 } */
     /* Add additional styles as needed */
     /* Styles for medium screens (up to 768px) */
     @media (max-width: 1008px) {
+
         /* Add additional styles as needed */
         /* .leagueCol3 {
         display: flex;
@@ -2338,78 +2367,102 @@ height: 200px; */
         .column2 {
             max-width: none;
         }
+
         .column4 {
             display: 100%;
         }
+
         .extraOddsContainer {
             flex-direction: column;
         }
+
         .extraOddsBody {
             width: 100%;
         }
+
         .extraOddsContainer2 {
             flex-direction: column;
         }
+
         .extraOddsBody2 {
             width: 100%;
         }
+
         .extraOddsBody2,
         .extraOddsBody1,
         .extraOddsBody3 {
             width: 100%;
         }
+
         .extraOddsBody22,
         .extraOddsBody12,
         .extraOddsBody32 {
             width: 100%;
         }
     }
+
     /* Styles for large screens (up to 992px) */
     @media (max-width: 852px) {
+
         /* Add additional styles as needed */
         .playerOddsContainer {
             flex-direction: column;
         }
+
         .playerBetSlip {
             width: 100%;
         }
+
         .extraOddsContainer {
             width: 100%;
         }
+
         .selectOptions {
             display: block;
         }
+
         .diceHistory {
             width: 25%;
         }
+
         .historyCol1 {
             font-size: 12px;
         }
+
         .oddsSelect {
             font-size: 10px;
             padding: 0px
         }
+
         .oddsSelect2 {
             font-size: 10px;
             padding: 0px
         }
+
         .slipCancel {
             display: block;
         }
+
         .slipCancel2 {
             display: block;
         }
+
         .sliderMenuActive {
             width: 60%;
         }
     }
+
     /* Styles for extra large screens (up to 1200px) */
     /* Styles for screens larger than 1200px */
 }
+
 .footer {
     background-color: #27303a;
     height: 50vh;
     margin-top: 2vh;
+    position: absolute;
+    width: 100%;
+    overflow: hidden !important;
 
 }
 
@@ -2431,31 +2484,85 @@ height: 200px; */
     padding: 0 3vh;
 }
 
-@media (max-width:480px) {
-    .footer-content p {
-        font-weight: 300;
-        font-size: 10px;
-        padding: 0 2vh;
-    }
-
+@media (min-width:1401px) {
     .footer {
-        margin-top: 0px !important;
+        background-color: #27303a;
+        height: 50vh;
+        width: 77%;
+        margin-top: 2vh;
+        position: absolute;
 
     }
 
-}
-
-@media (max-width:768px) {
     .footer-content p {
+        margin-top: 5vh;
+        line-height: 3vh;
         font-weight: 300;
-        font-size: 12px;
+        font-size: 16px;
         padding: 0 3vh;
     }
 }
-@media (max-width:1400px) {
+
+@media (max-width: 1400px) {
     .footer-content p {
+        margin-top: 5vh;
+        line-height: 4vh;
+        font-weight: 300;
+        font-size: 16px;
+        padding: 0 3vh;
+    }
+    .cartWrapper, .cartWrapper2{
+       
+        right: 5vh;
+    }
+
+}
+@media (max-width: 1200px) {
+    .cartWrapper, .cartWrapper2{
+       
+        right: 20vh;
+    }
+}
+@media (max-width: 900px) {
+    .cartWrapper, .cartWrapper2{
+       
+        right: 17vh;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .footer-content p {
+        margin-top: 5vh;
+        line-height: 4vh;
         font-weight: 300;
         font-size: 15px;
+        padding: 0 3vh;
+    }
+
+    .cart-icon {
+        display: none !important;
+    }
+    .cartWrapper, .cartWrapper2{
+        background-color: #f8ff13;
+        right: 15vh;
+    }
+
+}
+@media (max-width: 550px) {
+    .cartWrapper, .cartWrapper2{
+        background-color: #f8ff13;
+        right: 10vh;
+    }
+}
+
+
+@media (max-width:480px) {
+    .footer-content p {
+        margin-top: 5vh;
+        line-height: 2vh;
+        font-weight: 300;
+        font-size: 10px;
         padding: 0 3vh;
     }
 }

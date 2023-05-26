@@ -1,0 +1,31 @@
+/*--------------------------------------------------------------
+# Clients
+--------------------------------------------------------------*/
+.clients .swiper-pagination {
+    margin-top: 20px;
+    position: relative;
+    padding-top: 25px;
+  }
+  
+  .clients .swiper-pagination .swiper-pagination-bullet {
+    display: none;
+    width: 14px;
+    height: 14px;
+    background-color: #fff;
+    opacity: 1;
+    border: 1px solid #145484;
+   
+  }
+  
+  .clients .swiper-pagination .swiper-pagination-bullet-active {
+    background-color: #145484;
+  }
+  
+  .clients .swiper-slide img {
+    opacity: 1;
+  }
+  
+  .clients .swiper-slide img:hover {
+    filter: none;
+    opacity: 1;
+  }

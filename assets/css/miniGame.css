@@ -7,7 +7,7 @@
 body {
     font-family: 'Noto Sans', sans-serif;
     background-color: rgb(23, 28, 34);
-    overflow: scroll;
+   overflow: scroll;
 }
 .depositeHistory{
      display: none;
@@ -217,7 +217,8 @@ body {
 
 .customUl {
     color: rgb(218, 218, 218) !important;
-    font-size: 14px !important;
+    font-size: 11px !important;
+    white-space: nowrap;
 }
 
 .customUl1 {
@@ -754,14 +755,15 @@ height: 200px; */
 }
 
 .betSlip {
-    /* position: fixed; */
+    position: fixed;
     background-color: rgb(31, 38, 47);
     width: 350px;
-    height: auto;
+    height: 100%;
     overflow: auto;
     right: 0;
     display: flex;
     justify-content: center;
+    z-index: 1;
 }
 
 .slipWrapper {
@@ -2098,8 +2100,8 @@ height: 200px; */
 .footer {
     background-color: #27303a;
     height: 50vh;
-    margin-top: 12vh;
-    position: fixed;
+    /* margin-top: 100vh; */
+    position: absolute;
     width: 100%;
 }
 
@@ -2120,42 +2122,71 @@ height: 200px; */
     font-size: 18px;
     padding: 0 3vh;
 }
-
-@media (max-width:480px) {
-
-    .footer-content p {
-        font-weight: 300;
-        font-size: 10px;
-        padding: 0 2vh;
-    }
-
-
+@media (min-width:1401px) {
+   
     .footer {
-        margin-top: 0px !important;
-
+        background-color: #27303a;
+        height: 50vh;
+        width: 77%;
+        /* margin-top: 2vh; */
+        position: absolute;
+    
     }
-
-}
-
-@media (max-width:768px) {
     .footer-content p {
+        margin-top: 5vh;
+        line-height: 3vh;
         font-weight: 300;
-        font-size: 12px;
+        font-size: 16px;
+        padding: 0 3vh;
+    }
+    .gamesWrapper{
+        width: 85%;
+    }
+}
+@media (max-width: 1400px)  {
+    .footer{
+        position: inherit;
+        /* margin-top: 30vh !important; */
+    }
+    .footer-content p {
+        margin-top: 5vh;
+        line-height: 4vh;
+        font-weight: 300;
+        font-size: 16px;
         padding: 0 3vh;
     }
 }
 
-@media (max-width:1400px) {
-
+@media (max-width: 768px)  {
     .footer-content p {
+        margin-top: 5vh;
+        line-height: 4vh;
         font-weight: 300;
         font-size: 15px;
         padding: 0 3vh;
     }
+
 }
-@media (min-width:1401px) {
+
+@media (max-width:480px) {
+
+    .footer-content p {
+        margin-top: 5vh;
+        line-height: 2vh;
+        font-weight: 300;
+        font-size: 10px;
+        padding: 0 3vh;
+    }
+
+
+}
+
+
+
+/* @media (min-width:1401px) {
 
     .footer{
-        position: relative;
+        position: absolute;
+        margin-top: 50vh !important;
     }
-}
+} */
