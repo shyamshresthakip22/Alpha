@@ -43,7 +43,7 @@ p.details {
     height: 32vh;
 
 }
-@media (max-width:480px) {
+@media (max-width:414px) {
     p.details {
         font-size: 12px;
         text-align: justify;
@@ -55,9 +55,18 @@ img.foterimg {
     width: 80%;
     margin-top: 15px;
 }
+@media (max-width:414px) {
+    img.foterimg {
+        width: 40%;
+        margin-top: 15px;
+    }
+}
 p {
     font-size: 11px;
     font-family: sans-serif;
     margin: 0px 10px;
 
+}
+p.copyright {
+    font-size: 14px;
 }
